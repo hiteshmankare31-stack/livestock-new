@@ -1,0 +1,6 @@
+backend/.env
+backend/ai_service/model/*.pt
+node_modules/
+.venv/
+
+dataset/Disease_Images/

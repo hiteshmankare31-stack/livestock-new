@@ -1,0 +1,1 @@
+Dataset storage for Smart Livestock. Run `python backend/ml/download_datasets.py` to populate raw and train folders. Do not commit third-party images without checking their license.

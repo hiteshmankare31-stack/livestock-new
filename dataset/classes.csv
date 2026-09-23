@@ -1,0 +1,6 @@
+class,folder,meaning,used_by_current_ai_model
+healthy,Disease_Images/Healthy,Healthy cattle image,yes
+lumpy,Disease_Images/Lumpy_Skin_Disease,Lumpy Skin Disease image,yes
+fmd,Disease_Images/Foot_Mouth_Disease,Foot-and-Mouth Disease image,yes
+mastitis,Disease_Images/Mastitis,Mastitis image,no (folder ready; model needs retraining with 5 classes)
+ringworm,Disease_Images/Ringworm,Ringworm image,no (folder ready; model needs retraining with 5 classes)

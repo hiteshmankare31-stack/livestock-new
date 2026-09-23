@@ -1,0 +1,987 @@
+vaccination_id,animal_id,vaccine,disease_covered,date_given,next_due_date,batch_number,administered_by,status,schedule
+VC0001,DS001,FMD,Foot-and-Mouth Disease,2026-05-09,2026-11-07,FMD-2587,Dr. R. Deshpande,Completed,Every 6 months
+VC0002,DS001,HS,Haemorrhagic Septicaemia,2026-05-06,2027-05-06,HS-2545,Dr. R. Deshpande,Completed,Every 12 months
+VC0003,DS001,BQ,Black Quarter,2025-12-23,2026-12-23,BQ-2582,Dr. A. Kulkarni,Completed,Every 12 months
+VC0004,DS001,LSD,Lumpy Skin Disease,2026-07-28,2027-07-28,LSD-2572,Dr. M. Sawant,Completed,Every 12 months
+VC0005,DS002,FMD,Foot-and-Mouth Disease,,,,,Due,
+VC0006,DS002,HS,Haemorrhagic Septicaemia,,,,,Due,
+VC0007,DS002,BQ,Black Quarter,2025-12-17,2026-12-17,BQ-2534,Dr. P. Naik,Completed,Every 12 months
+VC0008,DS002,LSD,Lumpy Skin Disease,2026-01-09,2027-01-09,LSD-2566,Dr. M. Sawant,Completed,Every 12 months
+VC0009,DS003,FMD,Foot-and-Mouth Disease,,,,,Due,
+VC0010,DS003,HS,Haemorrhagic Septicaemia,2026-01-04,2027-01-04,HS-2547,Dr. S. Joshi,Completed,Every 12 months
+VC0011,DS003,BQ,Black Quarter,2026-01-06,2027-01-06,BQ-2560,Dr. M. Sawant,Completed,Every 12 months
+VC0012,DS003,LSD,Lumpy Skin Disease,2025-12-31,2026-12-31,LSD-2604,Dr. P. Naik,Completed,Every 12 months
+VC0013,DS004,FMD,Foot-and-Mouth Disease,2026-06-12,2026-12-11,FMD-2520,Dr. A. Kulkarni,Completed,Every 6 months
+VC0014,DS004,HS,Haemorrhagic Septicaemia,2025-11-17,2026-11-17,HS-2574,Dr. P. Naik,Completed,Every 12 months
+VC0015,DS004,BQ,Black Quarter,2026-07-04,2027-07-04,BQ-2570,Dr. S. Joshi,Completed,Every 12 months
+VC0016,DS004,LSD,Lumpy Skin Disease,2026-07-06,2027-07-06,LSD-2577,Dr. V. Thorat,Completed,Every 12 months
+VC0017,DS005,FMD,Foot-and-Mouth Disease,,,,,Due,
+VC0018,DS005,HS,Haemorrhagic Septicaemia,2025-12-07,2026-12-07,HS-2608,Dr. A. Kulkarni,Completed,Every 12 months
+VC0019,DS005,BQ,Black Quarter,2025-10-18,2026-10-18,BQ-2525,Dr. P. Naik,Scheduled,Every 12 months
+VC0020,DS005,LSD,Lumpy Skin Disease,,,,,Due,
+VC0021,DS006,FMD,Foot-and-Mouth Disease,,,,,Due,
+VC0022,DS006,HS,Haemorrhagic Septicaemia,2026-05-24,2027-05-24,HS-2515,Dr. M. Sawant,Completed,Every 12 months
+VC0023,DS006,BQ,Black Quarter,2025-12-01,2026-12-01,BQ-2597,Dr. M. Sawant,Completed,Every 12 months
+VC0024,DS006,Brucellosis,Brucellosis,2025-11-24,,Brucellosis-2538,Dr. M. Sawant,Completed,One-time (calfhood)
+VC0025,DS006,LSD,Lumpy Skin Disease,2025-12-01,2026-12-01,LSD-2517,Dr. A. Kulkarni,Completed,Every 12 months
+VC0026,DS007,FMD,Foot-and-Mouth Disease,2026-05-16,2026-11-14,FMD-2555,Dr. V. Thorat,Completed,Every 6 months
+VC0027,DS007,HS,Haemorrhagic Septicaemia,,,,,Due,
+VC0028,DS007,BQ,Black Quarter,2025-12-29,2026-12-29,BQ-2588,Dr. R. Deshpande,Completed,Every 12 months
+VC0029,DS007,LSD,Lumpy Skin Disease,2026-03-13,2027-03-13,LSD-2508,Dr. V. Thorat,Completed,Every 12 months
+VC0030,DS008,FMD,Foot-and-Mouth Disease,2026-04-26,2026-10-25,FMD-2588,Dr. M. Sawant,Completed,Every 6 months
+VC0031,DS008,HS,Haemorrhagic Septicaemia,2026-05-04,2027-05-04,HS-2601,Dr. S. Joshi,Completed,Every 12 months
+VC0032,DS008,BQ,Black Quarter,2026-09-03,2027-09-03,BQ-2536,Dr. M. Sawant,Completed,Every 12 months
+VC0033,DS008,LSD,Lumpy Skin Disease,2026-04-29,2027-04-29,LSD-2541,Dr. S. Joshi,Completed,Every 12 months
+VC0034,DS009,FMD,Foot-and-Mouth Disease,,,,,Due,
+VC0035,DS009,HS,Haemorrhagic Septicaemia,2026-01-19,2027-01-19,HS-2582,Dr. P. Naik,Completed,Every 12 months
+VC0036,DS009,BQ,Black Quarter,2026-01-12,2027-01-12,BQ-2601,Dr. V. Thorat,Completed,Every 12 months
+VC0037,DS009,LSD,Lumpy Skin Disease,2026-06-07,2027-06-07,LSD-2521,Dr. V. Thorat,Completed,Every 12 months
+VC0038,DS010,FMD,Foot-and-Mouth Disease,2026-04-03,2026-10-02,FMD-2502,Dr. M. Sawant,Scheduled,Every 6 months
+VC0039,DS010,HS,Haemorrhagic Septicaemia,2026-02-07,2027-02-07,HS-2546,Dr. M. Sawant,Completed,Every 12 months
+VC0040,DS010,BQ,Black Quarter,2025-12-21,2026-12-21,BQ-2504,Dr. S. Joshi,Completed,Every 12 months
+VC0041,DS010,LSD,Lumpy Skin Disease,,,,,Due,
+VC0042,DS011,FMD,Foot-and-Mouth Disease,2026-06-06,2026-12-05,FMD-2534,Dr. M. Sawant,Completed,Every 6 months
+VC0043,DS011,HS,Haemorrhagic Septicaemia,2026-07-13,2027-07-13,HS-2545,Dr. P. Naik,Completed,Every 12 months
+VC0044,DS011,BQ,Black Quarter,,,,,Due,
+VC0045,DS011,LSD,Lumpy Skin Disease,2025-12-20,2026-12-20,LSD-2532,Dr. R. Deshpande,Completed,Every 12 months
+VC0046,DS012,FMD,Foot-and-Mouth Disease,2026-06-22,2026-12-21,FMD-2535,Dr. P. Naik,Completed,Every 6 months
+VC0047,DS012,HS,Haemorrhagic Septicaemia,2025-12-06,2026-12-06,HS-2581,Dr. R. Deshpande,Completed,Every 12 months
+VC0048,DS012,BQ,Black Quarter,2026-06-30,2027-06-30,BQ-2572,Dr. A. Kulkarni,Completed,Every 12 months
+VC0049,DS012,LSD,Lumpy Skin Disease,2025-11-21,2026-11-21,LSD-2559,Dr. V. Thorat,Completed,Every 12 months
+VC0050,DS013,FMD,Foot-and-Mouth Disease,2026-08-22,2027-02-20,FMD-2572,Dr. V. Thorat,Completed,Every 6 months
+VC0051,DS013,HS,Haemorrhagic Septicaemia,2026-09-06,2027-09-06,HS-2513,Dr. S. Joshi,Completed,Every 12 months
+VC0052,DS013,BQ,Black Quarter,2026-05-22,2027-05-22,BQ-2560,Dr. S. Joshi,Completed,Every 12 months
+VC0053,DS013,Brucellosis,Brucellosis,2026-06-16,,Brucellosis-2591,Dr. R. Deshpande,Completed,One-time (calfhood)
+VC0054,DS013,LSD,Lumpy Skin Disease,2026-02-10,2027-02-10,LSD-2592,Dr. M. Sawant,Completed,Every 12 months
+VC0055,DS014,FMD,Foot-and-Mouth Disease,2026-06-27,2026-12-26,FMD-2562,Dr. M. Sawant,Completed,Every 6 months
+VC0056,DS014,HS,Haemorrhagic Septicaemia,2025-12-25,2026-12-25,HS-2567,Dr. M. Sawant,Completed,Every 12 months
+VC0057,DS014,BQ,Black Quarter,2026-04-02,2027-04-02,BQ-2585,Dr. R. Deshpande,Completed,Every 12 months
+VC0058,DS014,LSD,Lumpy Skin Disease,2026-08-03,2027-08-03,LSD-2572,Dr. S. Joshi,Completed,Every 12 months
+VC0059,DS015,FMD,Foot-and-Mouth Disease,,,,,Due,
+VC0060,DS015,HS,Haemorrhagic Septicaemia,2026-07-08,2027-07-08,HS-2559,Dr. S. Joshi,Completed,Every 12 months
+VC0061,DS015,BQ,Black Quarter,2026-08-15,2027-08-15,BQ-2597,Dr. S. Joshi,Completed,Every 12 months
+VC0062,DS015,LSD,Lumpy Skin Disease,2026-02-12,2027-02-12,LSD-2583,Dr. M. Sawant,Completed,Every 12 months
+VC0063,DS016,FMD,Foot-and-Mouth Disease,2026-05-22,2026-11-20,FMD-2572,Dr. M. Sawant,Completed,Every 6 months
+VC0064,DS016,HS,Haemorrhagic Septicaemia,2026-05-26,2027-05-26,HS-2595,Dr. S. Joshi,Completed,Every 12 months
+VC0065,DS016,BQ,Black Quarter,2026-08-02,2027-08-02,BQ-2546,Dr. V. Thorat,Completed,Every 12 months
+VC0066,DS016,LSD,Lumpy Skin Disease,,,,,Due,
+VC0067,DS017,FMD,Foot-and-Mouth Disease,2026-04-30,2026-10-29,FMD-2606,Dr. M. Sawant,Completed,Every 6 months
+VC0068,DS017,HS,Haemorrhagic Septicaemia,,,,,Due,
+VC0069,DS017,BQ,Black Quarter,2026-04-13,2027-04-13,BQ-2505,Dr. A. Kulkarni,Completed,Every 12 months
+VC0070,DS017,LSD,Lumpy Skin Disease,2026-08-07,2027-08-07,LSD-2568,Dr. P. Naik,Completed,Every 12 months
+VC0071,DS018,FMD,Foot-and-Mouth Disease,2026-07-26,2027-01-24,FMD-2557,Dr. S. Joshi,Completed,Every 6 months
+VC0072,DS018,HS,Haemorrhagic Septicaemia,2025-11-14,2026-11-14,HS-2561,Dr. M. Sawant,Completed,Every 12 months
+VC0073,DS018,BQ,Black Quarter,2025-12-14,2026-12-14,BQ-2503,Dr. P. Naik,Completed,Every 12 months
+VC0074,DS018,LSD,Lumpy Skin Disease,,,,,Due,
+VC0075,DS019,FMD,Foot-and-Mouth Disease,2026-09-02,2027-03-03,FMD-2546,Dr. V. Thorat,Completed,Every 6 months
+VC0076,DS019,HS,Haemorrhagic Septicaemia,2025-12-22,2026-12-22,HS-2581,Dr. A. Kulkarni,Completed,Every 12 months
+VC0077,DS019,BQ,Black Quarter,,,,,Due,
+VC0078,DS019,LSD,Lumpy Skin Disease,,,,,Due,
+VC0079,DS020,FMD,Foot-and-Mouth Disease,2026-05-29,2026-11-27,FMD-2550,Dr. M. Sawant,Completed,Every 6 months
+VC0080,DS020,HS,Haemorrhagic Septicaemia,2025-10-01,2026-10-01,HS-2580,Dr. S. Joshi,Scheduled,Every 12 months
+VC0081,DS020,BQ,Black Quarter,2026-06-19,2027-06-19,BQ-2572,Dr. S. Joshi,Completed,Every 12 months
+VC0082,DS020,LSD,Lumpy Skin Disease,2026-03-23,2027-03-23,LSD-2552,Dr. R. Deshpande,Completed,Every 12 months
+VC0083,DS021,FMD,Foot-and-Mouth Disease,2026-08-13,2027-02-11,FMD-2549,Dr. S. Joshi,Completed,Every 6 months
+VC0084,DS021,HS,Haemorrhagic Septicaemia,,,,,Due,
+VC0085,DS021,BQ,Black Quarter,2025-11-20,2026-11-20,BQ-2588,Dr. M. Sawant,Completed,Every 12 months
+VC0086,DS021,LSD,Lumpy Skin Disease,2025-12-13,2026-12-13,LSD-2502,Dr. A. Kulkarni,Completed,Every 12 months
+VC0087,DS022,FMD,Foot-and-Mouth Disease,2026-07-30,2027-01-28,FMD-2514,Dr. M. Sawant,Completed,Every 6 months
+VC0088,DS022,HS,Haemorrhagic Septicaemia,2026-05-30,2027-05-30,HS-2528,Dr. V. Thorat,Completed,Every 12 months
+VC0089,DS022,BQ,Black Quarter,2026-02-17,2027-02-17,BQ-2529,Dr. V. Thorat,Completed,Every 12 months
+VC0090,DS022,LSD,Lumpy Skin Disease,,,,,Due,
+VC0091,DS023,FMD,Foot-and-Mouth Disease,2026-05-24,2026-11-22,FMD-2586,Dr. M. Sawant,Completed,Every 6 months
+VC0092,DS023,HS,Haemorrhagic Septicaemia,2026-03-03,2027-03-03,HS-2582,Dr. P. Naik,Completed,Every 12 months
+VC0093,DS023,BQ,Black Quarter,2025-11-02,2026-11-02,BQ-2540,Dr. V. Thorat,Completed,Every 12 months
+VC0094,DS023,LSD,Lumpy Skin Disease,2025-11-10,2026-11-10,LSD-2566,Dr. R. Deshpande,Completed,Every 12 months
+VC0095,DS024,FMD,Foot-and-Mouth Disease,2026-08-17,2027-02-15,FMD-2515,Dr. S. Joshi,Completed,Every 6 months
+VC0096,DS024,HS,Haemorrhagic Septicaemia,2026-01-20,2027-01-20,HS-2577,Dr. R. Deshpande,Completed,Every 12 months
+VC0097,DS024,BQ,Black Quarter,2025-10-26,2026-10-26,BQ-2513,Dr. P. Naik,Completed,Every 12 months
+VC0098,DS024,LSD,Lumpy Skin Disease,2026-04-05,2027-04-05,LSD-2501,Dr. A. Kulkarni,Completed,Every 12 months
+VC0099,DS025,FMD,Foot-and-Mouth Disease,2026-08-26,2027-02-24,FMD-2557,Dr. P. Naik,Completed,Every 6 months
+VC0100,DS025,HS,Haemorrhagic Septicaemia,2026-01-11,2027-01-11,HS-2545,Dr. V. Thorat,Completed,Every 12 months
+VC0101,DS025,BQ,Black Quarter,2026-08-18,2027-08-18,BQ-2553,Dr. S. Joshi,Completed,Every 12 months
+VC0102,DS025,LSD,Lumpy Skin Disease,2026-08-07,2027-08-07,LSD-2533,Dr. V. Thorat,Completed,Every 12 months
+VC0103,DS026,FMD,Foot-and-Mouth Disease,2026-07-06,2027-01-04,FMD-2540,Dr. A. Kulkarni,Completed,Every 6 months
+VC0104,DS026,HS,Haemorrhagic Septicaemia,,,,,Due,
+VC0105,DS026,BQ,Black Quarter,2026-06-02,2027-06-02,BQ-2577,Dr. M. Sawant,Completed,Every 12 months
+VC0106,DS026,LSD,Lumpy Skin Disease,,,,,Due,
+VC0107,DS027,FMD,Foot-and-Mouth Disease,2026-06-14,2026-12-13,FMD-2602,Dr. R. Deshpande,Completed,Every 6 months
+VC0108,DS027,HS,Haemorrhagic Septicaemia,2026-09-06,2027-09-06,HS-2547,Dr. P. Naik,Completed,Every 12 months
+VC0109,DS028,FMD,Foot-and-Mouth Disease,,,,,Due,
+VC0110,DS028,HS,Haemorrhagic Septicaemia,2026-08-30,2027-08-30,HS-2597,Dr. R. Deshpande,Completed,Every 12 months
+VC0111,DS028,BQ,Black Quarter,2026-03-06,2027-03-06,BQ-2572,Dr. V. Thorat,Completed,Every 12 months
+VC0112,DS028,Brucellosis,Brucellosis,2026-01-29,,Brucellosis-2525,Dr. A. Kulkarni,Completed,One-time (calfhood)
+VC0113,DS028,LSD,Lumpy Skin Disease,,,,,Due,
+VC0114,DS029,FMD,Foot-and-Mouth Disease,2026-08-10,2027-02-08,FMD-2556,Dr. S. Joshi,Completed,Every 6 months
+VC0115,DS029,HS,Haemorrhagic Septicaemia,2026-01-18,2027-01-18,HS-2568,Dr. M. Sawant,Completed,Every 12 months
+VC0116,DS029,BQ,Black Quarter,2026-03-31,2027-03-31,BQ-2521,Dr. V. Thorat,Completed,Every 12 months
+VC0117,DS029,LSD,Lumpy Skin Disease,2026-07-21,2027-07-21,LSD-2525,Dr. P. Naik,Completed,Every 12 months
+VC0118,DS030,FMD,Foot-and-Mouth Disease,,,,,Due,
+VC0119,DS030,HS,Haemorrhagic Septicaemia,2026-01-12,2027-01-12,HS-2582,Dr. A. Kulkarni,Completed,Every 12 months
+VC0120,DS030,BQ,Black Quarter,,,,,Due,
+VC0121,DS030,LSD,Lumpy Skin Disease,,,,,Due,
+VC0122,DS031,FMD,Foot-and-Mouth Disease,2026-04-04,2026-10-03,FMD-2584,Dr. R. Deshpande,Scheduled,Every 6 months
+VC0123,DS031,HS,Haemorrhagic Septicaemia,,,,,Due,
+VC0124,DS031,BQ,Black Quarter,2026-05-04,2027-05-04,BQ-2572,Dr. V. Thorat,Completed,Every 12 months
+VC0125,DS031,LSD,Lumpy Skin Disease,,,,,Due,
+VC0126,DS032,FMD,Foot-and-Mouth Disease,,,,,Due,
+VC0127,DS032,HS,Haemorrhagic Septicaemia,2026-01-31,2027-01-31,HS-2572,Dr. P. Naik,Completed,Every 12 months
+VC0128,DS032,BQ,Black Quarter,2026-02-20,2027-02-20,BQ-2549,Dr. R. Deshpande,Completed,Every 12 months
+VC0129,DS032,LSD,Lumpy Skin Disease,,,,,Due,
+VC0130,DS033,FMD,Foot-and-Mouth Disease,2026-05-27,2026-11-25,FMD-2512,Dr. A. Kulkarni,Completed,Every 6 months
+VC0131,DS033,HS,Haemorrhagic Septicaemia,2026-04-21,2027-04-21,HS-2516,Dr. V. Thorat,Completed,Every 12 months
+VC0132,DS033,BQ,Black Quarter,2026-07-07,2027-07-07,BQ-2532,Dr. R. Deshpande,Completed,Every 12 months
+VC0133,DS033,LSD,Lumpy Skin Disease,2026-04-02,2027-04-02,LSD-2529,Dr. R. Deshpande,Completed,Every 12 months
+VC0134,DS034,FMD,Foot-and-Mouth Disease,2026-04-13,2026-10-12,FMD-2514,Dr. P. Naik,Scheduled,Every 6 months
+VC0135,DS034,HS,Haemorrhagic Septicaemia,2026-06-02,2027-06-02,HS-2597,Dr. M. Sawant,Completed,Every 12 months
+VC0136,DS034,BQ,Black Quarter,2026-06-01,2027-06-01,BQ-2529,Dr. A. Kulkarni,Completed,Every 12 months
+VC0137,DS034,LSD,Lumpy Skin Disease,2026-08-26,2027-08-26,LSD-2526,Dr. A. Kulkarni,Completed,Every 12 months
+VC0138,DS035,FMD,Foot-and-Mouth Disease,2026-07-21,2027-01-19,FMD-2501,Dr. A. Kulkarni,Completed,Every 6 months
+VC0139,DS035,HS,Haemorrhagic Septicaemia,2026-02-24,2027-02-24,HS-2526,Dr. P. Naik,Completed,Every 12 months
+VC0140,DS036,FMD,Foot-and-Mouth Disease,2026-07-25,2027-01-23,FMD-2526,Dr. P. Naik,Completed,Every 6 months
+VC0141,DS036,HS,Haemorrhagic Septicaemia,2026-07-08,2027-07-08,HS-2563,Dr. V. Thorat,Completed,Every 12 months
+VC0142,DS036,BQ,Black Quarter,,,,,Due,
+VC0143,DS036,LSD,Lumpy Skin Disease,2026-07-11,2027-07-11,LSD-2548,Dr. M. Sawant,Completed,Every 12 months
+VC0144,DS037,FMD,Foot-and-Mouth Disease,,,,,Due,
+VC0145,DS037,HS,Haemorrhagic Septicaemia,2025-10-09,2026-10-09,HS-2610,Dr. M. Sawant,Scheduled,Every 12 months
+VC0146,DS037,BQ,Black Quarter,2026-06-14,2027-06-14,BQ-2502,Dr. M. Sawant,Completed,Every 12 months
+VC0147,DS037,LSD,Lumpy Skin Disease,2026-07-05,2027-07-05,LSD-2591,Dr. V. Thorat,Completed,Every 12 months
+VC0148,DS038,FMD,Foot-and-Mouth Disease,,,,,Due,
+VC0149,DS038,HS,Haemorrhagic Septicaemia,2025-12-08,2026-12-08,HS-2567,Dr. M. Sawant,Completed,Every 12 months
+VC0150,DS038,BQ,Black Quarter,2026-01-24,2027-01-24,BQ-2502,Dr. R. Deshpande,Completed,Every 12 months
+VC0151,DS038,Brucellosis,Brucellosis,2026-07-12,,Brucellosis-2560,Dr. M. Sawant,Completed,One-time (calfhood)
+VC0152,DS038,LSD,Lumpy Skin Disease,2026-07-20,2027-07-20,LSD-2530,Dr. S. Joshi,Completed,Every 12 months
+VC0153,DS039,FMD,Foot-and-Mouth Disease,2026-06-28,2026-12-27,FMD-2600,Dr. P. Naik,Completed,Every 6 months
+VC0154,DS039,HS,Haemorrhagic Septicaemia,,,,,Due,
+VC0155,DS039,BQ,Black Quarter,,,,,Due,
+VC0156,DS039,LSD,Lumpy Skin Disease,2026-05-31,2027-05-31,LSD-2612,Dr. V. Thorat,Completed,Every 12 months
+VC0157,DS040,FMD,Foot-and-Mouth Disease,2026-06-09,2026-12-08,FMD-2592,Dr. A. Kulkarni,Completed,Every 6 months
+VC0158,DS040,HS,Haemorrhagic Septicaemia,2025-12-13,2026-12-13,HS-2518,Dr. M. Sawant,Completed,Every 12 months
+VC0159,DS040,BQ,Black Quarter,2026-07-14,2027-07-14,BQ-2604,Dr. M. Sawant,Completed,Every 12 months
+VC0160,DS040,LSD,Lumpy Skin Disease,,,,,Due,
+VC0161,DS041,FMD,Foot-and-Mouth Disease,2026-04-28,2026-10-27,FMD-2560,Dr. P. Naik,Completed,Every 6 months
+VC0162,DS041,HS,Haemorrhagic Septicaemia,2026-04-16,2027-04-16,HS-2592,Dr. A. Kulkarni,Completed,Every 12 months
+VC0163,DS041,BQ,Black Quarter,2026-06-16,2027-06-16,BQ-2537,Dr. P. Naik,Completed,Every 12 months
+VC0164,DS041,LSD,Lumpy Skin Disease,2026-03-29,2027-03-29,LSD-2537,Dr. V. Thorat,Completed,Every 12 months
+VC0165,DS042,FMD,Foot-and-Mouth Disease,2026-05-15,2026-11-13,FMD-2512,Dr. S. Joshi,Completed,Every 6 months
+VC0166,DS042,HS,Haemorrhagic Septicaemia,2026-02-23,2027-02-23,HS-2593,Dr. A. Kulkarni,Completed,Every 12 months
+VC0167,DS042,BQ,Black Quarter,2026-03-21,2027-03-21,BQ-2503,Dr. R. Deshpande,Completed,Every 12 months
+VC0168,DS042,LSD,Lumpy Skin Disease,2026-03-09,2027-03-09,LSD-2559,Dr. A. Kulkarni,Completed,Every 12 months
+VC0169,DS043,FMD,Foot-and-Mouth Disease,2026-06-06,2026-12-05,FMD-2546,Dr. A. Kulkarni,Completed,Every 6 months
+VC0170,DS043,HS,Haemorrhagic Septicaemia,2026-04-10,2027-04-10,HS-2570,Dr. A. Kulkarni,Completed,Every 12 months
+VC0171,DS043,BQ,Black Quarter,2025-12-17,2026-12-17,BQ-2523,Dr. A. Kulkarni,Completed,Every 12 months
+VC0172,DS043,LSD,Lumpy Skin Disease,2026-05-07,2027-05-07,LSD-2574,Dr. P. Naik,Completed,Every 12 months
+VC0173,DS044,FMD,Foot-and-Mouth Disease,2026-05-04,2026-11-02,FMD-2604,Dr. S. Joshi,Completed,Every 6 months
+VC0174,DS044,HS,Haemorrhagic Septicaemia,2026-09-05,2027-09-05,HS-2610,Dr. P. Naik,Completed,Every 12 months
+VC0175,DS044,BQ,Black Quarter,2026-07-29,2027-07-29,BQ-2581,Dr. P. Naik,Completed,Every 12 months
+VC0176,DS044,LSD,Lumpy Skin Disease,,,,,Due,
+VC0177,DS045,FMD,Foot-and-Mouth Disease,2026-06-05,2026-12-04,FMD-2535,Dr. S. Joshi,Completed,Every 6 months
+VC0178,DS045,HS,Haemorrhagic Septicaemia,2026-05-28,2027-05-28,HS-2515,Dr. P. Naik,Completed,Every 12 months
+VC0179,DS045,BQ,Black Quarter,2026-01-29,2027-01-29,BQ-2558,Dr. M. Sawant,Completed,Every 12 months
+VC0180,DS045,LSD,Lumpy Skin Disease,2026-04-18,2027-04-18,LSD-2512,Dr. V. Thorat,Completed,Every 12 months
+VC0181,DS046,FMD,Foot-and-Mouth Disease,2026-08-28,2027-02-26,FMD-2563,Dr. R. Deshpande,Completed,Every 6 months
+VC0182,DS046,HS,Haemorrhagic Septicaemia,2026-02-26,2027-02-26,HS-2542,Dr. P. Naik,Completed,Every 12 months
+VC0183,DS046,BQ,Black Quarter,2026-06-07,2027-06-07,BQ-2561,Dr. A. Kulkarni,Completed,Every 12 months
+VC0184,DS046,LSD,Lumpy Skin Disease,,,,,Due,
+VC0185,DS047,FMD,Foot-and-Mouth Disease,2026-04-23,2026-10-22,FMD-2592,Dr. S. Joshi,Completed,Every 6 months
+VC0186,DS047,HS,Haemorrhagic Septicaemia,,,,,Due,
+VC0187,DS047,BQ,Black Quarter,2026-08-06,2027-08-06,BQ-2578,Dr. R. Deshpande,Completed,Every 12 months
+VC0188,DS047,LSD,Lumpy Skin Disease,,,,,Due,
+VC0189,DS048,FMD,Foot-and-Mouth Disease,,,,,Due,
+VC0190,DS048,HS,Haemorrhagic Septicaemia,2025-10-17,2026-10-17,HS-2549,Dr. V. Thorat,Scheduled,Every 12 months
+VC0191,DS048,BQ,Black Quarter,2026-01-27,2027-01-27,BQ-2573,Dr. R. Deshpande,Completed,Every 12 months
+VC0192,DS048,LSD,Lumpy Skin Disease,,,,,Due,
+VC0193,DS049,FMD,Foot-and-Mouth Disease,,,,,Due,
+VC0194,DS049,HS,Haemorrhagic Septicaemia,,,,,Due,
+VC0195,DS049,BQ,Black Quarter,2026-07-03,2027-07-03,BQ-2597,Dr. R. Deshpande,Completed,Every 12 months
+VC0196,DS049,LSD,Lumpy Skin Disease,2026-04-25,2027-04-25,LSD-2542,Dr. P. Naik,Completed,Every 12 months
+VC0197,DS050,FMD,Foot-and-Mouth Disease,2026-04-05,2026-10-04,FMD-2570,Dr. V. Thorat,Scheduled,Every 6 months
+VC0198,DS050,HS,Haemorrhagic Septicaemia,2026-04-07,2027-04-07,HS-2585,Dr. S. Joshi,Completed,Every 12 months
+VC0199,DS050,BQ,Black Quarter,2026-01-16,2027-01-16,BQ-2579,Dr. A. Kulkarni,Completed,Every 12 months
+VC0200,DS050,LSD,Lumpy Skin Disease,,,,,Due,
+VC0201,DS051,FMD,Foot-and-Mouth Disease,2026-07-14,2027-01-12,FMD-2584,Dr. V. Thorat,Completed,Every 6 months
+VC0202,DS051,HS,Haemorrhagic Septicaemia,2026-02-05,2027-02-05,HS-2579,Dr. V. Thorat,Completed,Every 12 months
+VC0203,DS051,BQ,Black Quarter,2026-05-18,2027-05-18,BQ-2514,Dr. R. Deshpande,Completed,Every 12 months
+VC0204,DS051,LSD,Lumpy Skin Disease,2025-11-17,2026-11-17,LSD-2588,Dr. R. Deshpande,Completed,Every 12 months
+VC0205,DS052,FMD,Foot-and-Mouth Disease,2026-09-06,2027-03-07,FMD-2604,Dr. S. Joshi,Completed,Every 6 months
+VC0206,DS052,HS,Haemorrhagic Septicaemia,2025-10-26,2026-10-26,HS-2560,Dr. M. Sawant,Completed,Every 12 months
+VC0207,DS052,BQ,Black Quarter,2026-01-27,2027-01-27,BQ-2569,Dr. A. Kulkarni,Completed,Every 12 months
+VC0208,DS052,LSD,Lumpy Skin Disease,2026-03-02,2027-03-02,LSD-2567,Dr. M. Sawant,Completed,Every 12 months
+VC0209,DS053,FMD,Foot-and-Mouth Disease,,,,,Due,
+VC0210,DS053,HS,Haemorrhagic Septicaemia,2025-10-22,2026-10-22,HS-2536,Dr. A. Kulkarni,Completed,Every 12 months
+VC0211,DS053,BQ,Black Quarter,2026-07-02,2027-07-02,BQ-2502,Dr. A. Kulkarni,Completed,Every 12 months
+VC0212,DS053,LSD,Lumpy Skin Disease,,,,,Due,
+VC0213,DS054,FMD,Foot-and-Mouth Disease,2026-05-19,2026-11-17,FMD-2525,Dr. P. Naik,Completed,Every 6 months
+VC0214,DS054,HS,Haemorrhagic Septicaemia,2026-04-08,2027-04-08,HS-2562,Dr. A. Kulkarni,Completed,Every 12 months
+VC0215,DS054,BQ,Black Quarter,2026-01-15,2027-01-15,BQ-2526,Dr. S. Joshi,Completed,Every 12 months
+VC0216,DS054,LSD,Lumpy Skin Disease,,,,,Due,
+VC0217,DS055,FMD,Foot-and-Mouth Disease,,,,,Due,
+VC0218,DS055,HS,Haemorrhagic Septicaemia,2026-06-03,2027-06-03,HS-2544,Dr. M. Sawant,Completed,Every 12 months
+VC0219,DS055,BQ,Black Quarter,2025-12-23,2026-12-23,BQ-2598,Dr. S. Joshi,Completed,Every 12 months
+VC0220,DS055,LSD,Lumpy Skin Disease,,,,,Due,
+VC0221,DS056,FMD,Foot-and-Mouth Disease,2026-08-04,2027-02-02,FMD-2504,Dr. V. Thorat,Completed,Every 6 months
+VC0222,DS056,HS,Haemorrhagic Septicaemia,2025-10-21,2026-10-21,HS-2519,Dr. P. Naik,Scheduled,Every 12 months
+VC0223,DS056,BQ,Black Quarter,2026-08-07,2027-08-07,BQ-2511,Dr. V. Thorat,Completed,Every 12 months
+VC0224,DS056,LSD,Lumpy Skin Disease,2026-02-25,2027-02-25,LSD-2524,Dr. P. Naik,Completed,Every 12 months
+VC0225,DS057,FMD,Foot-and-Mouth Disease,2026-06-20,2026-12-19,FMD-2612,Dr. R. Deshpande,Completed,Every 6 months
+VC0226,DS057,HS,Haemorrhagic Septicaemia,,,,,Due,
+VC0227,DS057,BQ,Black Quarter,2026-06-12,2027-06-12,BQ-2590,Dr. S. Joshi,Completed,Every 12 months
+VC0228,DS057,LSD,Lumpy Skin Disease,2026-04-28,2027-04-28,LSD-2567,Dr. M. Sawant,Completed,Every 12 months
+VC0229,DS058,FMD,Foot-and-Mouth Disease,2026-06-11,2026-12-10,FMD-2580,Dr. V. Thorat,Completed,Every 6 months
+VC0230,DS058,HS,Haemorrhagic Septicaemia,2025-11-04,2026-11-04,HS-2610,Dr. S. Joshi,Completed,Every 12 months
+VC0231,DS058,BQ,Black Quarter,2025-12-09,2026-12-09,BQ-2512,Dr. P. Naik,Completed,Every 12 months
+VC0232,DS058,LSD,Lumpy Skin Disease,2026-06-04,2027-06-04,LSD-2592,Dr. P. Naik,Completed,Every 12 months
+VC0233,DS059,FMD,Foot-and-Mouth Disease,2026-08-05,2027-02-03,FMD-2544,Dr. S. Joshi,Completed,Every 6 months
+VC0234,DS059,HS,Haemorrhagic Septicaemia,2025-11-30,2026-11-30,HS-2604,Dr. V. Thorat,Completed,Every 12 months
+VC0235,DS059,BQ,Black Quarter,2026-03-20,2027-03-20,BQ-2561,Dr. R. Deshpande,Completed,Every 12 months
+VC0236,DS059,Brucellosis,Brucellosis,2026-01-22,,Brucellosis-2505,Dr. V. Thorat,Completed,One-time (calfhood)
+VC0237,DS059,LSD,Lumpy Skin Disease,2026-06-05,2027-06-05,LSD-2504,Dr. M. Sawant,Completed,Every 12 months
+VC0238,DS060,FMD,Foot-and-Mouth Disease,2026-05-31,2026-11-29,FMD-2512,Dr. R. Deshpande,Completed,Every 6 months
+VC0239,DS060,HS,Haemorrhagic Septicaemia,2026-07-04,2027-07-04,HS-2522,Dr. R. Deshpande,Completed,Every 12 months
+VC0240,DS060,BQ,Black Quarter,,,,,Due,
+VC0241,DS060,LSD,Lumpy Skin Disease,2026-03-31,2027-03-31,LSD-2520,Dr. A. Kulkarni,Completed,Every 12 months
+VC0242,DS061,FMD,Foot-and-Mouth Disease,2026-05-24,2026-11-22,FMD-2565,Dr. M. Sawant,Completed,Every 6 months
+VC0243,DS061,HS,Haemorrhagic Septicaemia,2026-07-13,2027-07-13,HS-2560,Dr. V. Thorat,Completed,Every 12 months
+VC0244,DS061,BQ,Black Quarter,2026-02-02,2027-02-02,BQ-2591,Dr. A. Kulkarni,Completed,Every 12 months
+VC0245,DS061,LSD,Lumpy Skin Disease,,,,,Due,
+VC0246,DS062,FMD,Foot-and-Mouth Disease,2026-07-25,2027-01-23,FMD-2559,Dr. R. Deshpande,Completed,Every 6 months
+VC0247,DS062,HS,Haemorrhagic Septicaemia,2026-05-15,2027-05-15,HS-2555,Dr. V. Thorat,Completed,Every 12 months
+VC0248,DS062,BQ,Black Quarter,2026-06-07,2027-06-07,BQ-2502,Dr. R. Deshpande,Completed,Every 12 months
+VC0249,DS062,LSD,Lumpy Skin Disease,2026-07-25,2027-07-25,LSD-2572,Dr. A. Kulkarni,Completed,Every 12 months
+VC0250,DS063,FMD,Foot-and-Mouth Disease,2026-06-30,2026-12-29,FMD-2534,Dr. V. Thorat,Completed,Every 6 months
+VC0251,DS063,HS,Haemorrhagic Septicaemia,,,,,Due,
+VC0252,DS063,BQ,Black Quarter,2025-10-16,2026-10-16,BQ-2595,Dr. A. Kulkarni,Scheduled,Every 12 months
+VC0253,DS063,LSD,Lumpy Skin Disease,2026-02-09,2027-02-09,LSD-2597,Dr. P. Naik,Completed,Every 12 months
+VC0254,DS064,FMD,Foot-and-Mouth Disease,2026-05-14,2026-11-12,FMD-2573,Dr. V. Thorat,Completed,Every 6 months
+VC0255,DS064,HS,Haemorrhagic Septicaemia,,,,,Due,
+VC0256,DS064,BQ,Black Quarter,2026-04-16,2027-04-16,BQ-2579,Dr. P. Naik,Completed,Every 12 months
+VC0257,DS064,LSD,Lumpy Skin Disease,,,,,Due,
+VC0258,DS065,FMD,Foot-and-Mouth Disease,2026-06-12,2026-12-11,FMD-2505,Dr. R. Deshpande,Completed,Every 6 months
+VC0259,DS065,HS,Haemorrhagic Septicaemia,2026-01-01,2027-01-01,HS-2611,Dr. R. Deshpande,Completed,Every 12 months
+VC0260,DS065,BQ,Black Quarter,2026-06-27,2027-06-27,BQ-2545,Dr. S. Joshi,Completed,Every 12 months
+VC0261,DS065,Brucellosis,Brucellosis,2026-02-07,,Brucellosis-2506,Dr. P. Naik,Completed,One-time (calfhood)
+VC0262,DS065,LSD,Lumpy Skin Disease,2026-05-09,2027-05-09,LSD-2569,Dr. P. Naik,Completed,Every 12 months
+VC0263,DS066,FMD,Foot-and-Mouth Disease,2026-07-30,2027-01-28,FMD-2585,Dr. S. Joshi,Completed,Every 6 months
+VC0264,DS066,HS,Haemorrhagic Septicaemia,,,,,Due,
+VC0265,DS066,BQ,Black Quarter,2026-04-17,2027-04-17,BQ-2573,Dr. S. Joshi,Completed,Every 12 months
+VC0266,DS066,LSD,Lumpy Skin Disease,2026-01-26,2027-01-26,LSD-2601,Dr. V. Thorat,Completed,Every 12 months
+VC0267,DS067,FMD,Foot-and-Mouth Disease,,,,,Due,
+VC0268,DS067,HS,Haemorrhagic Septicaemia,2026-05-16,2027-05-16,HS-2597,Dr. R. Deshpande,Completed,Every 12 months
+VC0269,DS067,BQ,Black Quarter,2025-11-20,2026-11-20,BQ-2557,Dr. P. Naik,Completed,Every 12 months
+VC0270,DS067,LSD,Lumpy Skin Disease,2026-04-26,2027-04-26,LSD-2526,Dr. R. Deshpande,Completed,Every 12 months
+VC0271,DS068,FMD,Foot-and-Mouth Disease,2026-06-20,2026-12-19,FMD-2605,Dr. S. Joshi,Completed,Every 6 months
+VC0272,DS068,HS,Haemorrhagic Septicaemia,2025-12-23,2026-12-23,HS-2558,Dr. R. Deshpande,Completed,Every 12 months
+VC0273,DS068,BQ,Black Quarter,2026-08-26,2027-08-26,BQ-2546,Dr. A. Kulkarni,Completed,Every 12 months
+VC0274,DS068,LSD,Lumpy Skin Disease,2025-11-03,2026-11-03,LSD-2563,Dr. V. Thorat,Completed,Every 12 months
+VC0275,DS069,FMD,Foot-and-Mouth Disease,,,,,Due,
+VC0276,DS069,HS,Haemorrhagic Septicaemia,2025-10-15,2026-10-15,HS-2601,Dr. S. Joshi,Scheduled,Every 12 months
+VC0277,DS069,BQ,Black Quarter,2026-04-28,2027-04-28,BQ-2545,Dr. S. Joshi,Completed,Every 12 months
+VC0278,DS069,LSD,Lumpy Skin Disease,2026-08-08,2027-08-08,LSD-2552,Dr. A. Kulkarni,Completed,Every 12 months
+VC0279,DS070,FMD,Foot-and-Mouth Disease,2026-08-08,2027-02-06,FMD-2533,Dr. M. Sawant,Completed,Every 6 months
+VC0280,DS070,HS,Haemorrhagic Septicaemia,2025-10-06,2026-10-06,HS-2584,Dr. M. Sawant,Scheduled,Every 12 months
+VC0281,DS070,BQ,Black Quarter,2026-04-26,2027-04-26,BQ-2592,Dr. V. Thorat,Completed,Every 12 months
+VC0282,DS070,Brucellosis,Brucellosis,2025-08-19,,Brucellosis-2523,Dr. A. Kulkarni,Completed,One-time (calfhood)
+VC0283,DS070,LSD,Lumpy Skin Disease,,,,,Due,
+VC0284,DS071,FMD,Foot-and-Mouth Disease,,,,,Due,
+VC0285,DS071,HS,Haemorrhagic Septicaemia,2025-11-21,2026-11-21,HS-2576,Dr. P. Naik,Completed,Every 12 months
+VC0286,DS071,BQ,Black Quarter,2025-11-02,2026-11-02,BQ-2609,Dr. V. Thorat,Completed,Every 12 months
+VC0287,DS071,LSD,Lumpy Skin Disease,2026-08-15,2027-08-15,LSD-2577,Dr. R. Deshpande,Completed,Every 12 months
+VC0288,DS072,FMD,Foot-and-Mouth Disease,2026-04-13,2026-10-12,FMD-2540,Dr. M. Sawant,Scheduled,Every 6 months
+VC0289,DS072,HS,Haemorrhagic Septicaemia,2025-10-23,2026-10-23,HS-2514,Dr. M. Sawant,Completed,Every 12 months
+VC0290,DS072,BQ,Black Quarter,2026-08-30,2027-08-30,BQ-2509,Dr. R. Deshpande,Completed,Every 12 months
+VC0291,DS072,LSD,Lumpy Skin Disease,,,,,Due,
+VC0292,DS073,FMD,Foot-and-Mouth Disease,2026-04-20,2026-10-19,FMD-2514,Dr. M. Sawant,Scheduled,Every 6 months
+VC0293,DS073,HS,Haemorrhagic Septicaemia,2026-04-03,2027-04-03,HS-2519,Dr. A. Kulkarni,Completed,Every 12 months
+VC0294,DS073,BQ,Black Quarter,2025-10-18,2026-10-18,BQ-2538,Dr. P. Naik,Scheduled,Every 12 months
+VC0295,DS073,LSD,Lumpy Skin Disease,2026-06-24,2027-06-24,LSD-2501,Dr. S. Joshi,Completed,Every 12 months
+VC0296,DS074,FMD,Foot-and-Mouth Disease,2026-07-16,2027-01-14,FMD-2506,Dr. P. Naik,Completed,Every 6 months
+VC0297,DS074,HS,Haemorrhagic Septicaemia,,,,,Due,
+VC0298,DS074,BQ,Black Quarter,2026-09-05,2027-09-05,BQ-2592,Dr. V. Thorat,Completed,Every 12 months
+VC0299,DS074,LSD,Lumpy Skin Disease,2025-09-23,2026-09-23,LSD-2528,Dr. P. Naik,Scheduled,Every 12 months
+VC0300,DS075,FMD,Foot-and-Mouth Disease,2026-06-06,2026-12-05,FMD-2610,Dr. P. Naik,Completed,Every 6 months
+VC0301,DS075,HS,Haemorrhagic Septicaemia,2026-07-13,2027-07-13,HS-2528,Dr. S. Joshi,Completed,Every 12 months
+VC0302,DS075,BQ,Black Quarter,2025-11-07,2026-11-07,BQ-2593,Dr. P. Naik,Completed,Every 12 months
+VC0303,DS075,LSD,Lumpy Skin Disease,2026-02-10,2027-02-10,LSD-2586,Dr. V. Thorat,Completed,Every 12 months
+VC0304,DS076,FMD,Foot-and-Mouth Disease,2026-04-13,2026-10-12,FMD-2535,Dr. R. Deshpande,Scheduled,Every 6 months
+VC0305,DS076,HS,Haemorrhagic Septicaemia,2026-03-11,2027-03-11,HS-2516,Dr. R. Deshpande,Completed,Every 12 months
+VC0306,DS076,BQ,Black Quarter,2025-12-23,2026-12-23,BQ-2514,Dr. R. Deshpande,Completed,Every 12 months
+VC0307,DS076,LSD,Lumpy Skin Disease,2026-04-25,2027-04-25,LSD-2590,Dr. V. Thorat,Completed,Every 12 months
+VC0308,DS077,FMD,Foot-and-Mouth Disease,,,,,Due,
+VC0309,DS077,HS,Haemorrhagic Septicaemia,2026-03-07,2027-03-07,HS-2538,Dr. P. Naik,Completed,Every 12 months
+VC0310,DS077,BQ,Black Quarter,2025-10-03,2026-10-03,BQ-2553,Dr. M. Sawant,Scheduled,Every 12 months
+VC0311,DS077,LSD,Lumpy Skin Disease,,,,,Due,
+VC0312,DS078,FMD,Foot-and-Mouth Disease,2026-08-29,2027-02-27,FMD-2529,Dr. S. Joshi,Completed,Every 6 months
+VC0313,DS078,HS,Haemorrhagic Septicaemia,2026-02-05,2027-02-05,HS-2574,Dr. V. Thorat,Completed,Every 12 months
+VC0314,DS079,FMD,Foot-and-Mouth Disease,2026-04-02,2026-10-01,FMD-2563,Dr. A. Kulkarni,Scheduled,Every 6 months
+VC0315,DS079,HS,Haemorrhagic Septicaemia,,,,,Due,
+VC0316,DS079,BQ,Black Quarter,,,,,Due,
+VC0317,DS079,LSD,Lumpy Skin Disease,2025-10-28,2026-10-28,LSD-2516,Dr. M. Sawant,Completed,Every 12 months
+VC0318,DS080,FMD,Foot-and-Mouth Disease,2026-06-17,2026-12-16,FMD-2533,Dr. V. Thorat,Completed,Every 6 months
+VC0319,DS080,HS,Haemorrhagic Septicaemia,2026-08-26,2027-08-26,HS-2547,Dr. R. Deshpande,Completed,Every 12 months
+VC0320,DS080,BQ,Black Quarter,,,,,Due,
+VC0321,DS080,LSD,Lumpy Skin Disease,,,,,Due,
+VC0322,DS081,FMD,Foot-and-Mouth Disease,2026-09-09,2027-03-10,FMD-2559,Dr. A. Kulkarni,Completed,Every 6 months
+VC0323,DS081,HS,Haemorrhagic Septicaemia,2026-05-11,2027-05-11,HS-2594,Dr. R. Deshpande,Completed,Every 12 months
+VC0324,DS081,BQ,Black Quarter,2026-05-07,2027-05-07,BQ-2550,Dr. M. Sawant,Completed,Every 12 months
+VC0325,DS081,Brucellosis,Brucellosis,2026-02-18,,Brucellosis-2596,Dr. V. Thorat,Completed,One-time (calfhood)
+VC0326,DS081,LSD,Lumpy Skin Disease,2025-12-07,2026-12-07,LSD-2611,Dr. A. Kulkarni,Completed,Every 12 months
+VC0327,DS082,FMD,Foot-and-Mouth Disease,2026-08-16,2027-02-14,FMD-2504,Dr. A. Kulkarni,Completed,Every 6 months
+VC0328,DS082,HS,Haemorrhagic Septicaemia,2026-06-28,2027-06-28,HS-2605,Dr. R. Deshpande,Completed,Every 12 months
+VC0329,DS082,BQ,Black Quarter,2026-08-20,2027-08-20,BQ-2560,Dr. R. Deshpande,Completed,Every 12 months
+VC0330,DS082,LSD,Lumpy Skin Disease,2026-05-01,2027-05-01,LSD-2594,Dr. S. Joshi,Completed,Every 12 months
+VC0331,DS083,FMD,Foot-and-Mouth Disease,2026-04-04,2026-10-03,FMD-2524,Dr. A. Kulkarni,Scheduled,Every 6 months
+VC0332,DS083,HS,Haemorrhagic Septicaemia,2026-01-14,2027-01-14,HS-2582,Dr. R. Deshpande,Completed,Every 12 months
+VC0333,DS083,BQ,Black Quarter,2026-04-01,2027-04-01,BQ-2536,Dr. R. Deshpande,Completed,Every 12 months
+VC0334,DS083,LSD,Lumpy Skin Disease,2026-06-24,2027-06-24,LSD-2604,Dr. A. Kulkarni,Completed,Every 12 months
+VC0335,DS084,FMD,Foot-and-Mouth Disease,2026-07-07,2027-01-05,FMD-2565,Dr. P. Naik,Completed,Every 6 months
+VC0336,DS084,HS,Haemorrhagic Septicaemia,2026-08-17,2027-08-17,HS-2523,Dr. P. Naik,Completed,Every 12 months
+VC0337,DS084,BQ,Black Quarter,2025-12-01,2026-12-01,BQ-2597,Dr. V. Thorat,Completed,Every 12 months
+VC0338,DS084,LSD,Lumpy Skin Disease,,,,,Due,
+VC0339,DS085,FMD,Foot-and-Mouth Disease,2026-07-09,2027-01-07,FMD-2567,Dr. A. Kulkarni,Completed,Every 6 months
+VC0340,DS085,HS,Haemorrhagic Septicaemia,2026-01-18,2027-01-18,HS-2567,Dr. R. Deshpande,Completed,Every 12 months
+VC0341,DS085,BQ,Black Quarter,2026-07-15,2027-07-15,BQ-2607,Dr. S. Joshi,Completed,Every 12 months
+VC0342,DS085,LSD,Lumpy Skin Disease,2026-05-11,2027-05-11,LSD-2535,Dr. P. Naik,Completed,Every 12 months
+VC0343,DS086,FMD,Foot-and-Mouth Disease,2026-04-05,2026-10-04,FMD-2551,Dr. V. Thorat,Scheduled,Every 6 months
+VC0344,DS086,HS,Haemorrhagic Septicaemia,2026-02-09,2027-02-09,HS-2561,Dr. A. Kulkarni,Completed,Every 12 months
+VC0345,DS086,BQ,Black Quarter,2026-02-25,2027-02-25,BQ-2534,Dr. S. Joshi,Completed,Every 12 months
+VC0346,DS086,LSD,Lumpy Skin Disease,,,,,Due,
+VC0347,DS087,FMD,Foot-and-Mouth Disease,2026-08-24,2027-02-22,FMD-2564,Dr. A. Kulkarni,Completed,Every 6 months
+VC0348,DS087,HS,Haemorrhagic Septicaemia,2025-11-06,2026-11-06,HS-2507,Dr. V. Thorat,Completed,Every 12 months
+VC0349,DS087,BQ,Black Quarter,2026-04-30,2027-04-30,BQ-2608,Dr. V. Thorat,Completed,Every 12 months
+VC0350,DS087,Brucellosis,Brucellosis,2026-07-20,,Brucellosis-2574,Dr. P. Naik,Completed,One-time (calfhood)
+VC0351,DS087,LSD,Lumpy Skin Disease,2025-12-04,2026-12-04,LSD-2526,Dr. A. Kulkarni,Completed,Every 12 months
+VC0352,DS088,FMD,Foot-and-Mouth Disease,2026-06-12,2026-12-11,FMD-2580,Dr. S. Joshi,Completed,Every 6 months
+VC0353,DS088,HS,Haemorrhagic Septicaemia,2026-04-14,2027-04-14,HS-2554,Dr. S. Joshi,Completed,Every 12 months
+VC0354,DS088,BQ,Black Quarter,2026-08-06,2027-08-06,BQ-2602,Dr. S. Joshi,Completed,Every 12 months
+VC0355,DS088,LSD,Lumpy Skin Disease,2026-01-08,2027-01-08,LSD-2576,Dr. S. Joshi,Completed,Every 12 months
+VC0356,DS089,FMD,Foot-and-Mouth Disease,,,,,Due,
+VC0357,DS089,HS,Haemorrhagic Septicaemia,2026-05-22,2027-05-22,HS-2595,Dr. R. Deshpande,Completed,Every 12 months
+VC0358,DS089,BQ,Black Quarter,2026-03-30,2027-03-30,BQ-2532,Dr. A. Kulkarni,Completed,Every 12 months
+VC0359,DS089,LSD,Lumpy Skin Disease,,,,,Due,
+VC0360,DS090,FMD,Foot-and-Mouth Disease,2026-07-17,2027-01-15,FMD-2563,Dr. P. Naik,Completed,Every 6 months
+VC0361,DS090,HS,Haemorrhagic Septicaemia,2025-12-29,2026-12-29,HS-2548,Dr. A. Kulkarni,Completed,Every 12 months
+VC0362,DS090,BQ,Black Quarter,2026-06-14,2027-06-14,BQ-2523,Dr. M. Sawant,Completed,Every 12 months
+VC0363,DS090,LSD,Lumpy Skin Disease,2026-06-18,2027-06-18,LSD-2611,Dr. M. Sawant,Completed,Every 12 months
+VC0364,DS091,FMD,Foot-and-Mouth Disease,2026-08-31,2027-03-01,FMD-2600,Dr. M. Sawant,Completed,Every 6 months
+VC0365,DS091,HS,Haemorrhagic Septicaemia,2026-05-06,2027-05-06,HS-2532,Dr. S. Joshi,Completed,Every 12 months
+VC0366,DS091,BQ,Black Quarter,2026-05-13,2027-05-13,BQ-2577,Dr. M. Sawant,Completed,Every 12 months
+VC0367,DS091,Brucellosis,Brucellosis,2025-12-25,,Brucellosis-2604,Dr. R. Deshpande,Completed,One-time (calfhood)
+VC0368,DS091,LSD,Lumpy Skin Disease,2026-02-01,2027-02-01,LSD-2540,Dr. R. Deshpande,Completed,Every 12 months
+VC0369,DS092,FMD,Foot-and-Mouth Disease,2026-07-05,2027-01-03,FMD-2511,Dr. M. Sawant,Completed,Every 6 months
+VC0370,DS092,HS,Haemorrhagic Septicaemia,,,,,Due,
+VC0371,DS092,BQ,Black Quarter,2026-02-12,2027-02-12,BQ-2548,Dr. R. Deshpande,Completed,Every 12 months
+VC0372,DS092,LSD,Lumpy Skin Disease,2025-12-29,2026-12-29,LSD-2511,Dr. V. Thorat,Completed,Every 12 months
+VC0373,DS093,FMD,Foot-and-Mouth Disease,2026-07-13,2027-01-11,FMD-2563,Dr. A. Kulkarni,Completed,Every 6 months
+VC0374,DS093,HS,Haemorrhagic Septicaemia,2026-09-07,2027-09-07,HS-2606,Dr. P. Naik,Completed,Every 12 months
+VC0375,DS093,BQ,Black Quarter,2026-09-11,2027-09-11,BQ-2513,Dr. S. Joshi,Completed,Every 12 months
+VC0376,DS093,LSD,Lumpy Skin Disease,,,,,Due,
+VC0377,DS094,FMD,Foot-and-Mouth Disease,,,,,Due,
+VC0378,DS094,HS,Haemorrhagic Septicaemia,,,,,Due,
+VC0379,DS094,BQ,Black Quarter,,,,,Due,
+VC0380,DS094,LSD,Lumpy Skin Disease,,,,,Due,
+VC0381,DS095,FMD,Foot-and-Mouth Disease,2026-04-21,2026-10-20,FMD-2516,Dr. A. Kulkarni,Scheduled,Every 6 months
+VC0382,DS095,HS,Haemorrhagic Septicaemia,2026-05-30,2027-05-30,HS-2573,Dr. S. Joshi,Completed,Every 12 months
+VC0383,DS095,BQ,Black Quarter,2025-10-03,2026-10-03,BQ-2593,Dr. A. Kulkarni,Scheduled,Every 12 months
+VC0384,DS095,Brucellosis,Brucellosis,2025-10-17,,Brucellosis-2554,Dr. S. Joshi,Completed,One-time (calfhood)
+VC0385,DS095,LSD,Lumpy Skin Disease,2026-04-09,2027-04-09,LSD-2537,Dr. P. Naik,Completed,Every 12 months
+VC0386,DS096,FMD,Foot-and-Mouth Disease,2026-05-10,2026-11-08,FMD-2606,Dr. V. Thorat,Completed,Every 6 months
+VC0387,DS096,HS,Haemorrhagic Septicaemia,2026-09-04,2027-09-04,HS-2561,Dr. A. Kulkarni,Completed,Every 12 months
+VC0388,DS096,BQ,Black Quarter,2025-10-13,2026-10-13,BQ-2528,Dr. P. Naik,Scheduled,Every 12 months
+VC0389,DS096,LSD,Lumpy Skin Disease,,,,,Due,
+VC0390,DS097,FMD,Foot-and-Mouth Disease,2026-07-23,2027-01-21,FMD-2596,Dr. V. Thorat,Completed,Every 6 months
+VC0391,DS097,HS,Haemorrhagic Septicaemia,2026-06-01,2027-06-01,HS-2544,Dr. R. Deshpande,Completed,Every 12 months
+VC0392,DS097,BQ,Black Quarter,2026-01-31,2027-01-31,BQ-2539,Dr. A. Kulkarni,Completed,Every 12 months
+VC0393,DS097,LSD,Lumpy Skin Disease,2026-02-16,2027-02-16,LSD-2522,Dr. A. Kulkarni,Completed,Every 12 months
+VC0394,DS098,FMD,Foot-and-Mouth Disease,2026-07-09,2027-01-07,FMD-2611,Dr. V. Thorat,Completed,Every 6 months
+VC0395,DS098,HS,Haemorrhagic Septicaemia,2026-05-12,2027-05-12,HS-2587,Dr. R. Deshpande,Completed,Every 12 months
+VC0396,DS098,BQ,Black Quarter,2026-07-15,2027-07-15,BQ-2539,Dr. P. Naik,Completed,Every 12 months
+VC0397,DS098,LSD,Lumpy Skin Disease,2026-06-28,2027-06-28,LSD-2543,Dr. M. Sawant,Completed,Every 12 months
+VC0398,DS099,FMD,Foot-and-Mouth Disease,,,,,Due,
+VC0399,DS099,HS,Haemorrhagic Septicaemia,2025-09-29,2026-09-29,HS-2563,Dr. V. Thorat,Scheduled,Every 12 months
+VC0400,DS099,BQ,Black Quarter,2026-07-27,2027-07-27,BQ-2560,Dr. S. Joshi,Completed,Every 12 months
+VC0401,DS099,LSD,Lumpy Skin Disease,2025-10-09,2026-10-09,LSD-2606,Dr. R. Deshpande,Scheduled,Every 12 months
+VC0402,DS100,FMD,Foot-and-Mouth Disease,2026-04-08,2026-10-07,FMD-2518,Dr. P. Naik,Scheduled,Every 6 months
+VC0403,DS100,HS,Haemorrhagic Septicaemia,2025-11-02,2026-11-02,HS-2529,Dr. S. Joshi,Completed,Every 12 months
+VC0404,DS100,BQ,Black Quarter,,,,,Due,
+VC0405,DS100,Brucellosis,Brucellosis,2025-12-06,,Brucellosis-2609,Dr. R. Deshpande,Completed,One-time (calfhood)
+VC0406,DS100,LSD,Lumpy Skin Disease,2026-03-31,2027-03-31,LSD-2528,Dr. R. Deshpande,Completed,Every 12 months
+VC0407,DS101,FMD,Foot-and-Mouth Disease,2026-05-11,2026-11-09,FMD-2572,Dr. A. Kulkarni,Completed,Every 6 months
+VC0408,DS101,HS,Haemorrhagic Septicaemia,2026-01-09,2027-01-09,HS-2568,Dr. R. Deshpande,Completed,Every 12 months
+VC0409,DS101,BQ,Black Quarter,2026-04-14,2027-04-14,BQ-2522,Dr. A. Kulkarni,Completed,Every 12 months
+VC0410,DS101,LSD,Lumpy Skin Disease,2026-06-06,2027-06-06,LSD-2560,Dr. P. Naik,Completed,Every 12 months
+VC0411,DS102,FMD,Foot-and-Mouth Disease,2026-08-22,2027-02-20,FMD-2525,Dr. R. Deshpande,Completed,Every 6 months
+VC0412,DS102,HS,Haemorrhagic Septicaemia,2026-08-19,2027-08-19,HS-2532,Dr. A. Kulkarni,Completed,Every 12 months
+VC0413,DS102,BQ,Black Quarter,2026-06-28,2027-06-28,BQ-2538,Dr. M. Sawant,Completed,Every 12 months
+VC0414,DS102,LSD,Lumpy Skin Disease,,,,,Due,
+VC0415,DS103,FMD,Foot-and-Mouth Disease,2026-04-16,2026-10-15,FMD-2561,Dr. A. Kulkarni,Scheduled,Every 6 months
+VC0416,DS103,HS,Haemorrhagic Septicaemia,2026-04-03,2027-04-03,HS-2584,Dr. V. Thorat,Completed,Every 12 months
+VC0417,DS103,BQ,Black Quarter,2026-07-29,2027-07-29,BQ-2527,Dr. S. Joshi,Completed,Every 12 months
+VC0418,DS103,Brucellosis,Brucellosis,2026-04-26,,Brucellosis-2565,Dr. S. Joshi,Completed,One-time (calfhood)
+VC0419,DS103,LSD,Lumpy Skin Disease,2026-04-11,2027-04-11,LSD-2507,Dr. V. Thorat,Completed,Every 12 months
+VC0420,DS104,FMD,Foot-and-Mouth Disease,2026-06-24,2026-12-23,FMD-2513,Dr. V. Thorat,Completed,Every 6 months
+VC0421,DS104,HS,Haemorrhagic Septicaemia,2026-03-24,2027-03-24,HS-2591,Dr. V. Thorat,Completed,Every 12 months
+VC0422,DS104,BQ,Black Quarter,2026-08-24,2027-08-24,BQ-2605,Dr. A. Kulkarni,Completed,Every 12 months
+VC0423,DS104,LSD,Lumpy Skin Disease,,,,,Due,
+VC0424,DS105,FMD,Foot-and-Mouth Disease,2026-07-07,2027-01-05,FMD-2543,Dr. V. Thorat,Completed,Every 6 months
+VC0425,DS105,HS,Haemorrhagic Septicaemia,2026-03-08,2027-03-08,HS-2563,Dr. P. Naik,Completed,Every 12 months
+VC0426,DS105,BQ,Black Quarter,2025-11-07,2026-11-07,BQ-2549,Dr. R. Deshpande,Completed,Every 12 months
+VC0427,DS105,LSD,Lumpy Skin Disease,,,,,Due,
+VC0428,DS106,FMD,Foot-and-Mouth Disease,2026-04-19,2026-10-18,FMD-2529,Dr. S. Joshi,Scheduled,Every 6 months
+VC0429,DS106,HS,Haemorrhagic Septicaemia,2026-02-09,2027-02-09,HS-2577,Dr. R. Deshpande,Completed,Every 12 months
+VC0430,DS106,BQ,Black Quarter,2025-12-09,2026-12-09,BQ-2599,Dr. S. Joshi,Completed,Every 12 months
+VC0431,DS106,LSD,Lumpy Skin Disease,2025-12-17,2026-12-17,LSD-2540,Dr. P. Naik,Completed,Every 12 months
+VC0432,DS107,FMD,Foot-and-Mouth Disease,,,,,Due,
+VC0433,DS107,HS,Haemorrhagic Septicaemia,2025-12-30,2026-12-30,HS-2611,Dr. A. Kulkarni,Completed,Every 12 months
+VC0434,DS107,BQ,Black Quarter,2026-07-07,2027-07-07,BQ-2608,Dr. R. Deshpande,Completed,Every 12 months
+VC0435,DS107,LSD,Lumpy Skin Disease,2026-06-24,2027-06-24,LSD-2609,Dr. M. Sawant,Completed,Every 12 months
+VC0436,DS108,FMD,Foot-and-Mouth Disease,2026-05-14,2026-11-12,FMD-2569,Dr. P. Naik,Completed,Every 6 months
+VC0437,DS108,HS,Haemorrhagic Septicaemia,2026-02-20,2027-02-20,HS-2515,Dr. A. Kulkarni,Completed,Every 12 months
+VC0438,DS108,BQ,Black Quarter,2026-02-26,2027-02-26,BQ-2555,Dr. S. Joshi,Completed,Every 12 months
+VC0439,DS108,LSD,Lumpy Skin Disease,,,,,Due,
+VC0440,DS109,FMD,Foot-and-Mouth Disease,,,,,Due,
+VC0441,DS109,HS,Haemorrhagic Septicaemia,2026-09-03,2027-09-03,HS-2561,Dr. R. Deshpande,Completed,Every 12 months
+VC0442,DS109,BQ,Black Quarter,2025-12-03,2026-12-03,BQ-2592,Dr. P. Naik,Completed,Every 12 months
+VC0443,DS109,LSD,Lumpy Skin Disease,2026-07-09,2027-07-09,LSD-2612,Dr. M. Sawant,Completed,Every 12 months
+VC0444,DS110,FMD,Foot-and-Mouth Disease,,,,,Due,
+VC0445,DS110,HS,Haemorrhagic Septicaemia,,,,,Due,
+VC0446,DS110,BQ,Black Quarter,,,,,Due,
+VC0447,DS110,LSD,Lumpy Skin Disease,2026-04-01,2027-04-01,LSD-2504,Dr. V. Thorat,Completed,Every 12 months
+VC0448,DS111,FMD,Foot-and-Mouth Disease,,,,,Due,
+VC0449,DS111,HS,Haemorrhagic Septicaemia,2026-07-01,2027-07-01,HS-2506,Dr. M. Sawant,Completed,Every 12 months
+VC0450,DS111,BQ,Black Quarter,2026-06-10,2027-06-10,BQ-2518,Dr. P. Naik,Completed,Every 12 months
+VC0451,DS111,LSD,Lumpy Skin Disease,,,,,Due,
+VC0452,DS112,FMD,Foot-and-Mouth Disease,2026-03-26,2026-09-24,FMD-2519,Dr. R. Deshpande,Scheduled,Every 6 months
+VC0453,DS112,HS,Haemorrhagic Septicaemia,,,,,Due,
+VC0454,DS112,BQ,Black Quarter,2026-09-08,2027-09-08,BQ-2556,Dr. V. Thorat,Completed,Every 12 months
+VC0455,DS112,LSD,Lumpy Skin Disease,2025-09-28,2026-09-28,LSD-2504,Dr. M. Sawant,Scheduled,Every 12 months
+VC0456,DS113,FMD,Foot-and-Mouth Disease,2026-04-23,2026-10-22,FMD-2508,Dr. P. Naik,Completed,Every 6 months
+VC0457,DS113,HS,Haemorrhagic Septicaemia,2025-12-07,2026-12-07,HS-2535,Dr. A. Kulkarni,Completed,Every 12 months
+VC0458,DS113,BQ,Black Quarter,2025-12-31,2026-12-31,BQ-2536,Dr. S. Joshi,Completed,Every 12 months
+VC0459,DS113,Brucellosis,Brucellosis,2026-07-25,,Brucellosis-2557,Dr. P. Naik,Completed,One-time (calfhood)
+VC0460,DS113,LSD,Lumpy Skin Disease,2025-09-29,2026-09-29,LSD-2548,Dr. S. Joshi,Scheduled,Every 12 months
+VC0461,DS114,FMD,Foot-and-Mouth Disease,,,,,Due,
+VC0462,DS114,HS,Haemorrhagic Septicaemia,,,,,Due,
+VC0463,DS114,BQ,Black Quarter,2026-01-07,2027-01-07,BQ-2595,Dr. P. Naik,Completed,Every 12 months
+VC0464,DS114,LSD,Lumpy Skin Disease,,,,,Due,
+VC0465,DS115,FMD,Foot-and-Mouth Disease,2026-05-14,2026-11-12,FMD-2583,Dr. R. Deshpande,Completed,Every 6 months
+VC0466,DS115,HS,Haemorrhagic Septicaemia,,,,,Due,
+VC0467,DS115,BQ,Black Quarter,2026-08-21,2027-08-21,BQ-2513,Dr. M. Sawant,Completed,Every 12 months
+VC0468,DS115,LSD,Lumpy Skin Disease,2026-04-02,2027-04-02,LSD-2576,Dr. P. Naik,Completed,Every 12 months
+VC0469,DS116,FMD,Foot-and-Mouth Disease,2026-08-27,2027-02-25,FMD-2556,Dr. A. Kulkarni,Completed,Every 6 months
+VC0470,DS116,HS,Haemorrhagic Septicaemia,,,,,Due,
+VC0471,DS116,BQ,Black Quarter,2026-04-23,2027-04-23,BQ-2571,Dr. P. Naik,Completed,Every 12 months
+VC0472,DS116,Brucellosis,Brucellosis,2025-09-21,,Brucellosis-2517,Dr. M. Sawant,Completed,One-time (calfhood)
+VC0473,DS116,LSD,Lumpy Skin Disease,,,,,Due,
+VC0474,DS117,FMD,Foot-and-Mouth Disease,2026-07-07,2027-01-05,FMD-2560,Dr. S. Joshi,Completed,Every 6 months
+VC0475,DS117,HS,Haemorrhagic Septicaemia,2026-08-28,2027-08-28,HS-2526,Dr. M. Sawant,Completed,Every 12 months
+VC0476,DS117,BQ,Black Quarter,2026-08-28,2027-08-28,BQ-2549,Dr. A. Kulkarni,Completed,Every 12 months
+VC0477,DS117,LSD,Lumpy Skin Disease,2026-09-05,2027-09-05,LSD-2533,Dr. V. Thorat,Completed,Every 12 months
+VC0478,DS118,FMD,Foot-and-Mouth Disease,2026-04-03,2026-10-02,FMD-2605,Dr. M. Sawant,Scheduled,Every 6 months
+VC0479,DS118,HS,Haemorrhagic Septicaemia,,,,,Due,
+VC0480,DS118,BQ,Black Quarter,2025-09-28,2026-09-28,BQ-2565,Dr. P. Naik,Scheduled,Every 12 months
+VC0481,DS118,LSD,Lumpy Skin Disease,2026-07-14,2027-07-14,LSD-2514,Dr. R. Deshpande,Completed,Every 12 months
+VC0482,DS119,FMD,Foot-and-Mouth Disease,2026-04-07,2026-10-06,FMD-2558,Dr. R. Deshpande,Scheduled,Every 6 months
+VC0483,DS119,HS,Haemorrhagic Septicaemia,2025-12-30,2026-12-30,HS-2581,Dr. S. Joshi,Completed,Every 12 months
+VC0484,DS119,BQ,Black Quarter,2026-07-16,2027-07-16,BQ-2515,Dr. S. Joshi,Completed,Every 12 months
+VC0485,DS119,LSD,Lumpy Skin Disease,,,,,Due,
+VC0486,DS120,FMD,Foot-and-Mouth Disease,2026-04-04,2026-10-03,FMD-2555,Dr. A. Kulkarni,Scheduled,Every 6 months
+VC0487,DS120,HS,Haemorrhagic Septicaemia,2026-02-23,2027-02-23,HS-2590,Dr. R. Deshpande,Completed,Every 12 months
+VC0488,DS120,BQ,Black Quarter,2026-01-22,2027-01-22,BQ-2588,Dr. V. Thorat,Completed,Every 12 months
+VC0489,DS120,LSD,Lumpy Skin Disease,2026-05-29,2027-05-29,LSD-2524,Dr. S. Joshi,Completed,Every 12 months
+VC0490,DS121,FMD,Foot-and-Mouth Disease,2026-03-30,2026-09-28,FMD-2592,Dr. M. Sawant,Scheduled,Every 6 months
+VC0491,DS121,HS,Haemorrhagic Septicaemia,2025-10-15,2026-10-15,HS-2515,Dr. S. Joshi,Scheduled,Every 12 months
+VC0492,DS121,BQ,Black Quarter,2025-11-17,2026-11-17,BQ-2509,Dr. V. Thorat,Completed,Every 12 months
+VC0493,DS121,LSD,Lumpy Skin Disease,2025-12-04,2026-12-04,LSD-2580,Dr. A. Kulkarni,Completed,Every 12 months
+VC0494,DS122,FMD,Foot-and-Mouth Disease,2026-06-17,2026-12-16,FMD-2572,Dr. R. Deshpande,Completed,Every 6 months
+VC0495,DS122,HS,Haemorrhagic Septicaemia,2026-04-06,2027-04-06,HS-2584,Dr. A. Kulkarni,Completed,Every 12 months
+VC0496,DS122,BQ,Black Quarter,,,,,Due,
+VC0497,DS122,LSD,Lumpy Skin Disease,2026-03-27,2027-03-27,LSD-2541,Dr. R. Deshpande,Completed,Every 12 months
+VC0498,DS123,FMD,Foot-and-Mouth Disease,2026-08-19,2027-02-17,FMD-2554,Dr. V. Thorat,Completed,Every 6 months
+VC0499,DS123,HS,Haemorrhagic Septicaemia,,,,,Due,
+VC0500,DS123,BQ,Black Quarter,2026-08-14,2027-08-14,BQ-2511,Dr. A. Kulkarni,Completed,Every 12 months
+VC0501,DS123,LSD,Lumpy Skin Disease,2026-03-18,2027-03-18,LSD-2573,Dr. M. Sawant,Completed,Every 12 months
+VC0502,DS124,FMD,Foot-and-Mouth Disease,2026-04-23,2026-10-22,FMD-2603,Dr. V. Thorat,Completed,Every 6 months
+VC0503,DS124,HS,Haemorrhagic Septicaemia,2026-03-30,2027-03-30,HS-2516,Dr. V. Thorat,Completed,Every 12 months
+VC0504,DS124,BQ,Black Quarter,2026-03-18,2027-03-18,BQ-2541,Dr. R. Deshpande,Completed,Every 12 months
+VC0505,DS124,LSD,Lumpy Skin Disease,2026-06-16,2027-06-16,LSD-2602,Dr. V. Thorat,Completed,Every 12 months
+VC0506,DS125,FMD,Foot-and-Mouth Disease,2026-08-16,2027-02-14,FMD-2592,Dr. V. Thorat,Completed,Every 6 months
+VC0507,DS125,HS,Haemorrhagic Septicaemia,2026-01-07,2027-01-07,HS-2562,Dr. P. Naik,Completed,Every 12 months
+VC0508,DS125,BQ,Black Quarter,,,,,Due,
+VC0509,DS125,Brucellosis,Brucellosis,2026-01-09,,Brucellosis-2530,Dr. V. Thorat,Completed,One-time (calfhood)
+VC0510,DS125,LSD,Lumpy Skin Disease,2026-08-24,2027-08-24,LSD-2591,Dr. S. Joshi,Completed,Every 12 months
+VC0511,DS126,FMD,Foot-and-Mouth Disease,,,,,Due,
+VC0512,DS126,HS,Haemorrhagic Septicaemia,,,,,Due,
+VC0513,DS126,BQ,Black Quarter,2025-11-24,2026-11-24,BQ-2596,Dr. P. Naik,Completed,Every 12 months
+VC0514,DS126,Brucellosis,Brucellosis,2025-10-30,,Brucellosis-2575,Dr. V. Thorat,Completed,One-time (calfhood)
+VC0515,DS126,LSD,Lumpy Skin Disease,2026-03-13,2027-03-13,LSD-2558,Dr. S. Joshi,Completed,Every 12 months
+VC0516,DS127,FMD,Foot-and-Mouth Disease,2026-08-28,2027-02-26,FMD-2538,Dr. M. Sawant,Completed,Every 6 months
+VC0517,DS127,HS,Haemorrhagic Septicaemia,2026-01-27,2027-01-27,HS-2538,Dr. R. Deshpande,Completed,Every 12 months
+VC0518,DS127,BQ,Black Quarter,2026-04-01,2027-04-01,BQ-2507,Dr. P. Naik,Completed,Every 12 months
+VC0519,DS127,LSD,Lumpy Skin Disease,,,,,Due,
+VC0520,DS128,FMD,Foot-and-Mouth Disease,2026-05-24,2026-11-22,FMD-2546,Dr. R. Deshpande,Completed,Every 6 months
+VC0521,DS128,HS,Haemorrhagic Septicaemia,2026-04-11,2027-04-11,HS-2525,Dr. P. Naik,Completed,Every 12 months
+VC0522,DS128,BQ,Black Quarter,2025-10-28,2026-10-28,BQ-2578,Dr. V. Thorat,Completed,Every 12 months
+VC0523,DS128,LSD,Lumpy Skin Disease,2026-05-22,2027-05-22,LSD-2537,Dr. P. Naik,Completed,Every 12 months
+VC0524,DS129,FMD,Foot-and-Mouth Disease,2026-06-25,2026-12-24,FMD-2577,Dr. V. Thorat,Completed,Every 6 months
+VC0525,DS129,HS,Haemorrhagic Septicaemia,2026-09-04,2027-09-04,HS-2571,Dr. S. Joshi,Completed,Every 12 months
+VC0526,DS129,BQ,Black Quarter,2026-07-09,2027-07-09,BQ-2599,Dr. R. Deshpande,Completed,Every 12 months
+VC0527,DS129,LSD,Lumpy Skin Disease,2025-09-30,2026-09-30,LSD-2550,Dr. R. Deshpande,Scheduled,Every 12 months
+VC0528,DS130,FMD,Foot-and-Mouth Disease,,,,,Due,
+VC0529,DS130,HS,Haemorrhagic Septicaemia,,,,,Due,
+VC0530,DS130,BQ,Black Quarter,2026-01-22,2027-01-22,BQ-2576,Dr. M. Sawant,Completed,Every 12 months
+VC0531,DS130,Brucellosis,Brucellosis,,,,,Due,
+VC0532,DS130,LSD,Lumpy Skin Disease,2026-04-26,2027-04-26,LSD-2526,Dr. S. Joshi,Completed,Every 12 months
+VC0533,DS131,FMD,Foot-and-Mouth Disease,,,,,Due,
+VC0534,DS131,HS,Haemorrhagic Septicaemia,2026-07-28,2027-07-28,HS-2573,Dr. A. Kulkarni,Completed,Every 12 months
+VC0535,DS131,BQ,Black Quarter,2026-07-18,2027-07-18,BQ-2553,Dr. P. Naik,Completed,Every 12 months
+VC0536,DS131,LSD,Lumpy Skin Disease,2026-07-01,2027-07-01,LSD-2512,Dr. M. Sawant,Completed,Every 12 months
+VC0537,DS132,FMD,Foot-and-Mouth Disease,,,,,Due,
+VC0538,DS132,HS,Haemorrhagic Septicaemia,2026-04-28,2027-04-28,HS-2519,Dr. P. Naik,Completed,Every 12 months
+VC0539,DS132,BQ,Black Quarter,2026-05-22,2027-05-22,BQ-2507,Dr. V. Thorat,Completed,Every 12 months
+VC0540,DS132,LSD,Lumpy Skin Disease,2026-06-09,2027-06-09,LSD-2544,Dr. P. Naik,Completed,Every 12 months
+VC0541,DS133,FMD,Foot-and-Mouth Disease,2026-03-25,2026-09-23,FMD-2572,Dr. P. Naik,Scheduled,Every 6 months
+VC0542,DS133,HS,Haemorrhagic Septicaemia,2026-01-13,2027-01-13,HS-2566,Dr. P. Naik,Completed,Every 12 months
+VC0543,DS133,BQ,Black Quarter,2026-03-06,2027-03-06,BQ-2609,Dr. V. Thorat,Completed,Every 12 months
+VC0544,DS133,LSD,Lumpy Skin Disease,2025-12-06,2026-12-06,LSD-2550,Dr. R. Deshpande,Completed,Every 12 months
+VC0545,DS134,FMD,Foot-and-Mouth Disease,,,,,Due,
+VC0546,DS134,HS,Haemorrhagic Septicaemia,2026-07-02,2027-07-02,HS-2516,Dr. S. Joshi,Completed,Every 12 months
+VC0547,DS134,BQ,Black Quarter,2026-02-12,2027-02-12,BQ-2580,Dr. S. Joshi,Completed,Every 12 months
+VC0548,DS134,LSD,Lumpy Skin Disease,2026-02-25,2027-02-25,LSD-2598,Dr. V. Thorat,Completed,Every 12 months
+VC0549,DS135,FMD,Foot-and-Mouth Disease,2026-05-16,2026-11-14,FMD-2526,Dr. P. Naik,Completed,Every 6 months
+VC0550,DS135,HS,Haemorrhagic Septicaemia,2026-05-13,2027-05-13,HS-2606,Dr. R. Deshpande,Completed,Every 12 months
+VC0551,DS135,BQ,Black Quarter,2026-06-23,2027-06-23,BQ-2590,Dr. V. Thorat,Completed,Every 12 months
+VC0552,DS135,Brucellosis,Brucellosis,2025-11-17,,Brucellosis-2598,Dr. A. Kulkarni,Completed,One-time (calfhood)
+VC0553,DS135,LSD,Lumpy Skin Disease,2026-05-06,2027-05-06,LSD-2555,Dr. S. Joshi,Completed,Every 12 months
+VC0554,DS136,FMD,Foot-and-Mouth Disease,,,,,Due,
+VC0555,DS136,HS,Haemorrhagic Septicaemia,,,,,Due,
+VC0556,DS136,BQ,Black Quarter,2026-07-09,2027-07-09,BQ-2519,Dr. V. Thorat,Completed,Every 12 months
+VC0557,DS136,LSD,Lumpy Skin Disease,,,,,Due,
+VC0558,DS137,FMD,Foot-and-Mouth Disease,,,,,Due,
+VC0559,DS137,HS,Haemorrhagic Septicaemia,2025-12-18,2026-12-18,HS-2542,Dr. P. Naik,Completed,Every 12 months
+VC0560,DS137,BQ,Black Quarter,2026-04-15,2027-04-15,BQ-2580,Dr. A. Kulkarni,Completed,Every 12 months
+VC0561,DS137,LSD,Lumpy Skin Disease,,,,,Due,
+VC0562,DS138,FMD,Foot-and-Mouth Disease,,,,,Due,
+VC0563,DS138,HS,Haemorrhagic Septicaemia,2026-05-08,2027-05-08,HS-2548,Dr. A. Kulkarni,Completed,Every 12 months
+VC0564,DS138,BQ,Black Quarter,2026-01-10,2027-01-10,BQ-2608,Dr. M. Sawant,Completed,Every 12 months
+VC0565,DS138,LSD,Lumpy Skin Disease,2026-02-14,2027-02-14,LSD-2594,Dr. M. Sawant,Completed,Every 12 months
+VC0566,DS139,FMD,Foot-and-Mouth Disease,2026-06-03,2026-12-02,FMD-2559,Dr. P. Naik,Completed,Every 6 months
+VC0567,DS139,HS,Haemorrhagic Septicaemia,,,,,Due,
+VC0568,DS139,BQ,Black Quarter,2025-10-08,2026-10-08,BQ-2577,Dr. R. Deshpande,Scheduled,Every 12 months
+VC0569,DS139,Brucellosis,Brucellosis,2025-08-18,,Brucellosis-2527,Dr. P. Naik,Completed,One-time (calfhood)
+VC0570,DS139,LSD,Lumpy Skin Disease,2025-10-10,2026-10-10,LSD-2505,Dr. R. Deshpande,Scheduled,Every 12 months
+VC0571,DS140,FMD,Foot-and-Mouth Disease,,,,,Due,
+VC0572,DS140,HS,Haemorrhagic Septicaemia,,,,,Due,
+VC0573,DS140,BQ,Black Quarter,,,,,Due,
+VC0574,DS140,LSD,Lumpy Skin Disease,,,,,Due,
+VC0575,DS141,FMD,Foot-and-Mouth Disease,2026-06-08,2026-12-07,FMD-2524,Dr. V. Thorat,Completed,Every 6 months
+VC0576,DS141,HS,Haemorrhagic Septicaemia,2026-06-17,2027-06-17,HS-2503,Dr. R. Deshpande,Completed,Every 12 months
+VC0577,DS141,BQ,Black Quarter,2026-03-12,2027-03-12,BQ-2528,Dr. V. Thorat,Completed,Every 12 months
+VC0578,DS141,Brucellosis,Brucellosis,,,,,Due,
+VC0579,DS141,LSD,Lumpy Skin Disease,2025-12-07,2026-12-07,LSD-2526,Dr. A. Kulkarni,Completed,Every 12 months
+VC0580,DS142,FMD,Foot-and-Mouth Disease,2026-05-18,2026-11-16,FMD-2507,Dr. A. Kulkarni,Completed,Every 6 months
+VC0581,DS142,HS,Haemorrhagic Septicaemia,2026-01-20,2027-01-20,HS-2574,Dr. S. Joshi,Completed,Every 12 months
+VC0582,DS142,BQ,Black Quarter,2025-11-19,2026-11-19,BQ-2573,Dr. P. Naik,Completed,Every 12 months
+VC0583,DS142,LSD,Lumpy Skin Disease,2025-11-02,2026-11-02,LSD-2533,Dr. A. Kulkarni,Completed,Every 12 months
+VC0584,DS143,FMD,Foot-and-Mouth Disease,2026-06-09,2026-12-08,FMD-2562,Dr. S. Joshi,Completed,Every 6 months
+VC0585,DS143,HS,Haemorrhagic Septicaemia,2026-05-21,2027-05-21,HS-2515,Dr. R. Deshpande,Completed,Every 12 months
+VC0586,DS143,BQ,Black Quarter,2026-03-17,2027-03-17,BQ-2546,Dr. S. Joshi,Completed,Every 12 months
+VC0587,DS143,LSD,Lumpy Skin Disease,,,,,Due,
+VC0588,DS144,FMD,Foot-and-Mouth Disease,2026-04-27,2026-10-26,FMD-2546,Dr. S. Joshi,Completed,Every 6 months
+VC0589,DS144,HS,Haemorrhagic Septicaemia,2025-09-28,2026-09-28,HS-2597,Dr. R. Deshpande,Scheduled,Every 12 months
+VC0590,DS144,BQ,Black Quarter,2026-02-09,2027-02-09,BQ-2608,Dr. S. Joshi,Completed,Every 12 months
+VC0591,DS144,LSD,Lumpy Skin Disease,,,,,Due,
+VC0592,DS145,FMD,Foot-and-Mouth Disease,2026-08-10,2027-02-08,FMD-2573,Dr. P. Naik,Completed,Every 6 months
+VC0593,DS145,HS,Haemorrhagic Septicaemia,,,,,Due,
+VC0594,DS145,BQ,Black Quarter,2025-09-29,2026-09-29,BQ-2545,Dr. V. Thorat,Scheduled,Every 12 months
+VC0595,DS145,LSD,Lumpy Skin Disease,,,,,Due,
+VC0596,DS146,FMD,Foot-and-Mouth Disease,2026-07-22,2027-01-20,FMD-2610,Dr. S. Joshi,Completed,Every 6 months
+VC0597,DS146,HS,Haemorrhagic Septicaemia,2026-03-10,2027-03-10,HS-2529,Dr. P. Naik,Completed,Every 12 months
+VC0598,DS146,BQ,Black Quarter,2025-09-26,2026-09-26,BQ-2538,Dr. A. Kulkarni,Scheduled,Every 12 months
+VC0599,DS146,LSD,Lumpy Skin Disease,2026-06-09,2027-06-09,LSD-2523,Dr. S. Joshi,Completed,Every 12 months
+VC0600,DS147,FMD,Foot-and-Mouth Disease,2026-03-31,2026-09-29,FMD-2573,Dr. V. Thorat,Scheduled,Every 6 months
+VC0601,DS147,HS,Haemorrhagic Septicaemia,2026-06-15,2027-06-15,HS-2555,Dr. S. Joshi,Completed,Every 12 months
+VC0602,DS147,BQ,Black Quarter,2025-11-03,2026-11-03,BQ-2557,Dr. S. Joshi,Completed,Every 12 months
+VC0603,DS147,LSD,Lumpy Skin Disease,2026-03-22,2027-03-22,LSD-2609,Dr. A. Kulkarni,Completed,Every 12 months
+VC0604,DS148,FMD,Foot-and-Mouth Disease,2026-04-24,2026-10-23,FMD-2510,Dr. V. Thorat,Completed,Every 6 months
+VC0605,DS148,HS,Haemorrhagic Septicaemia,,,,,Due,
+VC0606,DS148,BQ,Black Quarter,2025-12-24,2026-12-24,BQ-2563,Dr. M. Sawant,Completed,Every 12 months
+VC0607,DS148,LSD,Lumpy Skin Disease,2026-03-11,2027-03-11,LSD-2513,Dr. A. Kulkarni,Completed,Every 12 months
+VC0608,DS149,FMD,Foot-and-Mouth Disease,,,,,Due,
+VC0609,DS149,HS,Haemorrhagic Septicaemia,2026-04-10,2027-04-10,HS-2541,Dr. P. Naik,Completed,Every 12 months
+VC0610,DS149,BQ,Black Quarter,2026-01-15,2027-01-15,BQ-2595,Dr. S. Joshi,Completed,Every 12 months
+VC0611,DS149,LSD,Lumpy Skin Disease,2026-03-30,2027-03-30,LSD-2596,Dr. V. Thorat,Completed,Every 12 months
+VC0612,DS150,FMD,Foot-and-Mouth Disease,,,,,Due,
+VC0613,DS150,HS,Haemorrhagic Septicaemia,,,,,Due,
+VC0614,DS150,BQ,Black Quarter,2025-10-11,2026-10-11,BQ-2600,Dr. A. Kulkarni,Scheduled,Every 12 months
+VC0615,DS150,LSD,Lumpy Skin Disease,2025-10-04,2026-10-04,LSD-2535,Dr. M. Sawant,Scheduled,Every 12 months
+VC0616,DS151,FMD,Foot-and-Mouth Disease,2026-07-07,2027-01-05,FMD-2531,Dr. S. Joshi,Completed,Every 6 months
+VC0617,DS151,HS,Haemorrhagic Septicaemia,2026-01-27,2027-01-27,HS-2561,Dr. P. Naik,Completed,Every 12 months
+VC0618,DS151,BQ,Black Quarter,2025-09-30,2026-09-30,BQ-2512,Dr. V. Thorat,Scheduled,Every 12 months
+VC0619,DS151,LSD,Lumpy Skin Disease,2026-08-09,2027-08-09,LSD-2516,Dr. A. Kulkarni,Completed,Every 12 months
+VC0620,DS152,FMD,Foot-and-Mouth Disease,2026-05-04,2026-11-02,FMD-2537,Dr. M. Sawant,Completed,Every 6 months
+VC0621,DS152,HS,Haemorrhagic Septicaemia,2026-06-23,2027-06-23,HS-2575,Dr. M. Sawant,Completed,Every 12 months
+VC0622,DS152,BQ,Black Quarter,2025-11-26,2026-11-26,BQ-2561,Dr. P. Naik,Completed,Every 12 months
+VC0623,DS152,LSD,Lumpy Skin Disease,2026-07-09,2027-07-09,LSD-2515,Dr. R. Deshpande,Completed,Every 12 months
+VC0624,DS153,FMD,Foot-and-Mouth Disease,2026-08-15,2027-02-13,FMD-2582,Dr. R. Deshpande,Completed,Every 6 months
+VC0625,DS153,HS,Haemorrhagic Septicaemia,2026-06-15,2027-06-15,HS-2525,Dr. R. Deshpande,Completed,Every 12 months
+VC0626,DS153,BQ,Black Quarter,2026-02-18,2027-02-18,BQ-2575,Dr. V. Thorat,Completed,Every 12 months
+VC0627,DS153,Brucellosis,Brucellosis,2026-08-11,,Brucellosis-2544,Dr. V. Thorat,Completed,One-time (calfhood)
+VC0628,DS153,LSD,Lumpy Skin Disease,,,,,Due,
+VC0629,DS154,FMD,Foot-and-Mouth Disease,,,,,Due,
+VC0630,DS154,HS,Haemorrhagic Septicaemia,2026-04-29,2027-04-29,HS-2582,Dr. R. Deshpande,Completed,Every 12 months
+VC0631,DS154,BQ,Black Quarter,2026-07-15,2027-07-15,BQ-2512,Dr. A. Kulkarni,Completed,Every 12 months
+VC0632,DS154,LSD,Lumpy Skin Disease,2026-04-23,2027-04-23,LSD-2545,Dr. S. Joshi,Completed,Every 12 months
+VC0633,DS155,FMD,Foot-and-Mouth Disease,2026-09-10,2027-03-11,FMD-2550,Dr. A. Kulkarni,Completed,Every 6 months
+VC0634,DS155,HS,Haemorrhagic Septicaemia,,,,,Due,
+VC0635,DS155,BQ,Black Quarter,2026-05-26,2027-05-26,BQ-2588,Dr. S. Joshi,Completed,Every 12 months
+VC0636,DS155,LSD,Lumpy Skin Disease,2026-04-14,2027-04-14,LSD-2573,Dr. M. Sawant,Completed,Every 12 months
+VC0637,DS156,FMD,Foot-and-Mouth Disease,2026-08-13,2027-02-11,FMD-2588,Dr. V. Thorat,Completed,Every 6 months
+VC0638,DS156,HS,Haemorrhagic Septicaemia,2026-06-22,2027-06-22,HS-2520,Dr. V. Thorat,Completed,Every 12 months
+VC0639,DS156,BQ,Black Quarter,2026-03-03,2027-03-03,BQ-2588,Dr. S. Joshi,Completed,Every 12 months
+VC0640,DS156,LSD,Lumpy Skin Disease,2026-01-01,2027-01-01,LSD-2532,Dr. S. Joshi,Completed,Every 12 months
+VC0641,DS157,FMD,Foot-and-Mouth Disease,2026-08-09,2027-02-07,FMD-2503,Dr. S. Joshi,Completed,Every 6 months
+VC0642,DS157,HS,Haemorrhagic Septicaemia,2025-10-21,2026-10-21,HS-2571,Dr. V. Thorat,Scheduled,Every 12 months
+VC0643,DS157,BQ,Black Quarter,2025-12-15,2026-12-15,BQ-2556,Dr. M. Sawant,Completed,Every 12 months
+VC0644,DS157,LSD,Lumpy Skin Disease,2026-08-24,2027-08-24,LSD-2504,Dr. R. Deshpande,Completed,Every 12 months
+VC0645,DS158,FMD,Foot-and-Mouth Disease,,,,,Due,
+VC0646,DS158,HS,Haemorrhagic Septicaemia,2026-07-08,2027-07-08,HS-2569,Dr. M. Sawant,Completed,Every 12 months
+VC0647,DS158,BQ,Black Quarter,2026-06-13,2027-06-13,BQ-2567,Dr. R. Deshpande,Completed,Every 12 months
+VC0648,DS158,Brucellosis,Brucellosis,2026-06-10,,Brucellosis-2536,Dr. M. Sawant,Completed,One-time (calfhood)
+VC0649,DS158,LSD,Lumpy Skin Disease,2026-08-24,2027-08-24,LSD-2580,Dr. A. Kulkarni,Completed,Every 12 months
+VC0650,DS159,FMD,Foot-and-Mouth Disease,2026-06-05,2026-12-04,FMD-2580,Dr. P. Naik,Completed,Every 6 months
+VC0651,DS159,HS,Haemorrhagic Septicaemia,2025-12-09,2026-12-09,HS-2512,Dr. R. Deshpande,Completed,Every 12 months
+VC0652,DS159,BQ,Black Quarter,2026-04-02,2027-04-02,BQ-2538,Dr. V. Thorat,Completed,Every 12 months
+VC0653,DS159,LSD,Lumpy Skin Disease,,,,,Due,
+VC0654,DS160,FMD,Foot-and-Mouth Disease,,,,,Due,
+VC0655,DS160,HS,Haemorrhagic Septicaemia,2026-07-01,2027-07-01,HS-2606,Dr. A. Kulkarni,Completed,Every 12 months
+VC0656,DS160,BQ,Black Quarter,2026-01-03,2027-01-03,BQ-2537,Dr. R. Deshpande,Completed,Every 12 months
+VC0657,DS160,LSD,Lumpy Skin Disease,2025-11-24,2026-11-24,LSD-2610,Dr. M. Sawant,Completed,Every 12 months
+VC0658,DS161,FMD,Foot-and-Mouth Disease,2026-03-30,2026-09-28,FMD-2526,Dr. S. Joshi,Scheduled,Every 6 months
+VC0659,DS161,HS,Haemorrhagic Septicaemia,2026-05-26,2027-05-26,HS-2547,Dr. R. Deshpande,Completed,Every 12 months
+VC0660,DS161,BQ,Black Quarter,,,,,Due,
+VC0661,DS161,LSD,Lumpy Skin Disease,2026-04-29,2027-04-29,LSD-2504,Dr. R. Deshpande,Completed,Every 12 months
+VC0662,DS162,FMD,Foot-and-Mouth Disease,2026-08-08,2027-02-06,FMD-2583,Dr. P. Naik,Completed,Every 6 months
+VC0663,DS162,HS,Haemorrhagic Septicaemia,2025-10-19,2026-10-19,HS-2518,Dr. A. Kulkarni,Scheduled,Every 12 months
+VC0664,DS162,BQ,Black Quarter,2026-06-20,2027-06-20,BQ-2571,Dr. M. Sawant,Completed,Every 12 months
+VC0665,DS162,LSD,Lumpy Skin Disease,2025-10-10,2026-10-10,LSD-2563,Dr. P. Naik,Scheduled,Every 12 months
+VC0666,DS163,FMD,Foot-and-Mouth Disease,2026-07-09,2027-01-07,FMD-2608,Dr. M. Sawant,Completed,Every 6 months
+VC0667,DS163,HS,Haemorrhagic Septicaemia,2026-08-23,2027-08-23,HS-2519,Dr. V. Thorat,Completed,Every 12 months
+VC0668,DS163,BQ,Black Quarter,,,,,Due,
+VC0669,DS163,LSD,Lumpy Skin Disease,2026-08-18,2027-08-18,LSD-2584,Dr. A. Kulkarni,Completed,Every 12 months
+VC0670,DS164,FMD,Foot-and-Mouth Disease,2026-04-28,2026-10-27,FMD-2533,Dr. M. Sawant,Completed,Every 6 months
+VC0671,DS164,HS,Haemorrhagic Septicaemia,2026-03-21,2027-03-21,HS-2545,Dr. V. Thorat,Completed,Every 12 months
+VC0672,DS164,BQ,Black Quarter,2025-10-19,2026-10-19,BQ-2551,Dr. A. Kulkarni,Scheduled,Every 12 months
+VC0673,DS164,LSD,Lumpy Skin Disease,,,,,Due,
+VC0674,DS165,FMD,Foot-and-Mouth Disease,2026-08-16,2027-02-14,FMD-2568,Dr. P. Naik,Completed,Every 6 months
+VC0675,DS165,HS,Haemorrhagic Septicaemia,2026-06-20,2027-06-20,HS-2606,Dr. R. Deshpande,Completed,Every 12 months
+VC0676,DS165,BQ,Black Quarter,2026-05-27,2027-05-27,BQ-2599,Dr. S. Joshi,Completed,Every 12 months
+VC0677,DS165,LSD,Lumpy Skin Disease,,,,,Due,
+VC0678,DS166,FMD,Foot-and-Mouth Disease,2026-04-10,2026-10-09,FMD-2576,Dr. V. Thorat,Scheduled,Every 6 months
+VC0679,DS166,HS,Haemorrhagic Septicaemia,,,,,Due,
+VC0680,DS166,BQ,Black Quarter,2026-03-13,2027-03-13,BQ-2582,Dr. V. Thorat,Completed,Every 12 months
+VC0681,DS166,LSD,Lumpy Skin Disease,2026-06-12,2027-06-12,LSD-2589,Dr. A. Kulkarni,Completed,Every 12 months
+VC0682,DS167,FMD,Foot-and-Mouth Disease,2026-03-29,2026-09-27,FMD-2515,Dr. M. Sawant,Scheduled,Every 6 months
+VC0683,DS167,HS,Haemorrhagic Septicaemia,,,,,Due,
+VC0684,DS167,BQ,Black Quarter,2026-05-25,2027-05-25,BQ-2590,Dr. P. Naik,Completed,Every 12 months
+VC0685,DS167,LSD,Lumpy Skin Disease,2026-01-24,2027-01-24,LSD-2573,Dr. V. Thorat,Completed,Every 12 months
+VC0686,DS168,FMD,Foot-and-Mouth Disease,2026-04-19,2026-10-18,FMD-2565,Dr. P. Naik,Scheduled,Every 6 months
+VC0687,DS168,HS,Haemorrhagic Septicaemia,2025-10-19,2026-10-19,HS-2528,Dr. R. Deshpande,Scheduled,Every 12 months
+VC0688,DS168,BQ,Black Quarter,2026-06-21,2027-06-21,BQ-2561,Dr. S. Joshi,Completed,Every 12 months
+VC0689,DS168,Brucellosis,Brucellosis,2025-08-28,,Brucellosis-2590,Dr. V. Thorat,Completed,One-time (calfhood)
+VC0690,DS168,LSD,Lumpy Skin Disease,2026-08-19,2027-08-19,LSD-2531,Dr. S. Joshi,Completed,Every 12 months
+VC0691,DS169,FMD,Foot-and-Mouth Disease,2026-05-29,2026-11-27,FMD-2521,Dr. R. Deshpande,Completed,Every 6 months
+VC0692,DS169,HS,Haemorrhagic Septicaemia,2025-10-16,2026-10-16,HS-2608,Dr. R. Deshpande,Scheduled,Every 12 months
+VC0693,DS169,BQ,Black Quarter,2025-10-15,2026-10-15,BQ-2558,Dr. M. Sawant,Scheduled,Every 12 months
+VC0694,DS169,LSD,Lumpy Skin Disease,2026-05-08,2027-05-08,LSD-2503,Dr. M. Sawant,Completed,Every 12 months
+VC0695,DS170,FMD,Foot-and-Mouth Disease,2026-05-29,2026-11-27,FMD-2533,Dr. V. Thorat,Completed,Every 6 months
+VC0696,DS170,HS,Haemorrhagic Septicaemia,2025-09-26,2026-09-26,HS-2515,Dr. P. Naik,Scheduled,Every 12 months
+VC0697,DS170,BQ,Black Quarter,2026-04-19,2027-04-19,BQ-2579,Dr. P. Naik,Completed,Every 12 months
+VC0698,DS170,LSD,Lumpy Skin Disease,2026-03-31,2027-03-31,LSD-2528,Dr. A. Kulkarni,Completed,Every 12 months
+VC0699,DS171,FMD,Foot-and-Mouth Disease,2026-08-24,2027-02-22,FMD-2588,Dr. S. Joshi,Completed,Every 6 months
+VC0700,DS171,HS,Haemorrhagic Septicaemia,2026-08-04,2027-08-04,HS-2558,Dr. V. Thorat,Completed,Every 12 months
+VC0701,DS171,BQ,Black Quarter,2026-08-31,2027-08-31,BQ-2555,Dr. S. Joshi,Completed,Every 12 months
+VC0702,DS171,LSD,Lumpy Skin Disease,2026-09-01,2027-09-01,LSD-2523,Dr. V. Thorat,Completed,Every 12 months
+VC0703,DS172,FMD,Foot-and-Mouth Disease,2026-04-01,2026-09-30,FMD-2560,Dr. V. Thorat,Scheduled,Every 6 months
+VC0704,DS172,HS,Haemorrhagic Septicaemia,2026-08-11,2027-08-11,HS-2552,Dr. R. Deshpande,Completed,Every 12 months
+VC0705,DS172,BQ,Black Quarter,2026-03-16,2027-03-16,BQ-2594,Dr. P. Naik,Completed,Every 12 months
+VC0706,DS172,Brucellosis,Brucellosis,2026-04-15,,Brucellosis-2563,Dr. R. Deshpande,Completed,One-time (calfhood)
+VC0707,DS172,LSD,Lumpy Skin Disease,,,,,Due,
+VC0708,DS173,FMD,Foot-and-Mouth Disease,2026-05-26,2026-11-24,FMD-2595,Dr. P. Naik,Completed,Every 6 months
+VC0709,DS173,HS,Haemorrhagic Septicaemia,2026-07-20,2027-07-20,HS-2586,Dr. M. Sawant,Completed,Every 12 months
+VC0710,DS173,BQ,Black Quarter,2026-04-02,2027-04-02,BQ-2569,Dr. A. Kulkarni,Completed,Every 12 months
+VC0711,DS173,LSD,Lumpy Skin Disease,,,,,Due,
+VC0712,DS174,FMD,Foot-and-Mouth Disease,2026-07-02,2026-12-31,FMD-2530,Dr. M. Sawant,Completed,Every 6 months
+VC0713,DS174,HS,Haemorrhagic Septicaemia,2025-10-26,2026-10-26,HS-2578,Dr. P. Naik,Completed,Every 12 months
+VC0714,DS174,BQ,Black Quarter,2026-05-08,2027-05-08,BQ-2568,Dr. P. Naik,Completed,Every 12 months
+VC0715,DS174,LSD,Lumpy Skin Disease,2025-09-28,2026-09-28,LSD-2592,Dr. S. Joshi,Scheduled,Every 12 months
+VC0716,DS175,FMD,Foot-and-Mouth Disease,2026-04-21,2026-10-20,FMD-2513,Dr. A. Kulkarni,Scheduled,Every 6 months
+VC0717,DS175,HS,Haemorrhagic Septicaemia,2025-10-22,2026-10-22,HS-2503,Dr. M. Sawant,Completed,Every 12 months
+VC0718,DS175,BQ,Black Quarter,2026-01-11,2027-01-11,BQ-2592,Dr. A. Kulkarni,Completed,Every 12 months
+VC0719,DS175,LSD,Lumpy Skin Disease,,,,,Due,
+VC0720,DS176,FMD,Foot-and-Mouth Disease,2026-08-12,2027-02-10,FMD-2541,Dr. P. Naik,Completed,Every 6 months
+VC0721,DS176,HS,Haemorrhagic Septicaemia,2025-10-14,2026-10-14,HS-2528,Dr. S. Joshi,Scheduled,Every 12 months
+VC0722,DS176,BQ,Black Quarter,2025-11-15,2026-11-15,BQ-2610,Dr. V. Thorat,Completed,Every 12 months
+VC0723,DS176,LSD,Lumpy Skin Disease,2025-09-27,2026-09-27,LSD-2564,Dr. P. Naik,Scheduled,Every 12 months
+VC0724,DS177,FMD,Foot-and-Mouth Disease,,,,,Due,
+VC0725,DS177,HS,Haemorrhagic Septicaemia,2026-08-19,2027-08-19,HS-2600,Dr. A. Kulkarni,Completed,Every 12 months
+VC0726,DS177,BQ,Black Quarter,2026-05-21,2027-05-21,BQ-2532,Dr. P. Naik,Completed,Every 12 months
+VC0727,DS177,Brucellosis,Brucellosis,,,,,Due,
+VC0728,DS177,LSD,Lumpy Skin Disease,2025-10-09,2026-10-09,LSD-2528,Dr. A. Kulkarni,Scheduled,Every 12 months
+VC0729,DS178,FMD,Foot-and-Mouth Disease,2026-07-14,2027-01-12,FMD-2564,Dr. M. Sawant,Completed,Every 6 months
+VC0730,DS178,HS,Haemorrhagic Septicaemia,2026-08-18,2027-08-18,HS-2503,Dr. A. Kulkarni,Completed,Every 12 months
+VC0731,DS178,BQ,Black Quarter,2026-04-18,2027-04-18,BQ-2513,Dr. P. Naik,Completed,Every 12 months
+VC0732,DS178,LSD,Lumpy Skin Disease,,,,,Due,
+VC0733,DS179,FMD,Foot-and-Mouth Disease,2026-04-23,2026-10-22,FMD-2612,Dr. A. Kulkarni,Completed,Every 6 months
+VC0734,DS179,HS,Haemorrhagic Septicaemia,2025-10-03,2026-10-03,HS-2570,Dr. M. Sawant,Scheduled,Every 12 months
+VC0735,DS179,BQ,Black Quarter,2026-08-08,2027-08-08,BQ-2559,Dr. P. Naik,Completed,Every 12 months
+VC0736,DS179,LSD,Lumpy Skin Disease,2026-03-26,2027-03-26,LSD-2543,Dr. R. Deshpande,Completed,Every 12 months
+VC0737,DS180,FMD,Foot-and-Mouth Disease,2026-06-07,2026-12-06,FMD-2572,Dr. A. Kulkarni,Completed,Every 6 months
+VC0738,DS180,HS,Haemorrhagic Septicaemia,2026-06-27,2027-06-27,HS-2528,Dr. S. Joshi,Completed,Every 12 months
+VC0739,DS180,BQ,Black Quarter,2025-10-20,2026-10-20,BQ-2574,Dr. R. Deshpande,Scheduled,Every 12 months
+VC0740,DS180,LSD,Lumpy Skin Disease,2025-12-14,2026-12-14,LSD-2553,Dr. R. Deshpande,Completed,Every 12 months
+VC0741,DS181,FMD,Foot-and-Mouth Disease,,,,,Due,
+VC0742,DS181,HS,Haemorrhagic Septicaemia,,,,,Due,
+VC0743,DS181,BQ,Black Quarter,2026-07-30,2027-07-30,BQ-2610,Dr. V. Thorat,Completed,Every 12 months
+VC0744,DS181,LSD,Lumpy Skin Disease,,,,,Due,
+VC0745,DS182,FMD,Foot-and-Mouth Disease,2026-04-09,2026-10-08,FMD-2537,Dr. V. Thorat,Scheduled,Every 6 months
+VC0746,DS182,HS,Haemorrhagic Septicaemia,2026-01-29,2027-01-29,HS-2594,Dr. V. Thorat,Completed,Every 12 months
+VC0747,DS182,BQ,Black Quarter,2025-12-21,2026-12-21,BQ-2596,Dr. R. Deshpande,Completed,Every 12 months
+VC0748,DS182,LSD,Lumpy Skin Disease,2026-07-05,2027-07-05,LSD-2558,Dr. R. Deshpande,Completed,Every 12 months
+VC0749,DS183,FMD,Foot-and-Mouth Disease,2026-05-23,2026-11-21,FMD-2532,Dr. M. Sawant,Completed,Every 6 months
+VC0750,DS183,HS,Haemorrhagic Septicaemia,2026-09-07,2027-09-07,HS-2561,Dr. P. Naik,Completed,Every 12 months
+VC0751,DS184,FMD,Foot-and-Mouth Disease,,,,,Due,
+VC0752,DS184,HS,Haemorrhagic Septicaemia,2026-05-25,2027-05-25,HS-2601,Dr. R. Deshpande,Completed,Every 12 months
+VC0753,DS184,BQ,Black Quarter,2026-06-13,2027-06-13,BQ-2571,Dr. P. Naik,Completed,Every 12 months
+VC0754,DS184,LSD,Lumpy Skin Disease,2026-08-06,2027-08-06,LSD-2605,Dr. R. Deshpande,Completed,Every 12 months
+VC0755,DS185,FMD,Foot-and-Mouth Disease,2026-03-30,2026-09-28,FMD-2528,Dr. A. Kulkarni,Scheduled,Every 6 months
+VC0756,DS185,HS,Haemorrhagic Septicaemia,2025-09-29,2026-09-29,HS-2563,Dr. R. Deshpande,Scheduled,Every 12 months
+VC0757,DS185,BQ,Black Quarter,2026-08-13,2027-08-13,BQ-2535,Dr. A. Kulkarni,Completed,Every 12 months
+VC0758,DS185,LSD,Lumpy Skin Disease,2026-01-21,2027-01-21,LSD-2545,Dr. S. Joshi,Completed,Every 12 months
+VC0759,DS186,FMD,Foot-and-Mouth Disease,2026-03-29,2026-09-27,FMD-2576,Dr. A. Kulkarni,Scheduled,Every 6 months
+VC0760,DS186,HS,Haemorrhagic Septicaemia,2026-03-10,2027-03-10,HS-2587,Dr. M. Sawant,Completed,Every 12 months
+VC0761,DS186,BQ,Black Quarter,2026-06-11,2027-06-11,BQ-2575,Dr. A. Kulkarni,Completed,Every 12 months
+VC0762,DS186,LSD,Lumpy Skin Disease,2026-04-13,2027-04-13,LSD-2598,Dr. P. Naik,Completed,Every 12 months
+VC0763,DS187,FMD,Foot-and-Mouth Disease,2026-05-04,2026-11-02,FMD-2531,Dr. M. Sawant,Completed,Every 6 months
+VC0764,DS187,HS,Haemorrhagic Septicaemia,2026-01-15,2027-01-15,HS-2562,Dr. S. Joshi,Completed,Every 12 months
+VC0765,DS187,BQ,Black Quarter,2026-04-21,2027-04-21,BQ-2586,Dr. V. Thorat,Completed,Every 12 months
+VC0766,DS187,LSD,Lumpy Skin Disease,2026-03-08,2027-03-08,LSD-2563,Dr. A. Kulkarni,Completed,Every 12 months
+VC0767,DS188,FMD,Foot-and-Mouth Disease,2026-09-09,2027-03-10,FMD-2541,Dr. A. Kulkarni,Completed,Every 6 months
+VC0768,DS188,HS,Haemorrhagic Septicaemia,,,,,Due,
+VC0769,DS188,BQ,Black Quarter,2026-03-20,2027-03-20,BQ-2578,Dr. P. Naik,Completed,Every 12 months
+VC0770,DS188,Brucellosis,Brucellosis,2026-01-27,,Brucellosis-2610,Dr. P. Naik,Completed,One-time (calfhood)
+VC0771,DS188,LSD,Lumpy Skin Disease,2026-01-05,2027-01-05,LSD-2549,Dr. R. Deshpande,Completed,Every 12 months
+VC0772,DS189,FMD,Foot-and-Mouth Disease,2026-04-28,2026-10-27,FMD-2583,Dr. S. Joshi,Completed,Every 6 months
+VC0773,DS189,HS,Haemorrhagic Septicaemia,2026-05-06,2027-05-06,HS-2598,Dr. A. Kulkarni,Completed,Every 12 months
+VC0774,DS189,BQ,Black Quarter,,,,,Due,
+VC0775,DS189,LSD,Lumpy Skin Disease,2025-11-09,2026-11-09,LSD-2612,Dr. M. Sawant,Completed,Every 12 months
+VC0776,DS190,FMD,Foot-and-Mouth Disease,,,,,Due,
+VC0777,DS190,HS,Haemorrhagic Septicaemia,2026-05-26,2027-05-26,HS-2521,Dr. M. Sawant,Completed,Every 12 months
+VC0778,DS190,BQ,Black Quarter,2025-10-01,2026-10-01,BQ-2547,Dr. V. Thorat,Scheduled,Every 12 months
+VC0779,DS190,LSD,Lumpy Skin Disease,,,,,Due,
+VC0780,DS191,FMD,Foot-and-Mouth Disease,2026-04-08,2026-10-07,FMD-2514,Dr. P. Naik,Scheduled,Every 6 months
+VC0781,DS191,HS,Haemorrhagic Septicaemia,2026-02-21,2027-02-21,HS-2537,Dr. R. Deshpande,Completed,Every 12 months
+VC0782,DS191,BQ,Black Quarter,2026-06-09,2027-06-09,BQ-2565,Dr. V. Thorat,Completed,Every 12 months
+VC0783,DS191,LSD,Lumpy Skin Disease,,,,,Due,
+VC0784,DS192,FMD,Foot-and-Mouth Disease,,,,,Due,
+VC0785,DS192,HS,Haemorrhagic Septicaemia,2025-10-28,2026-10-28,HS-2557,Dr. P. Naik,Completed,Every 12 months
+VC0786,DS192,BQ,Black Quarter,2026-03-23,2027-03-23,BQ-2533,Dr. R. Deshpande,Completed,Every 12 months
+VC0787,DS192,LSD,Lumpy Skin Disease,,,,,Due,
+VC0788,DS193,FMD,Foot-and-Mouth Disease,2026-03-28,2026-09-26,FMD-2588,Dr. V. Thorat,Scheduled,Every 6 months
+VC0789,DS193,HS,Haemorrhagic Septicaemia,,,,,Due,
+VC0790,DS193,BQ,Black Quarter,,,,,Due,
+VC0791,DS193,Brucellosis,Brucellosis,2026-01-02,,Brucellosis-2529,Dr. P. Naik,Completed,One-time (calfhood)
+VC0792,DS193,LSD,Lumpy Skin Disease,2026-04-25,2027-04-25,LSD-2544,Dr. S. Joshi,Completed,Every 12 months
+VC0793,DS194,FMD,Foot-and-Mouth Disease,2026-06-19,2026-12-18,FMD-2503,Dr. M. Sawant,Completed,Every 6 months
+VC0794,DS194,HS,Haemorrhagic Septicaemia,,,,,Due,
+VC0795,DS194,BQ,Black Quarter,2026-03-16,2027-03-16,BQ-2542,Dr. A. Kulkarni,Completed,Every 12 months
+VC0796,DS194,LSD,Lumpy Skin Disease,2026-06-18,2027-06-18,LSD-2516,Dr. M. Sawant,Completed,Every 12 months
+VC0797,DS195,FMD,Foot-and-Mouth Disease,2026-09-05,2027-03-06,FMD-2550,Dr. P. Naik,Completed,Every 6 months
+VC0798,DS195,HS,Haemorrhagic Septicaemia,,,,,Due,
+VC0799,DS195,BQ,Black Quarter,,,,,Due,
+VC0800,DS195,LSD,Lumpy Skin Disease,2025-10-28,2026-10-28,LSD-2579,Dr. S. Joshi,Completed,Every 12 months
+VC0801,DS196,FMD,Foot-and-Mouth Disease,,,,,Due,
+VC0802,DS196,HS,Haemorrhagic Septicaemia,,,,,Due,
+VC0803,DS196,BQ,Black Quarter,2026-07-22,2027-07-22,BQ-2533,Dr. P. Naik,Completed,Every 12 months
+VC0804,DS196,LSD,Lumpy Skin Disease,2025-09-23,2026-09-23,LSD-2505,Dr. A. Kulkarni,Scheduled,Every 12 months
+VC0805,DS197,FMD,Foot-and-Mouth Disease,2026-05-18,2026-11-16,FMD-2561,Dr. A. Kulkarni,Completed,Every 6 months
+VC0806,DS197,HS,Haemorrhagic Septicaemia,2025-12-31,2026-12-31,HS-2612,Dr. A. Kulkarni,Completed,Every 12 months
+VC0807,DS197,BQ,Black Quarter,2026-06-23,2027-06-23,BQ-2542,Dr. P. Naik,Completed,Every 12 months
+VC0808,DS197,LSD,Lumpy Skin Disease,2026-03-06,2027-03-06,LSD-2587,Dr. S. Joshi,Completed,Every 12 months
+VC0809,DS198,FMD,Foot-and-Mouth Disease,2026-04-26,2026-10-25,FMD-2567,Dr. A. Kulkarni,Completed,Every 6 months
+VC0810,DS198,HS,Haemorrhagic Septicaemia,2025-10-20,2026-10-20,HS-2577,Dr. P. Naik,Scheduled,Every 12 months
+VC0811,DS198,BQ,Black Quarter,2025-10-17,2026-10-17,BQ-2544,Dr. S. Joshi,Scheduled,Every 12 months
+VC0812,DS198,LSD,Lumpy Skin Disease,2026-03-22,2027-03-22,LSD-2555,Dr. P. Naik,Completed,Every 12 months
+VC0813,DS199,FMD,Foot-and-Mouth Disease,2026-09-02,2027-03-03,FMD-2600,Dr. M. Sawant,Completed,Every 6 months
+VC0814,DS199,HS,Haemorrhagic Septicaemia,2025-12-11,2026-12-11,HS-2608,Dr. R. Deshpande,Completed,Every 12 months
+VC0815,DS199,BQ,Black Quarter,2025-11-25,2026-11-25,BQ-2588,Dr. R. Deshpande,Completed,Every 12 months
+VC0816,DS199,LSD,Lumpy Skin Disease,2026-02-05,2027-02-05,LSD-2578,Dr. A. Kulkarni,Completed,Every 12 months
+VC0817,DS200,FMD,Foot-and-Mouth Disease,2026-08-10,2027-02-08,FMD-2560,Dr. P. Naik,Completed,Every 6 months
+VC0818,DS200,HS,Haemorrhagic Septicaemia,2026-03-28,2027-03-28,HS-2501,Dr. R. Deshpande,Completed,Every 12 months
+VC0819,DS200,BQ,Black Quarter,2025-12-11,2026-12-11,BQ-2598,Dr. P. Naik,Completed,Every 12 months
+VC0820,DS200,LSD,Lumpy Skin Disease,2025-12-22,2026-12-22,LSD-2610,Dr. R. Deshpande,Completed,Every 12 months
+VC0821,DS201,FMD,Foot-and-Mouth Disease,2026-05-27,2026-11-25,FMD-2572,Dr. V. Thorat,Completed,Every 6 months
+VC0822,DS201,HS,Haemorrhagic Septicaemia,,,,,Due,
+VC0823,DS201,BQ,Black Quarter,2025-11-17,2026-11-17,BQ-2600,Dr. M. Sawant,Completed,Every 12 months
+VC0824,DS201,LSD,Lumpy Skin Disease,2026-03-11,2027-03-11,LSD-2600,Dr. V. Thorat,Completed,Every 12 months
+VC0825,DS202,FMD,Foot-and-Mouth Disease,2026-08-07,2027-02-05,FMD-2580,Dr. R. Deshpande,Completed,Every 6 months
+VC0826,DS202,HS,Haemorrhagic Septicaemia,2026-02-27,2027-02-27,HS-2584,Dr. V. Thorat,Completed,Every 12 months
+VC0827,DS202,BQ,Black Quarter,2026-08-24,2027-08-24,BQ-2592,Dr. P. Naik,Completed,Every 12 months
+VC0828,DS202,LSD,Lumpy Skin Disease,,,,,Due,
+VC0829,DS203,FMD,Foot-and-Mouth Disease,2026-07-16,2027-01-14,FMD-2541,Dr. R. Deshpande,Completed,Every 6 months
+VC0830,DS203,HS,Haemorrhagic Septicaemia,,,,,Due,
+VC0831,DS203,BQ,Black Quarter,,,,,Due,
+VC0832,DS203,LSD,Lumpy Skin Disease,2026-05-08,2027-05-08,LSD-2577,Dr. V. Thorat,Completed,Every 12 months
+VC0833,DS204,FMD,Foot-and-Mouth Disease,,,,,Due,
+VC0834,DS204,HS,Haemorrhagic Septicaemia,2025-12-02,2026-12-02,HS-2558,Dr. S. Joshi,Completed,Every 12 months
+VC0835,DS204,BQ,Black Quarter,2025-09-21,2026-09-21,BQ-2540,Dr. A. Kulkarni,Due,Every 12 months
+VC0836,DS204,LSD,Lumpy Skin Disease,,,,,Due,
+VC0837,DS205,FMD,Foot-and-Mouth Disease,,,,,Due,
+VC0838,DS205,HS,Haemorrhagic Septicaemia,2025-11-29,2026-11-29,HS-2582,Dr. M. Sawant,Completed,Every 12 months
+VC0839,DS205,BQ,Black Quarter,2026-08-02,2027-08-02,BQ-2564,Dr. A. Kulkarni,Completed,Every 12 months
+VC0840,DS205,Brucellosis,Brucellosis,2026-02-06,,Brucellosis-2596,Dr. A. Kulkarni,Completed,One-time (calfhood)
+VC0841,DS205,LSD,Lumpy Skin Disease,2026-05-18,2027-05-18,LSD-2602,Dr. M. Sawant,Completed,Every 12 months
+VC0842,DS206,FMD,Foot-and-Mouth Disease,2026-09-07,2027-03-08,FMD-2555,Dr. R. Deshpande,Completed,Every 6 months
+VC0843,DS206,HS,Haemorrhagic Septicaemia,2026-03-11,2027-03-11,HS-2507,Dr. P. Naik,Completed,Every 12 months
+VC0844,DS206,BQ,Black Quarter,2026-01-29,2027-01-29,BQ-2546,Dr. M. Sawant,Completed,Every 12 months
+VC0845,DS206,Brucellosis,Brucellosis,2026-07-31,,Brucellosis-2577,Dr. S. Joshi,Completed,One-time (calfhood)
+VC0846,DS206,LSD,Lumpy Skin Disease,2026-08-14,2027-08-14,LSD-2533,Dr. V. Thorat,Completed,Every 12 months
+VC0847,DS207,FMD,Foot-and-Mouth Disease,2026-08-30,2027-02-28,FMD-2513,Dr. P. Naik,Completed,Every 6 months
+VC0848,DS207,HS,Haemorrhagic Septicaemia,2025-11-22,2026-11-22,HS-2577,Dr. S. Joshi,Completed,Every 12 months
+VC0849,DS207,BQ,Black Quarter,2025-12-12,2026-12-12,BQ-2552,Dr. R. Deshpande,Completed,Every 12 months
+VC0850,DS207,LSD,Lumpy Skin Disease,2026-01-23,2027-01-23,LSD-2564,Dr. P. Naik,Completed,Every 12 months
+VC0851,DS208,FMD,Foot-and-Mouth Disease,2026-08-15,2027-02-13,FMD-2601,Dr. M. Sawant,Completed,Every 6 months
+VC0852,DS208,HS,Haemorrhagic Septicaemia,2026-03-05,2027-03-05,HS-2594,Dr. R. Deshpande,Completed,Every 12 months
+VC0853,DS208,BQ,Black Quarter,,,,,Due,
+VC0854,DS208,Brucellosis,Brucellosis,2025-09-04,,Brucellosis-2590,Dr. A. Kulkarni,Completed,One-time (calfhood)
+VC0855,DS208,LSD,Lumpy Skin Disease,2026-07-19,2027-07-19,LSD-2555,Dr. R. Deshpande,Completed,Every 12 months
+VC0856,DS209,FMD,Foot-and-Mouth Disease,,,,,Due,
+VC0857,DS209,HS,Haemorrhagic Septicaemia,,,,,Due,
+VC0858,DS209,BQ,Black Quarter,2026-07-29,2027-07-29,BQ-2590,Dr. P. Naik,Completed,Every 12 months
+VC0859,DS209,LSD,Lumpy Skin Disease,2026-01-18,2027-01-18,LSD-2532,Dr. A. Kulkarni,Completed,Every 12 months
+VC0860,DS210,FMD,Foot-and-Mouth Disease,2026-03-29,2026-09-27,FMD-2596,Dr. R. Deshpande,Scheduled,Every 6 months
+VC0861,DS210,HS,Haemorrhagic Septicaemia,2026-07-03,2027-07-03,HS-2601,Dr. R. Deshpande,Completed,Every 12 months
+VC0862,DS210,BQ,Black Quarter,2026-06-15,2027-06-15,BQ-2509,Dr. M. Sawant,Completed,Every 12 months
+VC0863,DS210,LSD,Lumpy Skin Disease,,,,,Due,
+VC0864,DS211,FMD,Foot-and-Mouth Disease,2026-07-20,2027-01-18,FMD-2517,Dr. P. Naik,Completed,Every 6 months
+VC0865,DS211,HS,Haemorrhagic Septicaemia,,,,,Due,
+VC0866,DS211,BQ,Black Quarter,2025-11-06,2026-11-06,BQ-2507,Dr. V. Thorat,Completed,Every 12 months
+VC0867,DS211,LSD,Lumpy Skin Disease,2026-01-05,2027-01-05,LSD-2519,Dr. S. Joshi,Completed,Every 12 months
+VC0868,DS212,FMD,Foot-and-Mouth Disease,,,,,Due,
+VC0869,DS212,HS,Haemorrhagic Septicaemia,2026-04-27,2027-04-27,HS-2515,Dr. V. Thorat,Completed,Every 12 months
+VC0870,DS212,BQ,Black Quarter,2025-12-14,2026-12-14,BQ-2544,Dr. R. Deshpande,Completed,Every 12 months
+VC0871,DS212,LSD,Lumpy Skin Disease,2025-10-24,2026-10-24,LSD-2549,Dr. M. Sawant,Completed,Every 12 months
+VC0872,DS213,FMD,Foot-and-Mouth Disease,2026-06-26,2026-12-25,FMD-2501,Dr. S. Joshi,Completed,Every 6 months
+VC0873,DS213,HS,Haemorrhagic Septicaemia,2026-06-30,2027-06-30,HS-2552,Dr. M. Sawant,Completed,Every 12 months
+VC0874,DS214,FMD,Foot-and-Mouth Disease,2026-07-10,2027-01-08,FMD-2548,Dr. V. Thorat,Completed,Every 6 months
+VC0875,DS214,HS,Haemorrhagic Septicaemia,2026-05-11,2027-05-11,HS-2509,Dr. M. Sawant,Completed,Every 12 months
+VC0876,DS214,BQ,Black Quarter,2026-08-22,2027-08-22,BQ-2543,Dr. V. Thorat,Completed,Every 12 months
+VC0877,DS214,LSD,Lumpy Skin Disease,2026-06-29,2027-06-29,LSD-2526,Dr. S. Joshi,Completed,Every 12 months
+VC0878,DS215,FMD,Foot-and-Mouth Disease,,,,,Due,
+VC0879,DS215,HS,Haemorrhagic Septicaemia,,,,,Due,
+VC0880,DS215,BQ,Black Quarter,2026-08-18,2027-08-18,BQ-2590,Dr. V. Thorat,Completed,Every 12 months
+VC0881,DS215,LSD,Lumpy Skin Disease,2025-11-15,2026-11-15,LSD-2564,Dr. S. Joshi,Completed,Every 12 months
+VC0882,DS216,FMD,Foot-and-Mouth Disease,2026-06-11,2026-12-10,FMD-2592,Dr. V. Thorat,Completed,Every 6 months
+VC0883,DS216,HS,Haemorrhagic Septicaemia,,,,,Due,
+VC0884,DS216,BQ,Black Quarter,2026-09-11,2027-09-11,BQ-2523,Dr. P. Naik,Completed,Every 12 months
+VC0885,DS216,LSD,Lumpy Skin Disease,2026-02-05,2027-02-05,LSD-2554,Dr. A. Kulkarni,Completed,Every 12 months
+VC0886,DS217,FMD,Foot-and-Mouth Disease,2026-07-23,2027-01-21,FMD-2589,Dr. R. Deshpande,Completed,Every 6 months
+VC0887,DS217,HS,Haemorrhagic Septicaemia,2026-04-07,2027-04-07,HS-2602,Dr. S. Joshi,Completed,Every 12 months
+VC0888,DS217,BQ,Black Quarter,2025-11-12,2026-11-12,BQ-2554,Dr. R. Deshpande,Completed,Every 12 months
+VC0889,DS217,LSD,Lumpy Skin Disease,2026-04-19,2027-04-19,LSD-2548,Dr. P. Naik,Completed,Every 12 months
+VC0890,DS218,FMD,Foot-and-Mouth Disease,2026-05-15,2026-11-13,FMD-2585,Dr. A. Kulkarni,Completed,Every 6 months
+VC0891,DS218,HS,Haemorrhagic Septicaemia,,,,,Due,
+VC0892,DS218,BQ,Black Quarter,2026-02-14,2027-02-14,BQ-2502,Dr. V. Thorat,Completed,Every 12 months
+VC0893,DS218,LSD,Lumpy Skin Disease,2026-08-12,2027-08-12,LSD-2523,Dr. M. Sawant,Completed,Every 12 months
+VC0894,DS219,FMD,Foot-and-Mouth Disease,2026-09-05,2027-03-06,FMD-2503,Dr. S. Joshi,Completed,Every 6 months
+VC0895,DS219,HS,Haemorrhagic Septicaemia,2026-06-22,2027-06-22,HS-2601,Dr. A. Kulkarni,Completed,Every 12 months
+VC0896,DS219,BQ,Black Quarter,,,,,Due,
+VC0897,DS219,Brucellosis,Brucellosis,,,,,Due,
+VC0898,DS219,LSD,Lumpy Skin Disease,2026-02-06,2027-02-06,LSD-2593,Dr. R. Deshpande,Completed,Every 12 months
+VC0899,DS220,FMD,Foot-and-Mouth Disease,2026-08-31,2027-03-01,FMD-2526,Dr. M. Sawant,Completed,Every 6 months
+VC0900,DS220,HS,Haemorrhagic Septicaemia,2026-01-20,2027-01-20,HS-2555,Dr. M. Sawant,Completed,Every 12 months
+VC0901,DS220,BQ,Black Quarter,2026-09-06,2027-09-06,BQ-2545,Dr. A. Kulkarni,Completed,Every 12 months
+VC0902,DS220,Brucellosis,Brucellosis,,,,,Due,
+VC0903,DS220,LSD,Lumpy Skin Disease,,,,,Due,
+VC0904,DS221,FMD,Foot-and-Mouth Disease,2026-08-05,2027-02-03,FMD-2604,Dr. V. Thorat,Completed,Every 6 months
+VC0905,DS221,HS,Haemorrhagic Septicaemia,2025-09-27,2026-09-27,HS-2560,Dr. V. Thorat,Scheduled,Every 12 months
+VC0906,DS221,BQ,Black Quarter,,,,,Due,
+VC0907,DS221,LSD,Lumpy Skin Disease,2025-12-25,2026-12-25,LSD-2541,Dr. R. Deshpande,Completed,Every 12 months
+VC0908,DS222,FMD,Foot-and-Mouth Disease,,,,,Due,
+VC0909,DS222,HS,Haemorrhagic Septicaemia,2026-06-09,2027-06-09,HS-2507,Dr. R. Deshpande,Completed,Every 12 months
+VC0910,DS222,BQ,Black Quarter,2026-05-19,2027-05-19,BQ-2570,Dr. P. Naik,Completed,Every 12 months
+VC0911,DS222,Brucellosis,Brucellosis,2026-09-05,,Brucellosis-2506,Dr. R. Deshpande,Completed,One-time (calfhood)
+VC0912,DS222,LSD,Lumpy Skin Disease,2026-06-22,2027-06-22,LSD-2569,Dr. V. Thorat,Completed,Every 12 months
+VC0913,DS223,FMD,Foot-and-Mouth Disease,2026-03-29,2026-09-27,FMD-2536,Dr. P. Naik,Scheduled,Every 6 months
+VC0914,DS223,HS,Haemorrhagic Septicaemia,2026-02-03,2027-02-03,HS-2535,Dr. M. Sawant,Completed,Every 12 months
+VC0915,DS224,FMD,Foot-and-Mouth Disease,2026-06-23,2026-12-22,FMD-2521,Dr. P. Naik,Completed,Every 6 months
+VC0916,DS224,HS,Haemorrhagic Septicaemia,,,,,Due,
+VC0917,DS224,BQ,Black Quarter,2026-02-10,2027-02-10,BQ-2532,Dr. A. Kulkarni,Completed,Every 12 months
+VC0918,DS224,Brucellosis,Brucellosis,,,,,Due,
+VC0919,DS224,LSD,Lumpy Skin Disease,,,,,Due,
+VC0920,DS225,FMD,Foot-and-Mouth Disease,,,,,Due,
+VC0921,DS225,HS,Haemorrhagic Septicaemia,2025-09-22,2026-09-22,HS-2536,Dr. M. Sawant,Scheduled,Every 12 months
+VC0922,DS225,BQ,Black Quarter,2025-11-08,2026-11-08,BQ-2518,Dr. M. Sawant,Completed,Every 12 months
+VC0923,DS225,LSD,Lumpy Skin Disease,,,,,Due,
+VC0924,DS226,FMD,Foot-and-Mouth Disease,,,,,Due,
+VC0925,DS226,HS,Haemorrhagic Septicaemia,2026-03-14,2027-03-14,HS-2515,Dr. R. Deshpande,Completed,Every 12 months
+VC0926,DS226,BQ,Black Quarter,2026-07-22,2027-07-22,BQ-2604,Dr. V. Thorat,Completed,Every 12 months
+VC0927,DS226,LSD,Lumpy Skin Disease,,,,,Due,
+VC0928,DS227,FMD,Foot-and-Mouth Disease,2026-05-29,2026-11-27,FMD-2559,Dr. V. Thorat,Completed,Every 6 months
+VC0929,DS227,HS,Haemorrhagic Septicaemia,2025-11-09,2026-11-09,HS-2571,Dr. M. Sawant,Completed,Every 12 months
+VC0930,DS227,BQ,Black Quarter,2026-06-02,2027-06-02,BQ-2555,Dr. P. Naik,Completed,Every 12 months
+VC0931,DS227,LSD,Lumpy Skin Disease,,,,,Due,
+VC0932,DS228,FMD,Foot-and-Mouth Disease,2026-07-16,2027-01-14,FMD-2577,Dr. P. Naik,Completed,Every 6 months
+VC0933,DS228,HS,Haemorrhagic Septicaemia,2026-02-23,2027-02-23,HS-2526,Dr. R. Deshpande,Completed,Every 12 months
+VC0934,DS228,BQ,Black Quarter,2026-08-12,2027-08-12,BQ-2543,Dr. M. Sawant,Completed,Every 12 months
+VC0935,DS228,LSD,Lumpy Skin Disease,2026-01-18,2027-01-18,LSD-2501,Dr. S. Joshi,Completed,Every 12 months
+VC0936,DS229,FMD,Foot-and-Mouth Disease,2026-09-07,2027-03-08,FMD-2590,Dr. A. Kulkarni,Completed,Every 6 months
+VC0937,DS229,HS,Haemorrhagic Septicaemia,2026-05-07,2027-05-07,HS-2560,Dr. A. Kulkarni,Completed,Every 12 months
+VC0938,DS229,BQ,Black Quarter,2026-07-15,2027-07-15,BQ-2580,Dr. R. Deshpande,Completed,Every 12 months
+VC0939,DS229,LSD,Lumpy Skin Disease,2026-02-14,2027-02-14,LSD-2569,Dr. V. Thorat,Completed,Every 12 months
+VC0940,DS230,FMD,Foot-and-Mouth Disease,2026-04-06,2026-10-05,FMD-2512,Dr. A. Kulkarni,Scheduled,Every 6 months
+VC0941,DS230,HS,Haemorrhagic Septicaemia,2026-06-29,2027-06-29,HS-2534,Dr. S. Joshi,Completed,Every 12 months
+VC0942,DS230,BQ,Black Quarter,,,,,Due,
+VC0943,DS230,LSD,Lumpy Skin Disease,2025-10-16,2026-10-16,LSD-2523,Dr. S. Joshi,Scheduled,Every 12 months
+VC0944,DS231,FMD,Foot-and-Mouth Disease,,,,,Due,
+VC0945,DS231,HS,Haemorrhagic Septicaemia,2025-10-31,2026-10-31,HS-2506,Dr. V. Thorat,Completed,Every 12 months
+VC0946,DS231,BQ,Black Quarter,2025-12-02,2026-12-02,BQ-2584,Dr. R. Deshpande,Completed,Every 12 months
+VC0947,DS231,LSD,Lumpy Skin Disease,2026-04-13,2027-04-13,LSD-2556,Dr. M. Sawant,Completed,Every 12 months
+VC0948,DS232,FMD,Foot-and-Mouth Disease,2026-08-08,2027-02-06,FMD-2566,Dr. P. Naik,Completed,Every 6 months
+VC0949,DS232,HS,Haemorrhagic Septicaemia,2026-05-19,2027-05-19,HS-2563,Dr. P. Naik,Completed,Every 12 months
+VC0950,DS232,BQ,Black Quarter,2026-01-04,2027-01-04,BQ-2569,Dr. R. Deshpande,Completed,Every 12 months
+VC0951,DS232,LSD,Lumpy Skin Disease,2025-12-25,2026-12-25,LSD-2508,Dr. V. Thorat,Completed,Every 12 months
+VC0952,DS233,FMD,Foot-and-Mouth Disease,,,,,Due,
+VC0953,DS233,HS,Haemorrhagic Septicaemia,2026-07-02,2027-07-02,HS-2510,Dr. M. Sawant,Completed,Every 12 months
+VC0954,DS233,BQ,Black Quarter,2026-02-20,2027-02-20,BQ-2514,Dr. R. Deshpande,Completed,Every 12 months
+VC0955,DS233,LSD,Lumpy Skin Disease,2026-04-22,2027-04-22,LSD-2520,Dr. V. Thorat,Completed,Every 12 months
+VC0956,DS234,FMD,Foot-and-Mouth Disease,2026-04-21,2026-10-20,FMD-2557,Dr. A. Kulkarni,Scheduled,Every 6 months
+VC0957,DS234,HS,Haemorrhagic Septicaemia,2025-10-22,2026-10-22,HS-2596,Dr. P. Naik,Completed,Every 12 months
+VC0958,DS234,BQ,Black Quarter,2026-05-26,2027-05-26,BQ-2528,Dr. M. Sawant,Completed,Every 12 months
+VC0959,DS234,LSD,Lumpy Skin Disease,,,,,Due,
+VC0960,DS235,FMD,Foot-and-Mouth Disease,2026-06-21,2026-12-20,FMD-2556,Dr. P. Naik,Completed,Every 6 months
+VC0961,DS235,HS,Haemorrhagic Septicaemia,2026-05-17,2027-05-17,HS-2510,Dr. R. Deshpande,Completed,Every 12 months
+VC0962,DS235,BQ,Black Quarter,2026-08-15,2027-08-15,BQ-2599,Dr. M. Sawant,Completed,Every 12 months
+VC0963,DS235,LSD,Lumpy Skin Disease,2026-07-28,2027-07-28,LSD-2591,Dr. V. Thorat,Completed,Every 12 months
+VC0964,DS236,FMD,Foot-and-Mouth Disease,2026-08-26,2027-02-24,FMD-2573,Dr. V. Thorat,Completed,Every 6 months
+VC0965,DS236,HS,Haemorrhagic Septicaemia,2025-10-04,2026-10-04,HS-2578,Dr. P. Naik,Scheduled,Every 12 months
+VC0966,DS236,BQ,Black Quarter,2026-03-08,2027-03-08,BQ-2612,Dr. P. Naik,Completed,Every 12 months
+VC0967,DS236,LSD,Lumpy Skin Disease,2025-10-20,2026-10-20,LSD-2555,Dr. P. Naik,Scheduled,Every 12 months
+VC0968,DS237,FMD,Foot-and-Mouth Disease,2026-07-20,2027-01-18,FMD-2587,Dr. A. Kulkarni,Completed,Every 6 months
+VC0969,DS237,HS,Haemorrhagic Septicaemia,2026-04-12,2027-04-12,HS-2594,Dr. A. Kulkarni,Completed,Every 12 months
+VC0970,DS237,BQ,Black Quarter,2025-10-07,2026-10-07,BQ-2563,Dr. A. Kulkarni,Scheduled,Every 12 months
+VC0971,DS237,Brucellosis,Brucellosis,2025-12-06,,Brucellosis-2523,Dr. V. Thorat,Completed,One-time (calfhood)
+VC0972,DS237,LSD,Lumpy Skin Disease,2026-06-06,2027-06-06,LSD-2596,Dr. R. Deshpande,Completed,Every 12 months
+VC0973,DS238,FMD,Foot-and-Mouth Disease,2026-07-11,2027-01-09,FMD-2572,Dr. V. Thorat,Completed,Every 6 months
+VC0974,DS238,HS,Haemorrhagic Septicaemia,2026-08-22,2027-08-22,HS-2527,Dr. S. Joshi,Completed,Every 12 months
+VC0975,DS238,BQ,Black Quarter,2026-07-01,2027-07-01,BQ-2522,Dr. P. Naik,Completed,Every 12 months
+VC0976,DS238,LSD,Lumpy Skin Disease,2025-11-10,2026-11-10,LSD-2572,Dr. S. Joshi,Completed,Every 12 months
+VC0977,DS239,FMD,Foot-and-Mouth Disease,2026-05-17,2026-11-15,FMD-2524,Dr. A. Kulkarni,Completed,Every 6 months
+VC0978,DS239,HS,Haemorrhagic Septicaemia,2026-01-05,2027-01-05,HS-2589,Dr. V. Thorat,Completed,Every 12 months
+VC0979,DS239,BQ,Black Quarter,,,,,Due,
+VC0980,DS239,Brucellosis,Brucellosis,,,,,Due,
+VC0981,DS239,LSD,Lumpy Skin Disease,2025-11-15,2026-11-15,LSD-2521,Dr. M. Sawant,Completed,Every 12 months
+VC0982,DS240,FMD,Foot-and-Mouth Disease,2026-08-16,2027-02-14,FMD-2577,Dr. S. Joshi,Completed,Every 6 months
+VC0983,DS240,HS,Haemorrhagic Septicaemia,2026-06-12,2027-06-12,HS-2607,Dr. S. Joshi,Completed,Every 12 months
+VC0984,DS240,BQ,Black Quarter,2026-03-20,2027-03-20,BQ-2606,Dr. V. Thorat,Completed,Every 12 months
+VC0985,DS240,Brucellosis,Brucellosis,,,,,Due,
+VC0986,DS240,LSD,Lumpy Skin Disease,,,,,Due,

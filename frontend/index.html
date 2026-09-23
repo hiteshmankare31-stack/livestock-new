@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Smart Livestock Health Monitoring</title>
+  <link rel="stylesheet" href="style.css" />
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+</head>
+<body>
+  <div id="app">
+    <section id="login" class="screen login-screen">
+      <div class="login-shell">
+        <div class="welcome-panel">
+          <div class="brand-mark">🐄</div>
+          <div class="eyebrow" id="eyebrow">SMART AGRICULTURE</div>
+          <h1 id="welcomeTitle">Smart Livestock</h1>
+          <p id="loginSubtitle">Health Monitoring & Early Warning System</p>
+          <div class="welcome-points">
+            <div><span>🩺</span><div><b id="pointHealth">Health Monitoring</b><small id="pointHealthSmall">Track livestock health easily</small></div></div>
+            <div><span>⚡</span><div><b id="pointWarning">Early Warning</b><small id="pointWarningSmall">Identify risks before they grow</small></div></div>
+            <div><span>🌱</span><div><b id="pointManagement">Smart Management</b><small id="pointManagementSmall">Make better farming decisions</small></div></div>
+          </div>
+          <div class="status-pill"><i></i> <span id="statusPill">Smart & Connected Livestock Care</span></div>
+        </div>
+
+        <div class="login-card">
+          <div class="mobile-logo">🐄</div>
+          <div class="login-heading">
+            <span id="welcomeLabel">Welcome</span>
+            <h2 id="getStarted">Get started</h2>
+            <p id="selectRoleText">Select your language and choose your role</p>
+          </div>
+
+          <div class="login-language">
+            <label id="loginLanguageLabel" for="loginLanguage">🌐 Choose Language</label>
+            <div class="select-wrap">
+              <select id="loginLanguage" data-no-i18n onchange="setLanguage(this.value)"><option value="en">English</option><option value="hi">हिंदी</option><option value="mr">मराठी</option></select>
+              <span>⌄</span>
+            </div>
+          </div>
+
+          <div class="input-label" id="nameLabel">Your name</div>
+          <input id="userName" placeholder="Enter your name" autocomplete="name" />
+
+          <div class="role-label" id="roleLabel">Choose your role</div>
+          <button id="farmerLoginBtn" class="role-btn farmer-btn" onclick="loginAs('Farmer')"><span class="role-icon">👨‍🌾</span><span><b id="farmerBtnText">Continue as Farmer</b><small id="farmerBtnSmall">Manage animals & health</small></span><em>→</em></button>
+          <button id="vetLoginBtn" class="role-btn secondary" onclick="loginAs('Veterinarian')"><span class="role-icon">🩺</span><span><b id="vetBtnText">Continue as Veterinarian</b><small id="vetBtnSmall">Review cases & alerts</small></span><em>→</em></button>
+          <button id="govLoginBtn" class="role-btn secondary" onclick="loginAs('Government')"><span class="role-icon">🏛️</span><span><b id="govBtnText">Continue as Government</b><small id="govBtnSmall">Monitor trends & areas</small></span><em>→</em></button>
+        </div>
+      </div>
+    </section>
+
+    <section id="dashboard" class="hidden">
+      <header class="topbar">
+        <div>
+          <strong id="brandTitle">🐄 Smart Livestock</strong>
+          <span id="roleBadge"></span>
+        </div>
+        <div class="language-controls">
+          <select id="languageSelect" data-no-i18n onchange="changeLanguage()" title="Language"><option value="en">English</option><option value="hi">हिंदी</option><option value="mr">मराठी</option></select>
+          <button id="locationBtn" type="button" onclick="getLocation()">📍 Location</button>
+          <button id="micBtn" type="button" onclick="startMic()" aria-label="Microphone">🎙️ Microphone</button>
+        </div>
+        <button id="logoutBtn" class="logout" onclick="logout()">Logout</button>
+      </header>
+
+      <main class="container">
+        <div id="locationStatus" style="display:none;margin-bottom:15px;padding:10px 14px;border-radius:10px;background:#f1f8e9;font-size:14px;"></div>
+        <div id="farmerView" class="role-view">
+          <h2 id="farmerTitle">Farmer Dashboard</h2>
+          <div class="grid">
+            <button id="registerBtn" class="feature" onclick="showPanel('registerPanel')">➕ Register Animal</button>
+            <button id="reportBtn" class="feature" onclick="showPanel('reportPanel')">🩺 Report Symptoms</button>
+            <button id="recordsBtn" class="feature" onclick="showPanel('recordsPanel')">📋 Health Records</button>
+            <button id="vaccineBtn" class="feature" onclick="showPanel('vaccinePanel')">💉 Vaccination</button>
+            <button id="breedingBtn" class="feature" onclick="showPanel('breedingPanel')">🧬 Breeding</button>
+          </div>
+
+          <div class="stats">
+            <div><b id="animalCount">0</b><span id="myAnimalsLabel">My Animals</span></div>
+            <div><b id="highCount">0</b><span id="highRiskLabel">High Risk</span></div>
+            <div><b>3</b><span id="vaccinationDueLabel">Vaccination Due</span></div>
+          </div>
+        </div>
+
+        <div id="vetView" class="role-view hidden">
+          <h2 id="vetTitle">Veterinarian Dashboard</h2>
+          <div class="grid">
+            <button id="vetRecordsBtn" class="feature" onclick="showPanel('recordsPanel')">📋 Animal Records</button>
+            <button id="alertsBtn" class="feature" onclick="showPanel('alertsPanel')">🔔 Alerts</button>
+            <button id="verifyCasesBtn" class="feature" onclick="showPanel('verificationPanel')">✅ Verify Cases</button>
+            <button id="vetBreedingBtn" class="feature" onclick="showPanel('breedingPanel')">🧬 Breeding</button>
+            <button id="vetContactBtn" class="feature" onclick="openContactPanel('vet')">💬 Contact Farmers</button>
+          </div>
+          <div class="stats">
+            <div><b id="vetHigh">0</b><span id="govHighLabel">High Risk Cases</span></div>
+            <div><b id="vetMedium">0</b><span id="vetMediumLabel">Medium Risk</span></div>
+            <div><b id="vetLow">0</b><span id="vetLowLabel">Low Risk</span></div>
+          </div>
+        </div>
+
+        <div id="govView" class="role-view hidden">
+          <h2 id="govTitle">Government / Animal Husbandry Dashboard</h2>
+          <div class="gov-card">
+            <h3 id="govStatsTitle">📊 Animal / Health Statistics</h3>
+            <div class="gov-mini-grid">
+              <div class="gov-mini"><b id="govStatAnimals">0</b><span>Total Animals</span></div>
+              <div class="gov-mini"><b id="govStatReports">0</b><span>Health Reports</span></div>
+              <div class="gov-mini"><b id="govStatHigh">0</b><span>High Risk Cases</span></div>
+              <div class="gov-mini"><b id="govStatAreas">0</b><span>Affected Areas</span></div>
+            </div>
+          </div>
+
+          <div class="gov-card">
+            <h3 id="govRiskTitle">⚠️ Risk Cases</h3>
+            <div class="gov-mini-grid risk-grid">
+              <div class="gov-mini risk-box-high"><b id="govRiskHigh">0</b><span>High Risk</span></div>
+              <div class="gov-mini risk-box-medium"><b id="govRiskMedium">0</b><span>Medium Risk</span></div>
+              <div class="gov-mini risk-box-low"><b id="govRiskLow">0</b><span>Low Risk</span></div>
+            </div>
+          </div>
+
+          <div class="gov-card">
+            <h3 id="govAlertsTitle">🔔 Alerts</h3>
+            <div id="govAlertList" class="gov-list"><p>No alerts found.</p></div>
+          </div>
+
+          <div class="gov-card">
+            <h3 id="diseaseTitle">📍 Location / Hotspot Information</h3>
+            <div class="gov-filter-row">
+              <select id="govDiseaseFilter" onchange="applyGovFilters()"><option value="">All diseases</option></select>
+              <select id="govAreaFilter" onchange="applyGovFilters()"><option value="">All areas</option></select>
+              <select id="govRiskFilter" onchange="applyGovFilters()"><option value="">All risk levels</option><option value="High">High</option><option value="Medium">Medium</option><option value="Low">Low</option></select>
+            </div>
+            <div class="map-placeholder" style="padding:0;overflow:hidden">
+              <div id="liveMap" style="height:420px;width:100%;border-radius:14px"></div>
+              <div style="padding:12px"><p id="mapText">Live case locations and surveillance zones</p><div id="hotspotList"></div></div>
+            </div>
+          </div>
+
+          <div class="gov-card">
+            <h3 id="govBreedingTitle">🧬 Breeding & Management Statistics</h3>
+            <div class="gov-mini-grid">
+              <div class="gov-mini"><b id="breedTotal">0</b><span>Breeding Records</span></div>
+              <div class="gov-mini"><b id="pregnantCount">0</b><span>Pregnant</span></div>
+              <div class="gov-mini"><b id="aiCount">0</b><span>AI Cases</span></div>
+              <div class="gov-mini"><b id="dueDeliveryCount">0</b><span>Due Deliveries</span></div>
+              <div class="gov-mini"><b id="vaxTotal">0</b><span>Vaccinations</span></div>
+              <div class="gov-mini"><b id="vaxDone">0</b><span>Vaccinations Done</span></div>
+              <div class="gov-mini"><b id="treatmentCount">0</b><span>Treatments</span></div>
+              <div class="gov-mini"><b id="pendingLabCount">0</b><span>Pending Lab Referrals</span></div>
+            </div>
+          </div>
+
+          <div class="grid">
+            <button id="govTrendsBtn" class="feature" onclick="showPanel('recordsPanel')">📋 Animal &amp; Health Records</button>
+            <button id="govProgramsBtn" class="feature" onclick="showPanel('vaccinePanel')">💉 Vaccination Programs</button>
+          </div>
+        </div>
+
+        <section id="registerPanel" class="panel hidden">
+          <h3 id="registerTitle">Register New Animal</h3>
+          <input id="animalId" placeholder="Animal ID (e.g. A001)" />
+          <select id="species" aria-label="Species">
+            <option id="speciesPlaceholder" value="">Select Species</option>
+            <option id="speciesCow" value="Cow">Cow</option><option id="speciesBuffalo" value="Buffalo">Buffalo</option><option id="speciesGoat" value="Goat">Goat</option><option id="speciesSheep" value="Sheep">Sheep</option><option id="speciesOther" value="Other">Other</option>
+          </select>
+          <input id="otherSpecies" class="hidden" placeholder="Enter species name" />
+          <input id="age" type="number" placeholder="Age in years" />
+          <select id="gender" aria-label="Gender"><option id="genderMale">Male</option><option id="genderFemale">Female</option></select>
+          <input id="vaccinationHistory" placeholder="Vaccination history" />
+          <textarea id="medicalHistory" placeholder="Medical history"></textarea>
+          <button id="saveAnimalBtn" onclick="registerAnimal()">Save Animal</button>
+        </section>
+
+        <section id="breedingPanel" class="panel hidden">
+          <h3 id="breedingTitle">🧬 Breeding Management</h3>
+          <input id="breedAnimalId" placeholder="Animal ID (e.g. A001)" />
+          <input id="breedName" placeholder="Breed name (optional)" />
+          <label>Heat detected date <input id="heatDate" type="date" /></label>
+          <label>Artificial insemination date <input id="aiDate" type="date" /></label>
+          <select id="pregnancyStatus" aria-label="Pregnancy status">
+            <option>Unknown</option><option>Not Pregnant</option><option>Pregnant</option>
+          </select>
+          <label>Expected delivery date <input id="deliveryDate" type="date" /></label>
+          <label>Last calving date <input id="calvingDate" type="date" /></label>
+          <input id="calvesCount" type="number" min="0" placeholder="Number of calves" />
+          <textarea id="breedingNotes" placeholder="Breeding notes"></textarea>
+          <button id="saveBreedingBtn" onclick="saveBreeding()">💾 Save Breeding Record</button>
+          <div id="breedingResult"></div>
+          <h4 id="breedingListTitle">📋 Breeding Records</h4>
+          <div id="breedingList"></div>
+        </section>
+
+        <section id="reportPanel" class="panel hidden">
+          <h3 id="reportTitle">Report Symptoms</h3>
+          <input id="reportAnimalId" placeholder="Animal ID (e.g. A001)" />
+          <label><input id="symFever" type="checkbox" value="fever" class="symptom"> <span id="symFeverLabel">Fever</span></label>
+          <label><input id="symAppetite" type="checkbox" value="loss of appetite" class="symptom"> <span id="symAppetiteLabel">Loss of appetite</span></label>
+          <label><input id="symSkin" type="checkbox" value="skin problem" class="symptom"> <span id="symSkinLabel">Skin problem</span></label>
+          <label><input id="symCough" type="checkbox" value="cough" class="symptom"> <span id="symCoughLabel">Cough</span></label>
+          <label><input id="symWeakness" type="checkbox" value="weakness" class="symptom"> <span id="symWeaknessLabel">Weakness</span></label>
+          <label><input id="symMilk" type="checkbox" value="reduced milk production" class="symptom"> <span id="symMilkLabel">Reduced milk production</span></label>
+          <label id="photoLabel" class="form-label">Animal Photo</label>
+          <div class="photo-upload">
+            <div class="photo-actions">
+              <button type="button" id="galleryBtn" class="photo-action-btn" onclick="document.getElementById('photoFile').click()">🖼️ Choose Photo</button>
+              <button type="button" id="cameraBtn" class="photo-action-btn" onclick="openCamera()">📷 Take Photo</button>
+            </div>
+            <input id="photoFile" type="file" accept="image/*" class="hidden-file-input" />
+            <input id="cameraFile" type="file" accept="image/*" capture="environment" class="hidden-file-input" />
+            <small id="photoHelp">Choose a photo from gallery or take a new photo with camera</small><small id="photoAIStatus" style="display:block;margin-top:6px;font-weight:600;"></small>
+            <img id="photoPreview" class="photo-preview hidden" alt="Photo preview" />
+          </div>
+          <input id="photoUrl" type="url" placeholder="Photo URL (optional)" />
+          <button id="submitReportBtn" onclick="submitReport()">Submit & Analyze</button>
+          <div id="analysisResult"></div>
+          <div class="report-actions">
+            <button type="button" id="speakHereBtn" class="secondary-action" onclick="speakHere()">🎙️ Speak Here</button>
+            <button type="button" id="clearNewBtn" class="secondary-action" onclick="clearAndAddNew()">🧹 Clear & Add New</button>
+            <button type="button" id="contactVetBtn" class="contact-action" onclick="openContactPanel('farmer')">🩺 Contact Veterinarian</button>
+          </div>
+        </section>
+
+        <section id="contactPanel" class="panel hidden">
+          <h3 id="contactTitle">Veterinarian Contact</h3>
+          <div id="contactInbox"></div>
+          <textarea id="contactMessage" placeholder="Type your message"></textarea>
+          <button type="button" id="sendContactBtn" onclick="sendContactMessage()">📨 Send Message</button>
+          <button type="button" class="secondary-action" onclick="showPanel('reportPanel')">← Back</button>
+        </section>
+
+        <section id="recordsPanel" class="panel hidden">
+          <h3 id="recordsTitle">Animal Health Records</h3>
+          <div id="records"></div>
+        </section>
+
+        <section id="alertsPanel" class="panel hidden">
+          <h3 id="alertsTitle">Alerts</h3>
+          <div id="alerts"></div>
+        </section>
+
+        <section id="verificationPanel" class="panel hidden">
+          <h3>✅ Veterinary Case Verification</h3>
+          <p class="muted">Review submitted health reports and update the veterinary review status.</p>
+          <div id="verificationList"></div>
+        </section>
+
+        <section id="vaccinePanel" class="panel hidden">
+          <h3 id="vaccineTitle">💉 Vaccination & Reminders</h3>
+          <input id="vaxAnimalId" placeholder="Animal ID" />
+          <select id="vaxName"><option>FMD</option><option>HS</option><option>BQ</option><option>Brucellosis</option><option>Other</option></select>
+          <label>Due date <input id="vaxDueDate" type="date" /></label>
+          <label>Given date <input id="vaxGivenDate" type="date" /></label>
+          <select id="vaxStatus"><option>Scheduled</option><option>Due</option><option>Completed</option></select>
+          <button onclick="saveVaccination()">💾 Save Vaccination</button>
+          <div id="vaccinationList"></div>
+          <div class="vaccine">
+            <p><span id="vaccineFmd">💉 FMD Vaccine</span> <b id="vaccineFmdStatus">Due soon</b></p>
+            <p><span id="vaccineHs">💉 HS Vaccine</span> <b id="vaccineHsStatus">Upcoming</b></p>
+            <p><span id="vaccineBq">💉 BQ Vaccine</span> <b id="vaccineBqStatus">Scheduled</b></p>
+          </div>
+        </section>
+      </main>
+    </section>
+  </div>
+  <script src="i18n.js"></script>
+  <script>
+    let micListening = false, recognition = null;   // were used but never declared
+    function handleSpeciesChange(){
+      const select=document.getElementById('species');
+      const other=document.getElementById('otherSpecies');
+      if(!select || !other) return;
+      const isOther=select.value==='Other';
+      other.classList.toggle('hidden', !isOther);
+      other.required=isOther;
+      if(!isOther) other.value='';
+    }
+
+    document.getElementById('species')?.addEventListener('change', handleSpeciesChange);
+    function setupPhotoInputs(){
+      const preview=document.getElementById('photoPreview');
+      const gallery=document.getElementById('photoFile');
+      const camera=document.getElementById('cameraFile');
+      function showPhoto(file){
+        if(!file || !file.type.startsWith('image/')) return;
+        const reader=new FileReader();
+        reader.onload=e=>{ preview.src=e.target.result; preview.classList.remove('hidden'); };
+        reader.readAsDataURL(file);
+      }
+      gallery?.addEventListener('change',e=>showPhoto(e.target.files[0]));
+      camera?.addEventListener('change',e=>showPhoto(e.target.files[0]));
+    }
+    setupPhotoInputs();
+
+
+    async function getLocation(forceFresh=true){
+      const status=document.getElementById('locationStatus');
+      const setStatus=(msg)=>{ if(status){ status.style.display='block'; status.textContent='📍 '+msg; } };
+      setStatus('Getting a fresh GPS location...');
+      try { localStorage.removeItem(STORAGE.location); } catch {}
+      if(!navigator.geolocation){ setStatus(t('locationUnsupported')); return null; }
+      const getPosition=()=>new Promise((resolve,reject)=>navigator.geolocation.getCurrentPosition(resolve,reject,{enableHighAccuracy:true,timeout:30000,maximumAge:0}));
+      try{
+        const samples=[];
+        for(let i=0;i<3;i++){
+          try { const pos=await getPosition(); if(pos?.coords) samples.push(pos); if(pos?.coords?.accuracy && pos.coords.accuracy<=100) break; }
+          catch(err){ if(!samples.length) throw err; }
+        }
+        if(!samples.length) throw new Error('No fresh GPS fix was received.');
+        const pos=samples.sort((a,b)=>(a.coords.accuracy||Infinity)-(b.coords.accuracy||Infinity))[0];
+        const lat=pos.coords.latitude, lon=pos.coords.longitude, accuracy=pos.coords.accuracy;
+        const MAX_ACCEPTED_ACCURACY_METERS=1000;
+        if(!Number.isFinite(lat)||!Number.isFinite(lon)||!Number.isFinite(accuracy)) throw new Error('Invalid GPS reading.');
+        if(accuracy>MAX_ACCEPTED_ACCURACY_METERS){
+          try { localStorage.removeItem(STORAGE.location); } catch {}
+          setStatus(`GPS accuracy is too low (±${Math.round(accuracy)} m). Please move to an open area and try again.`);
+          return null;
+        }
+        let location={lat,lon,accuracy,address:'',capturedAt:new Date().toISOString()};
+        try{
+          const response=await fetch(`https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=${encodeURIComponent(lat)}&lon=${encodeURIComponent(lon)}&zoom=18&addressdetails=1`,{headers:{'Accept':'application/json','Accept-Language':selectedLanguage||'en'}});
+          if(!response.ok) throw new Error(`Reverse geocoder ${response.status}`);
+          const data=await response.json(), a=data.address||{};
+          location={...location,address:data.display_name||'',displayName:data.display_name||'',village:a.village||a.hamlet||'',town:a.town||a.city_district||'',city:a.city||a.municipality||'',taluka:a.subdistrict||a.county||'',district:a.state_district||a.district||'',state:a.state||'',country:a.country||'',pincode:a.postcode||''};
+        }catch(e){ console.warn('Reverse geocoding failed',e); }
+        try { localStorage.setItem(STORAGE.location,JSON.stringify(location)); } catch {}
+        const readable=[location.village||location.town||location.city||location.address,location.taluka,location.district,location.state].filter(Boolean).filter((v,i,a)=>a.indexOf(v)===i).join(', ');
+        setStatus(readable || 'Location detected');
+        return location;
+      }catch(err){
+        console.warn('Fresh GPS error:',err);
+        try { localStorage.removeItem(STORAGE.location); } catch {}
+        setStatus((t('locationDenied')||'Unable to get your current location.')+' Please enable device location and try again.');
+        return null;
+      }
+    }
+
+    function getRecognitionLanguage(){
+      return selectedLanguage === 'hi' ? 'hi-IN' : selectedLanguage === 'mr' ? 'mr-IN' : 'en-IN';
+    }
+
+    function startMic(){
+      const SpeechRecognition = window.SpeechRecognition || window.webkitSpeechRecognition;
+      const btn=document.getElementById('micBtn');
+      if(!SpeechRecognition){ alert(t('micUnsupported')); return; }
+      if(micListening && recognition){ recognition.stop(); return; }
+
+      recognition=new SpeechRecognition();
+      recognition.lang=getRecognitionLanguage();
+      recognition.interimResults=true;
+      recognition.continuous=false;
+
+      recognition.onstart=()=>{
+        micListening=true;
+        if(btn){ btn.textContent='🔴 '+t('micListening'); btn.classList.add('active'); }
+      };
+      recognition.onresult=(event)=>{
+        let transcript='';
+        for(let i=event.resultIndex;i<event.results.length;i++) transcript += event.results[i][0].transcript;
+        const field=document.getElementById('medicalHistory');
+        if(field) field.value=transcript.trim();
+      };
+      recognition.onerror=(event)=>{
+        micListening=false;
+        if(btn){ btn.textContent='🎙️ '+t('mic'); btn.classList.remove('active'); }
+        if(event.error !== 'aborted') alert(event.error === 'no-speech' ? t('micNoSpeech') : t('micUnsupported'));
+      };
+      recognition.onend=()=>{
+        micListening=false;
+        if(btn){ btn.textContent='🎙️ '+t('mic'); btn.classList.remove('active'); }
+      };
+      recognition.start();
+    }
+
+    let currentUtterance = null;
+    let voicesReady = false;
+
+    function getSpeechLanguage(){
+      return selectedLanguage === 'hi' ? 'hi-IN' : selectedLanguage === 'mr' ? 'mr-IN' : 'en-IN';
+    }
+
+    function speakPage(){
+      if (!window.speechSynthesis || !window.SpeechSynthesisUtterance){
+        alert(t('speakerUnsupported'));
+        return;
+      }
+      const dashboard=document.querySelector('#dashboard:not(.hidden)');
+      const text=(dashboard ? dashboard.innerText : document.body.innerText)
+        .replace(/\s+/g,' ')
+        .trim();
+      if(!text){ alert(t('speakerNoText')); return; }
+
+      speechSynthesis.cancel();
+      const lang=getSpeechLanguage();
+      const voices=speechSynthesis.getVoices();
+      // Prefer the exact selected-language voice, then the language family,
+      // and finally let the browser choose its default voice.
+      const voice=voices.find(v=>v.lang.toLowerCase()===lang.toLowerCase())
+        || voices.find(v=>v.lang.toLowerCase().startsWith(lang.slice(0,2).toLowerCase()));
+
+      currentUtterance=new SpeechSynthesisUtterance(text);
+      currentUtterance.lang=lang;
+      currentUtterance.rate=0.9;
+      currentUtterance.pitch=1;
+      currentUtterance.volume=1;
+      if(voice) currentUtterance.voice=voice;
+
+      const btn=document.getElementById('speakerBtn');
+      if(btn) btn.textContent='⏸ Speaker';
+      currentUtterance.onend=()=>{ if(btn) btn.textContent='🔊 Speaker'; currentUtterance=null; };
+      currentUtterance.onerror=()=>{ if(btn) btn.textContent='🔊 Speaker'; currentUtterance=null; };
+      speechSynthesis.speak(currentUtterance);
+    }
+
+    function stopSpeaking(){
+      if(window.speechSynthesis) speechSynthesis.cancel();
+      currentUtterance=null;
+      const btn=document.getElementById('speakerBtn');
+      if(btn) btn.textContent='🔊 Speaker';
+    }
+
+    if('speechSynthesis' in window){
+      speechSynthesis.getVoices();
+      speechSynthesis.onvoiceschanged=()=>{ voicesReady=true; speechSynthesis.getVoices(); };
+    }
+    if('speechSynthesis' in window){ speechSynthesis.onvoiceschanged=()=>speechSynthesis.getVoices(); }
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@4.22.0/dist/tf.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@tensorflow-models/mobilenet@2.1.1/dist/mobilenet.min.js"></script>
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <script src="app.js"></script>
+
+    <!-- Camera modal: uses the device/browser camera instead of the file picker -->
+    <div id="cameraModal" class="camera-modal hidden" aria-hidden="true">
+      <div class="camera-dialog">
+        <h3>📷 Take Animal Photo</h3>
+        <video id="cameraVideo" autoplay playsinline muted></video>
+        <canvas id="cameraCanvas" class="hidden"></canvas>
+        <div class="camera-modal-actions">
+          <button type="button" onclick="captureCameraPhoto()">📸 Capture Photo</button>
+          <button type="button" class="camera-cancel" onclick="closeCamera()">Cancel</button>
+        </div>
+        <p id="cameraMessage">Allow camera permission if your browser asks.</p>
+      </div>
+    </div>
+
+
+</body>
+</html>

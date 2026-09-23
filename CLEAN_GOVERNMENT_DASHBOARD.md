@@ -1,0 +1,1 @@
+Clean Government Dashboard: removed duplicate top summary cards. The dashboard now has one Animal/Health Statistics card, one Risk Cases card, one Alerts card, one Location/Hotspot card, plus Trends and Vaccination Programs.

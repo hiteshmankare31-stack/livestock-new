@@ -1,0 +1,486 @@
+treatment_id,animal_id,health_record_id,disease,diagnosis_date,treatment_start_date,medicine,medicine_type,dose,duration_days,veterinarian,isolation_advised,outcome,followup_date,cost_inr
+TR0001,DS001,HR0001,Healthy,2026-08-13,2026-08-13,Deworming (routine),Preventive,As prescribed by veterinarian,1,Dr. S. Joshi,No,Recovered,2026-08-18,850
+TR0002,DS003,HR0003,Foot_Mouth_Disease,2026-08-26,2026-08-27,Potassium permanganate mouth and foot wash,Antiseptic,As prescribed by veterinarian,7,Dr. M. Sawant,Yes,Under treatment,2026-09-07,1500
+TR0003,DS003,HR0003,Foot_Mouth_Disease,2026-08-26,2026-08-27,Oxytetracycline (secondary infection),Antibiotic,As prescribed by veterinarian,5,Dr. M. Sawant,Yes,Under treatment,2026-09-02,450
+TR0004,DS004,HR0004,Mastitis,2026-09-09,2026-09-09,Cloxacillin intramammary infusion,Antibiotic,As prescribed by veterinarian,5,Dr. P. Naik,No,Recovered,2026-09-16,250
+TR0005,DS004,HR0004,Mastitis,2026-09-09,2026-09-09,Meloxicam,Anti-inflammatory,As prescribed by veterinarian,3,Dr. P. Naik,No,Recovered,2026-09-18,1500
+TR0006,DS004,HR0004,Mastitis,2026-09-09,2026-09-09,Teat dip and udder hygiene,Management,As prescribed by veterinarian,14,Dr. P. Naik,No,Recovered,2026-09-29,1950
+TR0007,DS005,HR0005,Lumpy_Skin_Disease,2026-07-24,2026-07-24,Oxytetracycline (secondary infection),Antibiotic,As prescribed by veterinarian,5,Dr. P. Naik,Yes,Recovered,2026-08-01,3550
+TR0008,DS005,HR0005,Lumpy_Skin_Disease,2026-07-24,2026-07-25,Meloxicam,Anti-inflammatory,As prescribed by veterinarian,3,Dr. P. Naik,Yes,Recovered,2026-08-01,1700
+TR0009,DS005,HR0005,Lumpy_Skin_Disease,2026-07-24,2026-07-24,Antiseptic wound spray,Topical,As prescribed by veterinarian,10,Dr. P. Naik,Yes,Recovered,2026-08-09,2800
+TR0010,DS006,HR0007,Foot_Mouth_Disease,2026-07-13,2026-07-13,Potassium permanganate mouth and foot wash,Antiseptic,As prescribed by veterinarian,7,Dr. A. Kulkarni,Yes,Recovered,2026-07-22,800
+TR0011,DS006,HR0007,Foot_Mouth_Disease,2026-07-13,2026-07-14,Oxytetracycline (secondary infection),Antibiotic,As prescribed by veterinarian,5,Dr. A. Kulkarni,Yes,Recovered,2026-07-23,1400
+TR0012,DS006,HR0007,Foot_Mouth_Disease,2026-07-13,2026-07-14,Soft feed and oral fluids,Supportive,As prescribed by veterinarian,10,Dr. A. Kulkarni,Yes,Recovered,2026-07-26,2500
+TR0013,DS007,HR0009,Foot_Mouth_Disease,2026-09-07,2026-09-07,Potassium permanganate mouth and foot wash,Antiseptic,As prescribed by veterinarian,7,Dr. A. Kulkarni,Yes,Referred to lab,2026-09-18,1000
+TR0014,DS007,HR0009,Foot_Mouth_Disease,2026-09-07,2026-09-08,Oxytetracycline (secondary infection),Antibiotic,As prescribed by veterinarian,5,Dr. A. Kulkarni,Yes,Referred to lab,2026-09-16,3150
+TR0015,DS007,HR0009,Foot_Mouth_Disease,2026-09-07,2026-09-07,Soft feed and oral fluids,Supportive,As prescribed by veterinarian,10,Dr. A. Kulkarni,Yes,Referred to lab,2026-09-22,2250
+TR0016,DS008,HR0010,Mastitis,2026-07-17,2026-07-17,Cloxacillin intramammary infusion,Antibiotic,As prescribed by veterinarian,5,Dr. A. Kulkarni,No,Recovered,2026-07-26,2900
+TR0017,DS008,HR0010,Mastitis,2026-07-17,2026-07-17,Meloxicam,Anti-inflammatory,As prescribed by veterinarian,3,Dr. A. Kulkarni,No,Recovered,2026-07-25,1650
+TR0018,DS008,HR0010,Mastitis,2026-07-17,2026-07-17,Teat dip and udder hygiene,Management,As prescribed by veterinarian,14,Dr. A. Kulkarni,No,Recovered,2026-08-06,400
+TR0019,DS009,HR0012,Ringworm,2026-06-15,2026-06-16,Natamycin topical wash,Antifungal,As prescribed by veterinarian,14,Dr. S. Joshi,No,Under treatment,2026-07-06,2550
+TR0020,DS009,HR0012,Ringworm,2026-06-15,2026-06-15,Isolation and bedding disinfection,Management,As prescribed by veterinarian,14,Dr. S. Joshi,No,Under treatment,2026-07-05,2000
+TR0021,DS010,HR0013,Lumpy_Skin_Disease,2026-08-29,2026-08-29,Oxytetracycline (secondary infection),Antibiotic,As prescribed by veterinarian,5,Dr. M. Sawant,Yes,Recovered,2026-09-10,2700
+TR0022,DS010,HR0013,Lumpy_Skin_Disease,2026-08-29,2026-08-30,Meloxicam,Anti-inflammatory,As prescribed by veterinarian,3,Dr. M. Sawant,Yes,Recovered,2026-09-05,500
+TR0023,DS010,HR0013,Lumpy_Skin_Disease,2026-08-29,2026-08-29,Antiseptic wound spray,Topical,As prescribed by veterinarian,10,Dr. M. Sawant,Yes,Recovered,2026-09-11,2100
+TR0024,DS010,HR0013,Lumpy_Skin_Disease,2026-08-29,2026-08-30,Vitamin and mineral supplement,Supportive,As prescribed by veterinarian,14,Dr. M. Sawant,Yes,Recovered,2026-09-16,1100
+TR0025,DS012,HR0016,Mastitis,2026-07-01,2026-07-02,Cloxacillin intramammary infusion,Antibiotic,As prescribed by veterinarian,5,Dr. S. Joshi,No,Under treatment,2026-07-10,2850
+TR0026,DS012,HR0016,Mastitis,2026-07-01,2026-07-02,Meloxicam,Anti-inflammatory,As prescribed by veterinarian,3,Dr. S. Joshi,No,Under treatment,2026-07-07,1200
+TR0027,DS012,HR0016,Mastitis,2026-07-01,2026-07-01,Teat dip and udder hygiene,Management,As prescribed by veterinarian,14,Dr. S. Joshi,No,Under treatment,2026-07-20,1950
+TR0028,DS013,HR0017,Lumpy_Skin_Disease,2026-08-11,2026-08-12,Oxytetracycline (secondary infection),Antibiotic,As prescribed by veterinarian,5,Dr. P. Naik,Yes,Recovered,2026-08-20,300
+TR0029,DS013,HR0017,Lumpy_Skin_Disease,2026-08-11,2026-08-11,Meloxicam,Anti-inflammatory,As prescribed by veterinarian,3,Dr. P. Naik,Yes,Recovered,2026-08-21,1000
+TR0030,DS013,HR0017,Lumpy_Skin_Disease,2026-08-11,2026-08-12,Antiseptic wound spray,Topical,As prescribed by veterinarian,10,Dr. P. Naik,Yes,Recovered,2026-08-25,350
+TR0031,DS013,HR0017,Lumpy_Skin_Disease,2026-08-11,2026-08-12,Vitamin and mineral supplement,Supportive,As prescribed by veterinarian,14,Dr. P. Naik,Yes,Recovered,2026-08-31,2000
+TR0032,DS014,HR0019,Mastitis,2026-07-07,2026-07-08,Cloxacillin intramammary infusion,Antibiotic,As prescribed by veterinarian,5,Dr. R. Deshpande,No,Recovered,2026-07-15,2600
+TR0033,DS014,HR0019,Mastitis,2026-07-07,2026-07-08,Meloxicam,Anti-inflammatory,As prescribed by veterinarian,3,Dr. R. Deshpande,No,Recovered,2026-07-14,1600
+TR0034,DS014,HR0019,Mastitis,2026-07-07,2026-07-08,Teat dip and udder hygiene,Management,As prescribed by veterinarian,14,Dr. R. Deshpande,No,Recovered,2026-07-23,3500
+TR0035,DS015,HR0021,Foot_Mouth_Disease,2026-08-09,2026-08-09,Potassium permanganate mouth and foot wash,Antiseptic,As prescribed by veterinarian,7,Dr. S. Joshi,Yes,Recovered,2026-08-23,1150
+TR0036,DS015,HR0021,Foot_Mouth_Disease,2026-08-09,2026-08-09,Oxytetracycline (secondary infection),Antibiotic,As prescribed by veterinarian,5,Dr. S. Joshi,Yes,Recovered,2026-08-21,450
+TR0037,DS015,HR0021,Foot_Mouth_Disease,2026-08-09,2026-08-10,Soft feed and oral fluids,Supportive,As prescribed by veterinarian,10,Dr. S. Joshi,Yes,Recovered,2026-08-22,1100
+TR0038,DS016,HR0023,Lumpy_Skin_Disease,2026-08-03,2026-08-03,Oxytetracycline (secondary infection),Antibiotic,As prescribed by veterinarian,5,Dr. S. Joshi,Yes,Recovered,2026-08-11,1650
+TR0039,DS016,HR0023,Lumpy_Skin_Disease,2026-08-03,2026-08-04,Meloxicam,Anti-inflammatory,As prescribed by veterinarian,3,Dr. S. Joshi,Yes,Recovered,2026-08-09,2600
+TR0040,DS016,HR0023,Lumpy_Skin_Disease,2026-08-03,2026-08-04,Antiseptic wound spray,Topical,As prescribed by veterinarian,10,Dr. S. Joshi,Yes,Recovered,2026-08-20,2950
+TR0041,DS016,HR0023,Lumpy_Skin_Disease,2026-08-03,2026-08-04,Vitamin and mineral supplement,Supportive,As prescribed by veterinarian,14,Dr. S. Joshi,Yes,Recovered,2026-08-24,1550
+TR0042,DS017,HR0025,Mastitis,2026-07-30,2026-07-31,Cloxacillin intramammary infusion,Antibiotic,As prescribed by veterinarian,5,Dr. M. Sawant,No,Recovered,2026-08-09,2650
+TR0043,DS017,HR0025,Mastitis,2026-07-30,2026-07-30,Meloxicam,Anti-inflammatory,As prescribed by veterinarian,3,Dr. M. Sawant,No,Recovered,2026-08-09,2300
+TR0044,DS017,HR0025,Mastitis,2026-07-30,2026-07-30,Teat dip and udder hygiene,Management,As prescribed by veterinarian,14,Dr. M. Sawant,No,Recovered,2026-08-18,3200
+TR0045,DS018,HR0027,Mastitis,2026-07-16,2026-07-16,Cloxacillin intramammary infusion,Antibiotic,As prescribed by veterinarian,5,Dr. R. Deshpande,No,Under treatment,2026-07-25,3200
+TR0046,DS018,HR0027,Mastitis,2026-07-16,2026-07-17,Meloxicam,Anti-inflammatory,As prescribed by veterinarian,3,Dr. R. Deshpande,No,Under treatment,2026-07-22,3500
+TR0047,DS018,HR0027,Mastitis,2026-07-16,2026-07-17,Teat dip and udder hygiene,Management,As prescribed by veterinarian,14,Dr. R. Deshpande,No,Under treatment,2026-08-04,500
+TR0048,DS019,HR0028,Lumpy_Skin_Disease,2026-06-22,2026-06-22,Oxytetracycline (secondary infection),Antibiotic,As prescribed by veterinarian,5,Dr. P. Naik,Yes,Under treatment,2026-06-30,1500
+TR0049,DS019,HR0028,Lumpy_Skin_Disease,2026-06-22,2026-06-22,Meloxicam,Anti-inflammatory,As prescribed by veterinarian,3,Dr. P. Naik,Yes,Under treatment,2026-07-01,1950
+TR0050,DS019,HR0028,Lumpy_Skin_Disease,2026-06-22,2026-06-22,Antiseptic wound spray,Topical,As prescribed by veterinarian,10,Dr. P. Naik,Yes,Under treatment,2026-07-06,1300
+TR0051,DS019,HR0028,Lumpy_Skin_Disease,2026-06-22,2026-06-22,Vitamin and mineral supplement,Supportive,As prescribed by veterinarian,14,Dr. P. Naik,Yes,Under treatment,2026-07-09,950
+TR0052,DS020,HR0029,Ringworm,2026-05-07,2026-05-08,Natamycin topical wash,Antifungal,As prescribed by veterinarian,14,Dr. M. Sawant,No,Under treatment,2026-05-23,2500
+TR0053,DS020,HR0029,Ringworm,2026-05-07,2026-05-08,Isolation and bedding disinfection,Management,As prescribed by veterinarian,14,Dr. M. Sawant,No,Under treatment,2026-05-26,800
+TR0054,DS021,HR0030,Ringworm,2026-08-25,2026-08-26,Natamycin topical wash,Antifungal,As prescribed by veterinarian,14,Dr. V. Thorat,No,Recovered,2026-09-15,2400
+TR0055,DS021,HR0030,Ringworm,2026-08-25,2026-08-26,Isolation and bedding disinfection,Management,As prescribed by veterinarian,14,Dr. V. Thorat,No,Recovered,2026-09-10,350
+TR0056,DS022,HR0032,Lumpy_Skin_Disease,2026-06-01,2026-06-01,Oxytetracycline (secondary infection),Antibiotic,As prescribed by veterinarian,5,Dr. A. Kulkarni,Yes,Under treatment,2026-06-08,1700
+TR0057,DS022,HR0032,Lumpy_Skin_Disease,2026-06-01,2026-06-02,Meloxicam,Anti-inflammatory,As prescribed by veterinarian,3,Dr. A. Kulkarni,Yes,Under treatment,2026-06-06,2700
+TR0058,DS022,HR0032,Lumpy_Skin_Disease,2026-06-01,2026-06-02,Antiseptic wound spray,Topical,As prescribed by veterinarian,10,Dr. A. Kulkarni,Yes,Under treatment,2026-06-16,2150
+TR0059,DS022,HR0032,Lumpy_Skin_Disease,2026-06-01,2026-06-02,Vitamin and mineral supplement,Supportive,As prescribed by veterinarian,14,Dr. A. Kulkarni,Yes,Under treatment,2026-06-20,2100
+TR0060,DS023,HR0033,Healthy,2026-06-24,2026-06-24,Mineral mixture supplement,Preventive,As prescribed by veterinarian,30,Dr. S. Joshi,No,Recovered,2026-07-31,1500
+TR0061,DS024,HR0034,Mastitis,2026-07-15,2026-07-15,Cloxacillin intramammary infusion,Antibiotic,As prescribed by veterinarian,5,Dr. A. Kulkarni,No,Recovered,2026-07-25,2750
+TR0062,DS024,HR0034,Mastitis,2026-07-15,2026-07-15,Meloxicam,Anti-inflammatory,As prescribed by veterinarian,3,Dr. A. Kulkarni,No,Recovered,2026-07-23,3500
+TR0063,DS025,HR0036,Ringworm,2026-06-18,2026-06-19,Natamycin topical wash,Antifungal,As prescribed by veterinarian,14,Dr. M. Sawant,No,Referred to lab,2026-07-05,800
+TR0064,DS026,HR0037,Lumpy_Skin_Disease,2026-07-02,2026-07-02,Oxytetracycline (secondary infection),Antibiotic,As prescribed by veterinarian,5,Dr. R. Deshpande,Yes,Under treatment,2026-07-13,2900
+TR0065,DS026,HR0037,Lumpy_Skin_Disease,2026-07-02,2026-07-03,Meloxicam,Anti-inflammatory,As prescribed by veterinarian,3,Dr. R. Deshpande,Yes,Under treatment,2026-07-11,3150
+TR0066,DS026,HR0037,Lumpy_Skin_Disease,2026-07-02,2026-07-03,Antiseptic wound spray,Topical,As prescribed by veterinarian,10,Dr. R. Deshpande,Yes,Under treatment,2026-07-15,3050
+TR0067,DS027,HR0038,Healthy,2026-09-02,2026-09-03,Mineral mixture supplement,Preventive,As prescribed by veterinarian,30,Dr. M. Sawant,No,Recovered,2026-10-04,2500
+TR0068,DS028,HR0039,Lumpy_Skin_Disease,2026-05-05,2026-05-05,Oxytetracycline (secondary infection),Antibiotic,As prescribed by veterinarian,5,Dr. M. Sawant,Yes,Under treatment,2026-05-14,1050
+TR0069,DS028,HR0039,Lumpy_Skin_Disease,2026-05-05,2026-05-06,Meloxicam,Anti-inflammatory,As prescribed by veterinarian,3,Dr. M. Sawant,Yes,Under treatment,2026-05-11,950
+TR0070,DS028,HR0039,Lumpy_Skin_Disease,2026-05-05,2026-05-05,Antiseptic wound spray,Topical,As prescribed by veterinarian,10,Dr. M. Sawant,Yes,Under treatment,2026-05-17,700
+TR0071,DS028,HR0039,Lumpy_Skin_Disease,2026-05-05,2026-05-06,Vitamin and mineral supplement,Supportive,As prescribed by veterinarian,14,Dr. M. Sawant,Yes,Under treatment,2026-05-21,1100
+TR0072,DS030,HR0041,Lumpy_Skin_Disease,2026-08-10,2026-08-11,Oxytetracycline (secondary infection),Antibiotic,As prescribed by veterinarian,5,Dr. R. Deshpande,Yes,Recovered,2026-08-19,1450
+TR0073,DS030,HR0041,Lumpy_Skin_Disease,2026-08-10,2026-08-10,Meloxicam,Anti-inflammatory,As prescribed by veterinarian,3,Dr. R. Deshpande,Yes,Recovered,2026-08-17,3250
+TR0074,DS030,HR0041,Lumpy_Skin_Disease,2026-08-10,2026-08-10,Antiseptic wound spray,Topical,As prescribed by veterinarian,10,Dr. R. Deshpande,Yes,Recovered,2026-08-26,2050
+TR0075,DS030,HR0041,Lumpy_Skin_Disease,2026-08-10,2026-08-10,Vitamin and mineral supplement,Supportive,As prescribed by veterinarian,14,Dr. R. Deshpande,Yes,Recovered,2026-08-30,2450
+TR0076,DS031,HR0043,Lumpy_Skin_Disease,2026-09-16,2026-09-17,Oxytetracycline (secondary infection),Antibiotic,As prescribed by veterinarian,5,Dr. S. Joshi,Yes,Recovered,2026-09-23,1850
+TR0077,DS031,HR0043,Lumpy_Skin_Disease,2026-09-16,2026-09-17,Meloxicam,Anti-inflammatory,As prescribed by veterinarian,3,Dr. S. Joshi,Yes,Recovered,2026-09-26,2350
+TR0078,DS031,HR0043,Lumpy_Skin_Disease,2026-09-16,2026-09-16,Antiseptic wound spray,Topical,As prescribed by veterinarian,10,Dr. S. Joshi,Yes,Recovered,2026-09-28,2500
+TR0079,DS031,HR0043,Lumpy_Skin_Disease,2026-09-16,2026-09-17,Vitamin and mineral supplement,Supportive,As prescribed by veterinarian,14,Dr. S. Joshi,Yes,Recovered,2026-10-07,3350
+TR0080,DS032,HR0044,Foot_Mouth_Disease,2026-08-03,2026-08-04,Potassium permanganate mouth and foot wash,Antiseptic,As prescribed by veterinarian,7,Dr. A. Kulkarni,Yes,Recovered,2026-08-14,1350
+TR0081,DS032,HR0044,Foot_Mouth_Disease,2026-08-03,2026-08-03,Oxytetracycline (secondary infection),Antibiotic,As prescribed by veterinarian,5,Dr. A. Kulkarni,Yes,Recovered,2026-08-11,2150
+TR0082,DS033,HR0046,Mastitis,2026-07-18,2026-07-18,Cloxacillin intramammary infusion,Antibiotic,As prescribed by veterinarian,5,Dr. P. Naik,No,Under treatment,2026-07-27,2100
+TR0083,DS033,HR0046,Mastitis,2026-07-18,2026-07-18,Meloxicam,Anti-inflammatory,As prescribed by veterinarian,3,Dr. P. Naik,No,Under treatment,2026-07-25,3200
+TR0084,DS033,HR0046,Mastitis,2026-07-18,2026-07-18,Teat dip and udder hygiene,Management,As prescribed by veterinarian,14,Dr. P. Naik,No,Under treatment,2026-08-06,3500
+TR0085,DS034,HR0047,Mastitis,2026-08-15,2026-08-15,Cloxacillin intramammary infusion,Antibiotic,As prescribed by veterinarian,5,Dr. V. Thorat,No,Recovered,2026-08-22,350
+TR0086,DS034,HR0047,Mastitis,2026-08-15,2026-08-15,Meloxicam,Anti-inflammatory,As prescribed by veterinarian,3,Dr. V. Thorat,No,Recovered,2026-08-25,2250
+TR0087,DS034,HR0047,Mastitis,2026-08-15,2026-08-15,Teat dip and udder hygiene,Management,As prescribed by veterinarian,14,Dr. V. Thorat,No,Recovered,2026-08-31,3350
+TR0088,DS035,HR0049,Healthy,2026-06-20,2026-06-20,Deworming (routine),Preventive,As prescribed by veterinarian,1,Dr. A. Kulkarni,No,Recovered,2026-06-23,2200
+TR0089,DS036,HR0050,Ringworm,2026-05-20,2026-05-21,Natamycin topical wash,Antifungal,As prescribed by veterinarian,14,Dr. P. Naik,No,Under treatment,2026-06-08,1350
+TR0090,DS036,HR0050,Ringworm,2026-05-20,2026-05-20,Isolation and bedding disinfection,Management,As prescribed by veterinarian,14,Dr. P. Naik,No,Under treatment,2026-06-06,3500
+TR0091,DS037,HR0051,Foot_Mouth_Disease,2026-08-11,2026-08-11,Potassium permanganate mouth and foot wash,Antiseptic,As prescribed by veterinarian,7,Dr. S. Joshi,Yes,Recovered,2026-08-21,1950
+TR0092,DS037,HR0051,Foot_Mouth_Disease,2026-08-11,2026-08-11,Oxytetracycline (secondary infection),Antibiotic,As prescribed by veterinarian,5,Dr. S. Joshi,Yes,Recovered,2026-08-21,1900
+TR0093,DS037,HR0051,Foot_Mouth_Disease,2026-08-11,2026-08-12,Soft feed and oral fluids,Supportive,As prescribed by veterinarian,10,Dr. S. Joshi,Yes,Recovered,2026-08-26,1200
+TR0094,DS039,HR0054,Foot_Mouth_Disease,2026-09-14,2026-09-14,Potassium permanganate mouth and foot wash,Antiseptic,As prescribed by veterinarian,7,Dr. P. Naik,Yes,Recovered,2026-09-23,1300
+TR0095,DS039,HR0054,Foot_Mouth_Disease,2026-09-14,2026-09-15,Oxytetracycline (secondary infection),Antibiotic,As prescribed by veterinarian,5,Dr. P. Naik,Yes,Recovered,2026-09-26,2750
+TR0096,DS039,HR0054,Foot_Mouth_Disease,2026-09-14,2026-09-15,Soft feed and oral fluids,Supportive,As prescribed by veterinarian,10,Dr. P. Naik,Yes,Recovered,2026-09-27,1900
+TR0097,DS040,HR0055,Lumpy_Skin_Disease,2026-06-03,2026-06-03,Oxytetracycline (secondary infection),Antibiotic,As prescribed by veterinarian,5,Dr. M. Sawant,Yes,Recovered,2026-06-12,1850
+TR0098,DS040,HR0055,Lumpy_Skin_Disease,2026-06-03,2026-06-04,Meloxicam,Anti-inflammatory,As prescribed by veterinarian,3,Dr. M. Sawant,Yes,Recovered,2026-06-08,500
+TR0099,DS040,HR0055,Lumpy_Skin_Disease,2026-06-03,2026-06-03,Antiseptic wound spray,Topical,As prescribed by veterinarian,10,Dr. M. Sawant,Yes,Recovered,2026-06-16,1350
+TR0100,DS040,HR0055,Lumpy_Skin_Disease,2026-06-03,2026-06-03,Vitamin and mineral supplement,Supportive,As prescribed by veterinarian,14,Dr. M. Sawant,Yes,Recovered,2026-06-19,2500
+TR0101,DS041,HR0057,Healthy,2026-08-23,2026-08-24,Deworming (routine),Preventive,As prescribed by veterinarian,1,Dr. S. Joshi,No,Recovered,2026-08-27,3350
+TR0102,DS043,HR0059,Mastitis,2026-05-02,2026-05-03,Cloxacillin intramammary infusion,Antibiotic,As prescribed by veterinarian,5,Dr. P. Naik,No,Under treatment,2026-05-12,1800
+TR0103,DS043,HR0059,Mastitis,2026-05-02,2026-05-02,Meloxicam,Anti-inflammatory,As prescribed by veterinarian,3,Dr. P. Naik,No,Under treatment,2026-05-10,2700
+TR0104,DS043,HR0059,Mastitis,2026-05-02,2026-05-02,Teat dip and udder hygiene,Management,As prescribed by veterinarian,14,Dr. P. Naik,No,Under treatment,2026-05-21,2400
+TR0105,DS046,HR0062,Lumpy_Skin_Disease,2026-06-23,2026-06-23,Oxytetracycline (secondary infection),Antibiotic,As prescribed by veterinarian,5,Dr. P. Naik,Yes,Recovered,2026-07-04,1450
+TR0106,DS046,HR0062,Lumpy_Skin_Disease,2026-06-23,2026-06-23,Meloxicam,Anti-inflammatory,As prescribed by veterinarian,3,Dr. P. Naik,Yes,Recovered,2026-06-29,1950
+TR0107,DS046,HR0062,Lumpy_Skin_Disease,2026-06-23,2026-06-24,Antiseptic wound spray,Topical,As prescribed by veterinarian,10,Dr. P. Naik,Yes,Recovered,2026-07-05,2600
+TR0108,DS046,HR0062,Lumpy_Skin_Disease,2026-06-23,2026-06-23,Vitamin and mineral supplement,Supportive,As prescribed by veterinarian,14,Dr. P. Naik,Yes,Recovered,2026-07-14,2600
+TR0109,DS047,HR0064,Lumpy_Skin_Disease,2026-07-22,2026-07-23,Oxytetracycline (secondary infection),Antibiotic,As prescribed by veterinarian,5,Dr. P. Naik,Yes,Recovered,2026-07-29,2050
+TR0110,DS047,HR0064,Lumpy_Skin_Disease,2026-07-22,2026-07-22,Meloxicam,Anti-inflammatory,As prescribed by veterinarian,3,Dr. P. Naik,Yes,Recovered,2026-07-27,1550
+TR0111,DS047,HR0064,Lumpy_Skin_Disease,2026-07-22,2026-07-22,Antiseptic wound spray,Topical,As prescribed by veterinarian,10,Dr. P. Naik,Yes,Recovered,2026-08-05,2950
+TR0112,DS048,HR0066,Foot_Mouth_Disease,2026-07-23,2026-07-23,Potassium permanganate mouth and foot wash,Antiseptic,As prescribed by veterinarian,7,Dr. V. Thorat,Yes,Recovered,2026-08-06,650
+TR0113,DS048,HR0066,Foot_Mouth_Disease,2026-07-23,2026-07-23,Oxytetracycline (secondary infection),Antibiotic,As prescribed by veterinarian,5,Dr. V. Thorat,Yes,Recovered,2026-08-01,2350
+TR0114,DS048,HR0066,Foot_Mouth_Disease,2026-07-23,2026-07-23,Soft feed and oral fluids,Supportive,As prescribed by veterinarian,10,Dr. V. Thorat,Yes,Recovered,2026-08-06,1350
+TR0115,DS052,HR0071,Ringworm,2026-05-21,2026-05-22,Natamycin topical wash,Antifungal,As prescribed by veterinarian,14,Dr. A. Kulkarni,No,Referred to lab,2026-06-10,2400
+TR0116,DS053,HR0072,Lumpy_Skin_Disease,2026-07-22,2026-07-22,Oxytetracycline (secondary infection),Antibiotic,As prescribed by veterinarian,5,Dr. V. Thorat,Yes,Under treatment,2026-08-02,3400
+TR0117,DS053,HR0072,Lumpy_Skin_Disease,2026-07-22,2026-07-22,Meloxicam,Anti-inflammatory,As prescribed by veterinarian,3,Dr. V. Thorat,Yes,Under treatment,2026-07-27,2750
+TR0118,DS053,HR0072,Lumpy_Skin_Disease,2026-07-22,2026-07-23,Antiseptic wound spray,Topical,As prescribed by veterinarian,10,Dr. V. Thorat,Yes,Under treatment,2026-08-05,3550
+TR0119,DS053,HR0072,Lumpy_Skin_Disease,2026-07-22,2026-07-23,Vitamin and mineral supplement,Supportive,As prescribed by veterinarian,14,Dr. V. Thorat,Yes,Under treatment,2026-08-10,1900
+TR0120,DS054,HR0073,Lumpy_Skin_Disease,2026-09-20,2026-09-20,Oxytetracycline (secondary infection),Antibiotic,As prescribed by veterinarian,5,Dr. S. Joshi,Yes,Recovered,2026-09-28,3100
+TR0121,DS054,HR0073,Lumpy_Skin_Disease,2026-09-20,2026-09-21,Meloxicam,Anti-inflammatory,As prescribed by veterinarian,3,Dr. S. Joshi,Yes,Recovered,2026-09-27,2250
+TR0122,DS054,HR0073,Lumpy_Skin_Disease,2026-09-20,2026-09-21,Antiseptic wound spray,Topical,As prescribed by veterinarian,10,Dr. S. Joshi,Yes,Recovered,2026-10-03,2250
+TR0123,DS054,HR0073,Lumpy_Skin_Disease,2026-09-20,2026-09-20,Vitamin and mineral supplement,Supportive,As prescribed by veterinarian,14,Dr. S. Joshi,Yes,Recovered,2026-10-08,1550
+TR0124,DS055,HR0074,Healthy,2026-06-12,2026-06-13,Deworming (routine),Preventive,As prescribed by veterinarian,1,Dr. R. Deshpande,No,Recovered,2026-06-16,1000
+TR0125,DS057,HR0076,Ringworm,2026-09-20,2026-09-20,Natamycin topical wash,Antifungal,As prescribed by veterinarian,14,Dr. R. Deshpande,No,Recovered,2026-10-06,350
+TR0126,DS057,HR0076,Ringworm,2026-09-20,2026-09-20,Isolation and bedding disinfection,Management,As prescribed by veterinarian,14,Dr. R. Deshpande,No,Recovered,2026-10-09,650
+TR0127,DS058,HR0077,Lumpy_Skin_Disease,2026-09-04,2026-09-04,Oxytetracycline (secondary infection),Antibiotic,As prescribed by veterinarian,5,Dr. P. Naik,Yes,Recovered,2026-09-13,2200
+TR0128,DS058,HR0077,Lumpy_Skin_Disease,2026-09-04,2026-09-04,Meloxicam,Anti-inflammatory,As prescribed by veterinarian,3,Dr. P. Naik,Yes,Recovered,2026-09-11,2050
+TR0129,DS058,HR0077,Lumpy_Skin_Disease,2026-09-04,2026-09-05,Antiseptic wound spray,Topical,As prescribed by veterinarian,10,Dr. P. Naik,Yes,Recovered,2026-09-21,2450
+TR0130,DS059,HR0078,Healthy,2026-06-15,2026-06-15,Deworming (routine),Preventive,As prescribed by veterinarian,1,Dr. A. Kulkarni,No,Recovered,2026-06-23,3250
+TR0131,DS060,HR0079,Healthy,2026-06-12,2026-06-13,Deworming (routine),Preventive,As prescribed by veterinarian,1,Dr. R. Deshpande,No,Recovered,2026-06-20,900
+TR0132,DS061,HR0080,Lumpy_Skin_Disease,2026-08-08,2026-08-09,Oxytetracycline (secondary infection),Antibiotic,As prescribed by veterinarian,5,Dr. S. Joshi,Yes,Recovered,2026-08-17,3400
+TR0133,DS061,HR0080,Lumpy_Skin_Disease,2026-08-08,2026-08-09,Meloxicam,Anti-inflammatory,As prescribed by veterinarian,3,Dr. S. Joshi,Yes,Recovered,2026-08-13,1000
+TR0134,DS061,HR0080,Lumpy_Skin_Disease,2026-08-08,2026-08-09,Antiseptic wound spray,Topical,As prescribed by veterinarian,10,Dr. S. Joshi,Yes,Recovered,2026-08-23,2700
+TR0135,DS061,HR0080,Lumpy_Skin_Disease,2026-08-08,2026-08-09,Vitamin and mineral supplement,Supportive,As prescribed by veterinarian,14,Dr. S. Joshi,Yes,Recovered,2026-08-27,3100
+TR0136,DS062,HR0082,Healthy,2026-06-17,2026-06-18,Mineral mixture supplement,Preventive,As prescribed by veterinarian,30,Dr. A. Kulkarni,No,Recovered,2026-07-22,1450
+TR0137,DS063,HR0083,Healthy,2026-07-31,2026-08-01,Mineral mixture supplement,Preventive,As prescribed by veterinarian,30,Dr. S. Joshi,No,Recovered,2026-09-01,3200
+TR0138,DS064,HR0084,Lumpy_Skin_Disease,2026-08-28,2026-08-29,Oxytetracycline (secondary infection),Antibiotic,As prescribed by veterinarian,5,Dr. P. Naik,Yes,Recovered,2026-09-04,2650
+TR0139,DS064,HR0084,Lumpy_Skin_Disease,2026-08-28,2026-08-29,Meloxicam,Anti-inflammatory,As prescribed by veterinarian,3,Dr. P. Naik,Yes,Recovered,2026-09-03,700
+TR0140,DS064,HR0084,Lumpy_Skin_Disease,2026-08-28,2026-08-28,Antiseptic wound spray,Topical,As prescribed by veterinarian,10,Dr. P. Naik,Yes,Recovered,2026-09-13,3500
+TR0141,DS064,HR0084,Lumpy_Skin_Disease,2026-08-28,2026-08-28,Vitamin and mineral supplement,Supportive,As prescribed by veterinarian,14,Dr. P. Naik,Yes,Recovered,2026-09-17,1550
+TR0142,DS067,HR0088,Healthy,2026-07-29,2026-07-29,Deworming (routine),Preventive,As prescribed by veterinarian,1,Dr. V. Thorat,No,Recovered,2026-08-06,2400
+TR0143,DS068,HR0089,Healthy,2026-09-05,2026-09-06,Deworming (routine),Preventive,As prescribed by veterinarian,1,Dr. S. Joshi,No,Recovered,2026-09-12,950
+TR0144,DS069,HR0090,Ringworm,2026-07-12,2026-07-13,Natamycin topical wash,Antifungal,As prescribed by veterinarian,14,Dr. P. Naik,No,Recovered,2026-07-28,1050
+TR0145,DS069,HR0090,Ringworm,2026-07-12,2026-07-13,Isolation and bedding disinfection,Management,As prescribed by veterinarian,14,Dr. P. Naik,No,Recovered,2026-07-31,1250
+TR0146,DS070,HR0092,Lumpy_Skin_Disease,2026-09-16,2026-09-16,Oxytetracycline (secondary infection),Antibiotic,As prescribed by veterinarian,5,Dr. S. Joshi,Yes,Under treatment,2026-09-25,350
+TR0147,DS070,HR0092,Lumpy_Skin_Disease,2026-09-16,2026-09-16,Meloxicam,Anti-inflammatory,As prescribed by veterinarian,3,Dr. S. Joshi,Yes,Under treatment,2026-09-21,1850
+TR0148,DS070,HR0092,Lumpy_Skin_Disease,2026-09-16,2026-09-17,Antiseptic wound spray,Topical,As prescribed by veterinarian,10,Dr. S. Joshi,Yes,Under treatment,2026-10-01,650
+TR0149,DS071,HR0093,Foot_Mouth_Disease,2026-08-10,2026-08-10,Potassium permanganate mouth and foot wash,Antiseptic,As prescribed by veterinarian,7,Dr. S. Joshi,Yes,Under treatment,2026-08-21,3250
+TR0150,DS071,HR0093,Foot_Mouth_Disease,2026-08-10,2026-08-10,Oxytetracycline (secondary infection),Antibiotic,As prescribed by veterinarian,5,Dr. S. Joshi,Yes,Under treatment,2026-08-17,300
+TR0151,DS071,HR0093,Foot_Mouth_Disease,2026-08-10,2026-08-10,Soft feed and oral fluids,Supportive,As prescribed by veterinarian,10,Dr. S. Joshi,Yes,Under treatment,2026-08-27,2350
+TR0152,DS072,HR0094,Lumpy_Skin_Disease,2026-06-11,2026-06-12,Oxytetracycline (secondary infection),Antibiotic,As prescribed by veterinarian,5,Dr. M. Sawant,Yes,Recovered,2026-06-20,1850
+TR0153,DS072,HR0094,Lumpy_Skin_Disease,2026-06-11,2026-06-12,Meloxicam,Anti-inflammatory,As prescribed by veterinarian,3,Dr. M. Sawant,Yes,Recovered,2026-06-19,550
+TR0154,DS072,HR0094,Lumpy_Skin_Disease,2026-06-11,2026-06-11,Antiseptic wound spray,Topical,As prescribed by veterinarian,10,Dr. M. Sawant,Yes,Recovered,2026-06-25,400
+TR0155,DS072,HR0094,Lumpy_Skin_Disease,2026-06-11,2026-06-11,Vitamin and mineral supplement,Supportive,As prescribed by veterinarian,14,Dr. M. Sawant,Yes,Recovered,2026-07-02,2150
+TR0156,DS074,HR0097,Healthy,2026-06-17,2026-06-17,Deworming (routine),Preventive,As prescribed by veterinarian,1,Dr. A. Kulkarni,No,Recovered,2026-06-24,3050
+TR0157,DS075,HR0098,Mastitis,2026-07-23,2026-07-23,Cloxacillin intramammary infusion,Antibiotic,As prescribed by veterinarian,5,Dr. A. Kulkarni,No,Recovered,2026-08-02,1950
+TR0158,DS075,HR0098,Mastitis,2026-07-23,2026-07-23,Meloxicam,Anti-inflammatory,As prescribed by veterinarian,3,Dr. A. Kulkarni,No,Recovered,2026-08-02,950
+TR0159,DS075,HR0098,Mastitis,2026-07-23,2026-07-24,Teat dip and udder hygiene,Management,As prescribed by veterinarian,14,Dr. A. Kulkarni,No,Recovered,2026-08-13,1550
+TR0160,DS076,HR0100,Mastitis,2026-08-25,2026-08-26,Cloxacillin intramammary infusion,Antibiotic,As prescribed by veterinarian,5,Dr. A. Kulkarni,No,Recovered,2026-09-03,1950
+TR0161,DS076,HR0100,Mastitis,2026-08-25,2026-08-26,Meloxicam,Anti-inflammatory,As prescribed by veterinarian,3,Dr. A. Kulkarni,No,Recovered,2026-08-31,3100
+TR0162,DS076,HR0100,Mastitis,2026-08-25,2026-08-25,Teat dip and udder hygiene,Management,As prescribed by veterinarian,14,Dr. A. Kulkarni,No,Recovered,2026-09-13,3200
+TR0163,DS078,HR0103,Healthy,2026-06-28,2026-06-29,Deworming (routine),Preventive,As prescribed by veterinarian,1,Dr. A. Kulkarni,No,Recovered,2026-07-03,800
+TR0164,DS079,HR0104,Mastitis,2026-05-31,2026-05-31,Cloxacillin intramammary infusion,Antibiotic,As prescribed by veterinarian,5,Dr. R. Deshpande,No,Under treatment,2026-06-08,1600
+TR0165,DS079,HR0104,Mastitis,2026-05-31,2026-05-31,Meloxicam,Anti-inflammatory,As prescribed by veterinarian,3,Dr. R. Deshpande,No,Under treatment,2026-06-10,2700
+TR0166,DS079,HR0104,Mastitis,2026-05-31,2026-05-31,Teat dip and udder hygiene,Management,As prescribed by veterinarian,14,Dr. R. Deshpande,No,Under treatment,2026-06-17,900
+TR0167,DS080,HR0105,Lumpy_Skin_Disease,2026-06-27,2026-06-27,Oxytetracycline (secondary infection),Antibiotic,As prescribed by veterinarian,5,Dr. P. Naik,Yes,Recovered,2026-07-04,2850
+TR0168,DS080,HR0105,Lumpy_Skin_Disease,2026-06-27,2026-06-27,Meloxicam,Anti-inflammatory,As prescribed by veterinarian,3,Dr. P. Naik,Yes,Recovered,2026-07-04,1900
+TR0169,DS080,HR0105,Lumpy_Skin_Disease,2026-06-27,2026-06-27,Antiseptic wound spray,Topical,As prescribed by veterinarian,10,Dr. P. Naik,Yes,Recovered,2026-07-10,2000
+TR0170,DS080,HR0105,Lumpy_Skin_Disease,2026-06-27,2026-06-27,Vitamin and mineral supplement,Supportive,As prescribed by veterinarian,14,Dr. P. Naik,Yes,Recovered,2026-07-18,2250
+TR0171,DS082,HR0108,Healthy,2026-08-05,2026-08-06,Mineral mixture supplement,Preventive,As prescribed by veterinarian,30,Dr. S. Joshi,No,Recovered,2026-09-06,3300
+TR0172,DS083,HR0109,Mastitis,2026-09-11,2026-09-11,Cloxacillin intramammary infusion,Antibiotic,As prescribed by veterinarian,5,Dr. M. Sawant,No,Recovered,2026-09-22,2000
+TR0173,DS083,HR0109,Mastitis,2026-09-11,2026-09-11,Meloxicam,Anti-inflammatory,As prescribed by veterinarian,3,Dr. M. Sawant,No,Recovered,2026-09-18,2300
+TR0174,DS083,HR0109,Mastitis,2026-09-11,2026-09-11,Teat dip and udder hygiene,Management,As prescribed by veterinarian,14,Dr. M. Sawant,No,Recovered,2026-09-28,2400
+TR0175,DS085,HR0111,Ringworm,2026-06-02,2026-06-03,Natamycin topical wash,Antifungal,As prescribed by veterinarian,14,Dr. R. Deshpande,No,Recovered,2026-06-20,2200
+TR0176,DS085,HR0111,Ringworm,2026-06-02,2026-06-03,Isolation and bedding disinfection,Management,As prescribed by veterinarian,14,Dr. R. Deshpande,No,Recovered,2026-06-18,2450
+TR0177,DS086,HR0113,Lumpy_Skin_Disease,2026-08-31,2026-08-31,Oxytetracycline (secondary infection),Antibiotic,As prescribed by veterinarian,5,Dr. A. Kulkarni,Yes,Recovered,2026-09-09,950
+TR0178,DS086,HR0113,Lumpy_Skin_Disease,2026-08-31,2026-08-31,Meloxicam,Anti-inflammatory,As prescribed by veterinarian,3,Dr. A. Kulkarni,Yes,Recovered,2026-09-10,1350
+TR0179,DS086,HR0113,Lumpy_Skin_Disease,2026-08-31,2026-08-31,Antiseptic wound spray,Topical,As prescribed by veterinarian,10,Dr. A. Kulkarni,Yes,Recovered,2026-09-16,1150
+TR0180,DS086,HR0113,Lumpy_Skin_Disease,2026-08-31,2026-09-01,Vitamin and mineral supplement,Supportive,As prescribed by veterinarian,14,Dr. A. Kulkarni,Yes,Recovered,2026-09-17,1300
+TR0181,DS089,HR0117,Lumpy_Skin_Disease,2026-08-05,2026-08-06,Oxytetracycline (secondary infection),Antibiotic,As prescribed by veterinarian,5,Dr. R. Deshpande,Yes,Under treatment,2026-08-12,400
+TR0182,DS089,HR0117,Lumpy_Skin_Disease,2026-08-05,2026-08-05,Meloxicam,Anti-inflammatory,As prescribed by veterinarian,3,Dr. R. Deshpande,Yes,Under treatment,2026-08-15,1350
+TR0183,DS089,HR0117,Lumpy_Skin_Disease,2026-08-05,2026-08-05,Antiseptic wound spray,Topical,As prescribed by veterinarian,10,Dr. R. Deshpande,Yes,Under treatment,2026-08-18,1400
+TR0184,DS089,HR0117,Lumpy_Skin_Disease,2026-08-05,2026-08-06,Vitamin and mineral supplement,Supportive,As prescribed by veterinarian,14,Dr. R. Deshpande,Yes,Under treatment,2026-08-23,2900
+TR0185,DS090,HR0118,Healthy,2026-06-12,2026-06-12,Deworming (routine),Preventive,As prescribed by veterinarian,1,Dr. R. Deshpande,No,Recovered,2026-06-16,1250
+TR0186,DS093,HR0121,Lumpy_Skin_Disease,2026-08-20,2026-08-21,Oxytetracycline (secondary infection),Antibiotic,As prescribed by veterinarian,5,Dr. R. Deshpande,Yes,Under treatment,2026-08-27,650
+TR0187,DS093,HR0121,Lumpy_Skin_Disease,2026-08-20,2026-08-21,Meloxicam,Anti-inflammatory,As prescribed by veterinarian,3,Dr. R. Deshpande,Yes,Under treatment,2026-08-26,1650
+TR0188,DS093,HR0121,Lumpy_Skin_Disease,2026-08-20,2026-08-21,Antiseptic wound spray,Topical,As prescribed by veterinarian,10,Dr. R. Deshpande,Yes,Under treatment,2026-09-05,1850
+TR0189,DS093,HR0121,Lumpy_Skin_Disease,2026-08-20,2026-08-21,Vitamin and mineral supplement,Supportive,As prescribed by veterinarian,14,Dr. R. Deshpande,Yes,Under treatment,2026-09-07,1850
+TR0190,DS094,HR0122,Foot_Mouth_Disease,2026-08-21,2026-08-21,Potassium permanganate mouth and foot wash,Antiseptic,As prescribed by veterinarian,7,Dr. M. Sawant,Yes,Under treatment,2026-09-02,2800
+TR0191,DS094,HR0122,Foot_Mouth_Disease,2026-08-21,2026-08-21,Oxytetracycline (secondary infection),Antibiotic,As prescribed by veterinarian,5,Dr. M. Sawant,Yes,Under treatment,2026-08-29,2200
+TR0192,DS098,HR0126,Mastitis,2026-08-22,2026-08-23,Cloxacillin intramammary infusion,Antibiotic,As prescribed by veterinarian,5,Dr. M. Sawant,No,Referred to lab,2026-08-29,400
+TR0193,DS098,HR0126,Mastitis,2026-08-22,2026-08-22,Meloxicam,Anti-inflammatory,As prescribed by veterinarian,3,Dr. M. Sawant,No,Referred to lab,2026-08-31,1800
+TR0194,DS099,HR0127,Healthy,2026-07-30,2026-07-30,Deworming (routine),Preventive,As prescribed by veterinarian,1,Dr. M. Sawant,No,Recovered,2026-08-06,250
+TR0195,DS101,HR0129,Ringworm,2026-07-22,2026-07-22,Natamycin topical wash,Antifungal,As prescribed by veterinarian,14,Dr. S. Joshi,No,Recovered,2026-08-12,450
+TR0196,DS102,HR0131,Lumpy_Skin_Disease,2026-07-17,2026-07-18,Oxytetracycline (secondary infection),Antibiotic,As prescribed by veterinarian,5,Dr. S. Joshi,Yes,Recovered,2026-07-24,2900
+TR0197,DS102,HR0131,Lumpy_Skin_Disease,2026-07-17,2026-07-18,Meloxicam,Anti-inflammatory,As prescribed by veterinarian,3,Dr. S. Joshi,Yes,Recovered,2026-07-23,300
+TR0198,DS102,HR0131,Lumpy_Skin_Disease,2026-07-17,2026-07-18,Antiseptic wound spray,Topical,As prescribed by veterinarian,10,Dr. S. Joshi,Yes,Recovered,2026-08-03,1900
+TR0199,DS102,HR0131,Lumpy_Skin_Disease,2026-07-17,2026-07-17,Vitamin and mineral supplement,Supportive,As prescribed by veterinarian,14,Dr. S. Joshi,Yes,Recovered,2026-08-02,2550
+TR0200,DS104,HR0134,Lumpy_Skin_Disease,2026-07-22,2026-07-22,Oxytetracycline (secondary infection),Antibiotic,As prescribed by veterinarian,5,Dr. V. Thorat,Yes,Recovered,2026-08-03,3400
+TR0201,DS104,HR0134,Lumpy_Skin_Disease,2026-07-22,2026-07-22,Meloxicam,Anti-inflammatory,As prescribed by veterinarian,3,Dr. V. Thorat,Yes,Recovered,2026-07-28,3350
+TR0202,DS104,HR0134,Lumpy_Skin_Disease,2026-07-22,2026-07-22,Antiseptic wound spray,Topical,As prescribed by veterinarian,10,Dr. V. Thorat,Yes,Recovered,2026-08-05,400
+TR0203,DS104,HR0134,Lumpy_Skin_Disease,2026-07-22,2026-07-23,Vitamin and mineral supplement,Supportive,As prescribed by veterinarian,14,Dr. V. Thorat,Yes,Recovered,2026-08-07,1000
+TR0204,DS105,HR0136,Mastitis,2026-08-15,2026-08-16,Cloxacillin intramammary infusion,Antibiotic,As prescribed by veterinarian,5,Dr. S. Joshi,No,Recovered,2026-08-26,2100
+TR0205,DS105,HR0136,Mastitis,2026-08-15,2026-08-16,Meloxicam,Anti-inflammatory,As prescribed by veterinarian,3,Dr. S. Joshi,No,Recovered,2026-08-25,600
+TR0206,DS105,HR0136,Mastitis,2026-08-15,2026-08-16,Teat dip and udder hygiene,Management,As prescribed by veterinarian,14,Dr. S. Joshi,No,Recovered,2026-09-02,2150
+TR0207,DS107,HR0139,Foot_Mouth_Disease,2026-07-20,2026-07-21,Potassium permanganate mouth and foot wash,Antiseptic,As prescribed by veterinarian,7,Dr. V. Thorat,Yes,Recovered,2026-08-03,1300
+TR0208,DS107,HR0139,Foot_Mouth_Disease,2026-07-20,2026-07-21,Oxytetracycline (secondary infection),Antibiotic,As prescribed by veterinarian,5,Dr. V. Thorat,Yes,Recovered,2026-07-30,3150
+TR0209,DS108,HR0141,Mastitis,2026-08-27,2026-08-27,Cloxacillin intramammary infusion,Antibiotic,As prescribed by veterinarian,5,Dr. V. Thorat,No,Recovered,2026-09-06,1550
+TR0210,DS108,HR0141,Mastitis,2026-08-27,2026-08-28,Meloxicam,Anti-inflammatory,As prescribed by veterinarian,3,Dr. V. Thorat,No,Recovered,2026-09-02,850
+TR0211,DS108,HR0141,Mastitis,2026-08-27,2026-08-27,Teat dip and udder hygiene,Management,As prescribed by veterinarian,14,Dr. V. Thorat,No,Recovered,2026-09-12,2600
+TR0212,DS110,HR0144,Foot_Mouth_Disease,2026-07-10,2026-07-11,Potassium permanganate mouth and foot wash,Antiseptic,As prescribed by veterinarian,7,Dr. P. Naik,Yes,Recovered,2026-07-19,500
+TR0213,DS110,HR0144,Foot_Mouth_Disease,2026-07-10,2026-07-10,Oxytetracycline (secondary infection),Antibiotic,As prescribed by veterinarian,5,Dr. P. Naik,Yes,Recovered,2026-07-19,3150
+TR0214,DS110,HR0144,Foot_Mouth_Disease,2026-07-10,2026-07-10,Soft feed and oral fluids,Supportive,As prescribed by veterinarian,10,Dr. P. Naik,Yes,Recovered,2026-07-27,2550
+TR0215,DS111,HR0146,Lumpy_Skin_Disease,2026-05-22,2026-05-23,Oxytetracycline (secondary infection),Antibiotic,As prescribed by veterinarian,5,Dr. S. Joshi,Yes,Under treatment,2026-05-30,1850
+TR0216,DS111,HR0146,Lumpy_Skin_Disease,2026-05-22,2026-05-23,Meloxicam,Anti-inflammatory,As prescribed by veterinarian,3,Dr. S. Joshi,Yes,Under treatment,2026-05-28,3150
+TR0217,DS111,HR0146,Lumpy_Skin_Disease,2026-05-22,2026-05-23,Antiseptic wound spray,Topical,As prescribed by veterinarian,10,Dr. S. Joshi,Yes,Under treatment,2026-06-04,3050
+TR0218,DS111,HR0146,Lumpy_Skin_Disease,2026-05-22,2026-05-23,Vitamin and mineral supplement,Supportive,As prescribed by veterinarian,14,Dr. S. Joshi,Yes,Under treatment,2026-06-08,350
+TR0219,DS114,HR0149,Foot_Mouth_Disease,2026-09-10,2026-09-11,Potassium permanganate mouth and foot wash,Antiseptic,As prescribed by veterinarian,7,Dr. M. Sawant,Yes,Referred to lab,2026-09-20,1650
+TR0220,DS114,HR0149,Foot_Mouth_Disease,2026-09-10,2026-09-11,Oxytetracycline (secondary infection),Antibiotic,As prescribed by veterinarian,5,Dr. M. Sawant,Yes,Referred to lab,2026-09-21,2450
+TR0221,DS115,HR0150,Mastitis,2026-05-11,2026-05-11,Cloxacillin intramammary infusion,Antibiotic,As prescribed by veterinarian,5,Dr. S. Joshi,No,Referred to lab,2026-05-22,500
+TR0222,DS115,HR0150,Mastitis,2026-05-11,2026-05-11,Meloxicam,Anti-inflammatory,As prescribed by veterinarian,3,Dr. S. Joshi,No,Referred to lab,2026-05-17,1750
+TR0223,DS115,HR0150,Mastitis,2026-05-11,2026-05-11,Teat dip and udder hygiene,Management,As prescribed by veterinarian,14,Dr. S. Joshi,No,Referred to lab,2026-05-27,2650
+TR0224,DS117,HR0152,Mastitis,2026-08-20,2026-08-20,Cloxacillin intramammary infusion,Antibiotic,As prescribed by veterinarian,5,Dr. S. Joshi,No,Referred to lab,2026-08-28,1800
+TR0225,DS117,HR0152,Mastitis,2026-08-20,2026-08-20,Meloxicam,Anti-inflammatory,As prescribed by veterinarian,3,Dr. S. Joshi,No,Referred to lab,2026-08-26,400
+TR0226,DS117,HR0152,Mastitis,2026-08-20,2026-08-20,Teat dip and udder hygiene,Management,As prescribed by veterinarian,14,Dr. S. Joshi,No,Referred to lab,2026-09-05,3000
+TR0227,DS118,HR0153,Mastitis,2026-08-17,2026-08-18,Cloxacillin intramammary infusion,Antibiotic,As prescribed by veterinarian,5,Dr. V. Thorat,No,Under treatment,2026-08-27,2600
+TR0228,DS118,HR0153,Mastitis,2026-08-17,2026-08-18,Meloxicam,Anti-inflammatory,As prescribed by veterinarian,3,Dr. V. Thorat,No,Under treatment,2026-08-22,1550
+TR0229,DS118,HR0153,Mastitis,2026-08-17,2026-08-17,Teat dip and udder hygiene,Management,As prescribed by veterinarian,14,Dr. V. Thorat,No,Under treatment,2026-09-05,900
+TR0230,DS119,HR0154,Lumpy_Skin_Disease,2026-08-24,2026-08-25,Oxytetracycline (secondary infection),Antibiotic,As prescribed by veterinarian,5,Dr. R. Deshpande,Yes,Under treatment,2026-09-02,1600
+TR0231,DS119,HR0154,Lumpy_Skin_Disease,2026-08-24,2026-08-24,Meloxicam,Anti-inflammatory,As prescribed by veterinarian,3,Dr. R. Deshpande,Yes,Under treatment,2026-08-29,1450
+TR0232,DS119,HR0154,Lumpy_Skin_Disease,2026-08-24,2026-08-24,Antiseptic wound spray,Topical,As prescribed by veterinarian,10,Dr. R. Deshpande,Yes,Under treatment,2026-09-09,1550
+TR0233,DS120,HR0155,Lumpy_Skin_Disease,2026-07-17,2026-07-18,Oxytetracycline (secondary infection),Antibiotic,As prescribed by veterinarian,5,Dr. R. Deshpande,Yes,Recovered,2026-07-24,3250
+TR0234,DS120,HR0155,Lumpy_Skin_Disease,2026-07-17,2026-07-17,Meloxicam,Anti-inflammatory,As prescribed by veterinarian,3,Dr. R. Deshpande,Yes,Recovered,2026-07-22,950
+TR0235,DS120,HR0155,Lumpy_Skin_Disease,2026-07-17,2026-07-17,Antiseptic wound spray,Topical,As prescribed by veterinarian,10,Dr. R. Deshpande,Yes,Recovered,2026-07-29,950
+TR0236,DS120,HR0155,Lumpy_Skin_Disease,2026-07-17,2026-07-17,Vitamin and mineral supplement,Supportive,As prescribed by veterinarian,14,Dr. R. Deshpande,Yes,Recovered,2026-08-04,1100
+TR0237,DS121,HR0157,Mastitis,2026-08-19,2026-08-20,Cloxacillin intramammary infusion,Antibiotic,As prescribed by veterinarian,5,Dr. A. Kulkarni,No,Referred to lab,2026-08-26,3050
+TR0238,DS121,HR0157,Mastitis,2026-08-19,2026-08-20,Meloxicam,Anti-inflammatory,As prescribed by veterinarian,3,Dr. A. Kulkarni,No,Referred to lab,2026-08-29,2950
+TR0239,DS121,HR0157,Mastitis,2026-08-19,2026-08-20,Teat dip and udder hygiene,Management,As prescribed by veterinarian,14,Dr. A. Kulkarni,No,Referred to lab,2026-09-06,550
+TR0240,DS122,HR0158,Mastitis,2026-06-26,2026-06-26,Cloxacillin intramammary infusion,Antibiotic,As prescribed by veterinarian,5,Dr. V. Thorat,No,Under treatment,2026-07-03,3400
+TR0241,DS122,HR0158,Mastitis,2026-06-26,2026-06-27,Meloxicam,Anti-inflammatory,As prescribed by veterinarian,3,Dr. V. Thorat,No,Under treatment,2026-07-05,2950
+TR0242,DS122,HR0158,Mastitis,2026-06-26,2026-06-26,Teat dip and udder hygiene,Management,As prescribed by veterinarian,14,Dr. V. Thorat,No,Under treatment,2026-07-17,2250
+TR0243,DS123,HR0159,Foot_Mouth_Disease,2026-09-18,2026-09-19,Potassium permanganate mouth and foot wash,Antiseptic,As prescribed by veterinarian,7,Dr. V. Thorat,Yes,Recovered,2026-09-27,2550
+TR0244,DS123,HR0159,Foot_Mouth_Disease,2026-09-18,2026-09-18,Oxytetracycline (secondary infection),Antibiotic,As prescribed by veterinarian,5,Dr. V. Thorat,Yes,Recovered,2026-09-26,2850
+TR0245,DS123,HR0159,Foot_Mouth_Disease,2026-09-18,2026-09-19,Soft feed and oral fluids,Supportive,As prescribed by veterinarian,10,Dr. V. Thorat,Yes,Recovered,2026-09-30,1450
+TR0246,DS124,HR0160,Healthy,2026-06-15,2026-06-15,Mineral mixture supplement,Preventive,As prescribed by veterinarian,30,Dr. R. Deshpande,No,Recovered,2026-07-18,2500
+TR0247,DS126,HR0162,Foot_Mouth_Disease,2026-09-20,2026-09-21,Potassium permanganate mouth and foot wash,Antiseptic,As prescribed by veterinarian,7,Dr. M. Sawant,Yes,Recovered,2026-10-03,1150
+TR0248,DS126,HR0162,Foot_Mouth_Disease,2026-09-20,2026-09-21,Oxytetracycline (secondary infection),Antibiotic,As prescribed by veterinarian,5,Dr. M. Sawant,Yes,Recovered,2026-09-27,1300
+TR0249,DS126,HR0162,Foot_Mouth_Disease,2026-09-20,2026-09-20,Soft feed and oral fluids,Supportive,As prescribed by veterinarian,10,Dr. M. Sawant,Yes,Recovered,2026-10-07,900
+TR0250,DS127,HR0163,Lumpy_Skin_Disease,2026-07-22,2026-07-22,Oxytetracycline (secondary infection),Antibiotic,As prescribed by veterinarian,5,Dr. M. Sawant,Yes,Recovered,2026-08-03,1700
+TR0251,DS127,HR0163,Lumpy_Skin_Disease,2026-07-22,2026-07-23,Meloxicam,Anti-inflammatory,As prescribed by veterinarian,3,Dr. M. Sawant,Yes,Recovered,2026-07-29,400
+TR0252,DS127,HR0163,Lumpy_Skin_Disease,2026-07-22,2026-07-22,Antiseptic wound spray,Topical,As prescribed by veterinarian,10,Dr. M. Sawant,Yes,Recovered,2026-08-06,700
+TR0253,DS127,HR0163,Lumpy_Skin_Disease,2026-07-22,2026-07-22,Vitamin and mineral supplement,Supportive,As prescribed by veterinarian,14,Dr. M. Sawant,Yes,Recovered,2026-08-12,3050
+TR0254,DS129,HR0166,Ringworm,2026-05-18,2026-05-19,Natamycin topical wash,Antifungal,As prescribed by veterinarian,14,Dr. V. Thorat,No,Recovered,2026-06-03,3050
+TR0255,DS130,HR0168,Healthy,2026-07-23,2026-07-24,Deworming (routine),Preventive,As prescribed by veterinarian,1,Dr. V. Thorat,No,Recovered,2026-07-26,600
+TR0256,DS131,HR0169,Mastitis,2026-09-18,2026-09-19,Cloxacillin intramammary infusion,Antibiotic,As prescribed by veterinarian,5,Dr. M. Sawant,No,Under treatment,2026-09-26,1950
+TR0257,DS131,HR0169,Mastitis,2026-09-18,2026-09-18,Meloxicam,Anti-inflammatory,As prescribed by veterinarian,3,Dr. M. Sawant,No,Under treatment,2026-09-25,400
+TR0258,DS132,HR0170,Foot_Mouth_Disease,2026-05-22,2026-05-22,Potassium permanganate mouth and foot wash,Antiseptic,As prescribed by veterinarian,7,Dr. M. Sawant,Yes,Recovered,2026-05-31,350
+TR0259,DS132,HR0170,Foot_Mouth_Disease,2026-05-22,2026-05-23,Oxytetracycline (secondary infection),Antibiotic,As prescribed by veterinarian,5,Dr. M. Sawant,Yes,Recovered,2026-05-30,550
+TR0260,DS133,HR0172,Lumpy_Skin_Disease,2026-09-06,2026-09-06,Oxytetracycline (secondary infection),Antibiotic,As prescribed by veterinarian,5,Dr. R. Deshpande,Yes,Recovered,2026-09-14,3000
+TR0261,DS133,HR0172,Lumpy_Skin_Disease,2026-09-06,2026-09-06,Meloxicam,Anti-inflammatory,As prescribed by veterinarian,3,Dr. R. Deshpande,Yes,Recovered,2026-09-11,1600
+TR0262,DS133,HR0172,Lumpy_Skin_Disease,2026-09-06,2026-09-06,Antiseptic wound spray,Topical,As prescribed by veterinarian,10,Dr. R. Deshpande,Yes,Recovered,2026-09-20,1650
+TR0263,DS133,HR0172,Lumpy_Skin_Disease,2026-09-06,2026-09-07,Vitamin and mineral supplement,Supportive,As prescribed by veterinarian,14,Dr. R. Deshpande,Yes,Recovered,2026-09-26,3250
+TR0264,DS136,HR0176,Lumpy_Skin_Disease,2026-08-09,2026-08-10,Oxytetracycline (secondary infection),Antibiotic,As prescribed by veterinarian,5,Dr. A. Kulkarni,Yes,Recovered,2026-08-20,1700
+TR0265,DS136,HR0176,Lumpy_Skin_Disease,2026-08-09,2026-08-10,Meloxicam,Anti-inflammatory,As prescribed by veterinarian,3,Dr. A. Kulkarni,Yes,Recovered,2026-08-15,1000
+TR0266,DS136,HR0176,Lumpy_Skin_Disease,2026-08-09,2026-08-10,Antiseptic wound spray,Topical,As prescribed by veterinarian,10,Dr. A. Kulkarni,Yes,Recovered,2026-08-23,3200
+TR0267,DS136,HR0176,Lumpy_Skin_Disease,2026-08-09,2026-08-09,Vitamin and mineral supplement,Supportive,As prescribed by veterinarian,14,Dr. A. Kulkarni,Yes,Recovered,2026-08-26,350
+TR0268,DS137,HR0178,Foot_Mouth_Disease,2026-05-20,2026-05-21,Potassium permanganate mouth and foot wash,Antiseptic,As prescribed by veterinarian,7,Dr. P. Naik,Yes,Recovered,2026-06-03,1500
+TR0269,DS137,HR0178,Foot_Mouth_Disease,2026-05-20,2026-05-20,Oxytetracycline (secondary infection),Antibiotic,As prescribed by veterinarian,5,Dr. P. Naik,Yes,Recovered,2026-05-28,1000
+TR0270,DS137,HR0178,Foot_Mouth_Disease,2026-05-20,2026-05-21,Soft feed and oral fluids,Supportive,As prescribed by veterinarian,10,Dr. P. Naik,Yes,Recovered,2026-06-02,400
+TR0271,DS138,HR0180,Foot_Mouth_Disease,2026-07-15,2026-07-16,Potassium permanganate mouth and foot wash,Antiseptic,As prescribed by veterinarian,7,Dr. R. Deshpande,Yes,Recovered,2026-07-25,3450
+TR0272,DS138,HR0180,Foot_Mouth_Disease,2026-07-15,2026-07-15,Oxytetracycline (secondary infection),Antibiotic,As prescribed by veterinarian,5,Dr. R. Deshpande,Yes,Recovered,2026-07-23,2250
+TR0273,DS139,HR0182,Healthy,2026-07-04,2026-07-04,Mineral mixture supplement,Preventive,As prescribed by veterinarian,30,Dr. A. Kulkarni,No,Recovered,2026-08-10,1600
+TR0274,DS140,HR0183,Lumpy_Skin_Disease,2026-09-01,2026-09-01,Oxytetracycline (secondary infection),Antibiotic,As prescribed by veterinarian,5,Dr. R. Deshpande,Yes,Recovered,2026-09-13,3350
+TR0275,DS140,HR0183,Lumpy_Skin_Disease,2026-09-01,2026-09-01,Meloxicam,Anti-inflammatory,As prescribed by veterinarian,3,Dr. R. Deshpande,Yes,Recovered,2026-09-07,2900
+TR0276,DS140,HR0183,Lumpy_Skin_Disease,2026-09-01,2026-09-02,Antiseptic wound spray,Topical,As prescribed by veterinarian,10,Dr. R. Deshpande,Yes,Recovered,2026-09-18,1300
+TR0277,DS140,HR0183,Lumpy_Skin_Disease,2026-09-01,2026-09-02,Vitamin and mineral supplement,Supportive,As prescribed by veterinarian,14,Dr. R. Deshpande,Yes,Recovered,2026-09-19,2550
+TR0278,DS141,HR0185,Ringworm,2026-08-16,2026-08-16,Natamycin topical wash,Antifungal,As prescribed by veterinarian,14,Dr. S. Joshi,No,Recovered,2026-09-06,1150
+TR0279,DS141,HR0185,Ringworm,2026-08-16,2026-08-17,Isolation and bedding disinfection,Management,As prescribed by veterinarian,14,Dr. S. Joshi,No,Recovered,2026-09-06,1000
+TR0280,DS142,HR0187,Ringworm,2026-05-18,2026-05-18,Natamycin topical wash,Antifungal,As prescribed by veterinarian,14,Dr. S. Joshi,No,Under treatment,2026-06-04,1100
+TR0281,DS143,HR0188,Lumpy_Skin_Disease,2026-09-03,2026-09-04,Oxytetracycline (secondary infection),Antibiotic,As prescribed by veterinarian,5,Dr. P. Naik,Yes,Recovered,2026-09-15,1050
+TR0282,DS143,HR0188,Lumpy_Skin_Disease,2026-09-03,2026-09-03,Meloxicam,Anti-inflammatory,As prescribed by veterinarian,3,Dr. P. Naik,Yes,Recovered,2026-09-10,1550
+TR0283,DS143,HR0188,Lumpy_Skin_Disease,2026-09-03,2026-09-03,Antiseptic wound spray,Topical,As prescribed by veterinarian,10,Dr. P. Naik,Yes,Recovered,2026-09-17,450
+TR0284,DS144,HR0189,Mastitis,2026-05-11,2026-05-11,Cloxacillin intramammary infusion,Antibiotic,As prescribed by veterinarian,5,Dr. M. Sawant,No,Recovered,2026-05-21,750
+TR0285,DS144,HR0189,Mastitis,2026-05-11,2026-05-11,Meloxicam,Anti-inflammatory,As prescribed by veterinarian,3,Dr. M. Sawant,No,Recovered,2026-05-21,600
+TR0286,DS144,HR0189,Mastitis,2026-05-11,2026-05-11,Teat dip and udder hygiene,Management,As prescribed by veterinarian,14,Dr. M. Sawant,No,Recovered,2026-05-29,2300
+TR0287,DS145,HR0191,Mastitis,2026-07-17,2026-07-18,Cloxacillin intramammary infusion,Antibiotic,As prescribed by veterinarian,5,Dr. A. Kulkarni,No,Recovered,2026-07-25,1000
+TR0288,DS145,HR0191,Mastitis,2026-07-17,2026-07-18,Meloxicam,Anti-inflammatory,As prescribed by veterinarian,3,Dr. A. Kulkarni,No,Recovered,2026-07-22,250
+TR0289,DS145,HR0191,Mastitis,2026-07-17,2026-07-18,Teat dip and udder hygiene,Management,As prescribed by veterinarian,14,Dr. A. Kulkarni,No,Recovered,2026-08-04,3300
+TR0290,DS146,HR0193,Mastitis,2026-05-10,2026-05-10,Cloxacillin intramammary infusion,Antibiotic,As prescribed by veterinarian,5,Dr. P. Naik,No,Recovered,2026-05-17,3450
+TR0291,DS146,HR0193,Mastitis,2026-05-10,2026-05-11,Meloxicam,Anti-inflammatory,As prescribed by veterinarian,3,Dr. P. Naik,No,Recovered,2026-05-19,1400
+TR0292,DS146,HR0193,Mastitis,2026-05-10,2026-05-11,Teat dip and udder hygiene,Management,As prescribed by veterinarian,14,Dr. P. Naik,No,Recovered,2026-05-29,1750
+TR0293,DS148,HR0196,Mastitis,2026-08-27,2026-08-28,Cloxacillin intramammary infusion,Antibiotic,As prescribed by veterinarian,5,Dr. A. Kulkarni,No,Under treatment,2026-09-06,350
+TR0294,DS148,HR0196,Mastitis,2026-08-27,2026-08-28,Meloxicam,Anti-inflammatory,As prescribed by veterinarian,3,Dr. A. Kulkarni,No,Under treatment,2026-09-04,2950
+TR0295,DS148,HR0196,Mastitis,2026-08-27,2026-08-28,Teat dip and udder hygiene,Management,As prescribed by veterinarian,14,Dr. A. Kulkarni,No,Under treatment,2026-09-13,400
+TR0296,DS149,HR0197,Mastitis,2026-06-02,2026-06-03,Cloxacillin intramammary infusion,Antibiotic,As prescribed by veterinarian,5,Dr. A. Kulkarni,No,Under treatment,2026-06-09,1900
+TR0297,DS149,HR0197,Mastitis,2026-06-02,2026-06-02,Meloxicam,Anti-inflammatory,As prescribed by veterinarian,3,Dr. A. Kulkarni,No,Under treatment,2026-06-08,2950
+TR0298,DS149,HR0197,Mastitis,2026-06-02,2026-06-03,Teat dip and udder hygiene,Management,As prescribed by veterinarian,14,Dr. A. Kulkarni,No,Under treatment,2026-06-20,3450
+TR0299,DS150,HR0198,Foot_Mouth_Disease,2026-08-05,2026-08-05,Potassium permanganate mouth and foot wash,Antiseptic,As prescribed by veterinarian,7,Dr. S. Joshi,Yes,Under treatment,2026-08-18,2450
+TR0300,DS150,HR0198,Foot_Mouth_Disease,2026-08-05,2026-08-05,Oxytetracycline (secondary infection),Antibiotic,As prescribed by veterinarian,5,Dr. S. Joshi,Yes,Under treatment,2026-08-17,1050
+TR0301,DS150,HR0198,Foot_Mouth_Disease,2026-08-05,2026-08-06,Soft feed and oral fluids,Supportive,As prescribed by veterinarian,10,Dr. S. Joshi,Yes,Under treatment,2026-08-17,1500
+TR0302,DS151,HR0199,Healthy,2026-07-19,2026-07-19,Deworming (routine),Preventive,As prescribed by veterinarian,1,Dr. R. Deshpande,No,Recovered,2026-07-23,1600
+TR0303,DS152,HR0200,Healthy,2026-06-07,2026-06-07,Mineral mixture supplement,Preventive,As prescribed by veterinarian,30,Dr. S. Joshi,No,Recovered,2026-07-13,3050
+TR0304,DS153,HR0201,Lumpy_Skin_Disease,2026-08-09,2026-08-09,Oxytetracycline (secondary infection),Antibiotic,As prescribed by veterinarian,5,Dr. V. Thorat,Yes,Recovered,2026-08-16,850
+TR0305,DS153,HR0201,Lumpy_Skin_Disease,2026-08-09,2026-08-09,Meloxicam,Anti-inflammatory,As prescribed by veterinarian,3,Dr. V. Thorat,Yes,Recovered,2026-08-14,1300
+TR0306,DS153,HR0201,Lumpy_Skin_Disease,2026-08-09,2026-08-09,Antiseptic wound spray,Topical,As prescribed by veterinarian,10,Dr. V. Thorat,Yes,Recovered,2026-08-26,3550
+TR0307,DS153,HR0201,Lumpy_Skin_Disease,2026-08-09,2026-08-09,Vitamin and mineral supplement,Supportive,As prescribed by veterinarian,14,Dr. V. Thorat,Yes,Recovered,2026-08-27,850
+TR0308,DS154,HR0203,Mastitis,2026-08-09,2026-08-09,Cloxacillin intramammary infusion,Antibiotic,As prescribed by veterinarian,5,Dr. V. Thorat,No,Referred to lab,2026-08-17,2150
+TR0309,DS154,HR0203,Mastitis,2026-08-09,2026-08-09,Meloxicam,Anti-inflammatory,As prescribed by veterinarian,3,Dr. V. Thorat,No,Referred to lab,2026-08-19,2650
+TR0310,DS154,HR0203,Mastitis,2026-08-09,2026-08-09,Teat dip and udder hygiene,Management,As prescribed by veterinarian,14,Dr. V. Thorat,No,Referred to lab,2026-08-25,1400
+TR0311,DS155,HR0204,Ringworm,2026-09-08,2026-09-08,Natamycin topical wash,Antifungal,As prescribed by veterinarian,14,Dr. A. Kulkarni,No,Referred to lab,2026-09-27,650
+TR0312,DS155,HR0204,Ringworm,2026-09-08,2026-09-08,Isolation and bedding disinfection,Management,As prescribed by veterinarian,14,Dr. A. Kulkarni,No,Referred to lab,2026-09-27,2450
+TR0313,DS157,HR0206,Ringworm,2026-06-18,2026-06-18,Natamycin topical wash,Antifungal,As prescribed by veterinarian,14,Dr. V. Thorat,No,Under treatment,2026-07-08,2500
+TR0314,DS157,HR0206,Ringworm,2026-06-18,2026-06-19,Isolation and bedding disinfection,Management,As prescribed by veterinarian,14,Dr. V. Thorat,No,Under treatment,2026-07-07,1200
+TR0315,DS159,HR0208,Healthy,2026-07-31,2026-08-01,Mineral mixture supplement,Preventive,As prescribed by veterinarian,30,Dr. A. Kulkarni,No,Recovered,2026-09-03,600
+TR0316,DS160,HR0209,Foot_Mouth_Disease,2026-08-25,2026-08-26,Potassium permanganate mouth and foot wash,Antiseptic,As prescribed by veterinarian,7,Dr. R. Deshpande,Yes,Recovered,2026-09-07,400
+TR0317,DS160,HR0209,Foot_Mouth_Disease,2026-08-25,2026-08-26,Oxytetracycline (secondary infection),Antibiotic,As prescribed by veterinarian,5,Dr. R. Deshpande,Yes,Recovered,2026-09-02,2600
+TR0318,DS161,HR0211,Ringworm,2026-09-11,2026-09-12,Natamycin topical wash,Antifungal,As prescribed by veterinarian,14,Dr. S. Joshi,No,Recovered,2026-09-29,1300
+TR0319,DS161,HR0211,Ringworm,2026-09-11,2026-09-12,Isolation and bedding disinfection,Management,As prescribed by veterinarian,14,Dr. S. Joshi,No,Recovered,2026-10-02,2550
+TR0320,DS162,HR0213,Healthy,2026-07-05,2026-07-05,Mineral mixture supplement,Preventive,As prescribed by veterinarian,30,Dr. V. Thorat,No,Recovered,2026-08-10,1350
+TR0321,DS163,HR0214,Ringworm,2026-06-21,2026-06-21,Natamycin topical wash,Antifungal,As prescribed by veterinarian,14,Dr. S. Joshi,No,Recovered,2026-07-08,1100
+TR0322,DS164,HR0216,Lumpy_Skin_Disease,2026-07-12,2026-07-13,Oxytetracycline (secondary infection),Antibiotic,As prescribed by veterinarian,5,Dr. S. Joshi,Yes,Referred to lab,2026-07-22,3450
+TR0323,DS164,HR0216,Lumpy_Skin_Disease,2026-07-12,2026-07-13,Meloxicam,Anti-inflammatory,As prescribed by veterinarian,3,Dr. S. Joshi,Yes,Referred to lab,2026-07-19,2700
+TR0324,DS164,HR0216,Lumpy_Skin_Disease,2026-07-12,2026-07-13,Antiseptic wound spray,Topical,As prescribed by veterinarian,10,Dr. S. Joshi,Yes,Referred to lab,2026-07-25,1200
+TR0325,DS164,HR0216,Lumpy_Skin_Disease,2026-07-12,2026-07-12,Vitamin and mineral supplement,Supportive,As prescribed by veterinarian,14,Dr. S. Joshi,Yes,Referred to lab,2026-07-28,450
+TR0326,DS165,HR0217,Lumpy_Skin_Disease,2026-08-03,2026-08-04,Oxytetracycline (secondary infection),Antibiotic,As prescribed by veterinarian,5,Dr. A. Kulkarni,Yes,Recovered,2026-08-15,1800
+TR0327,DS165,HR0217,Lumpy_Skin_Disease,2026-08-03,2026-08-03,Meloxicam,Anti-inflammatory,As prescribed by veterinarian,3,Dr. A. Kulkarni,Yes,Recovered,2026-08-10,3100
+TR0328,DS165,HR0217,Lumpy_Skin_Disease,2026-08-03,2026-08-04,Antiseptic wound spray,Topical,As prescribed by veterinarian,10,Dr. A. Kulkarni,Yes,Recovered,2026-08-16,300
+TR0329,DS165,HR0217,Lumpy_Skin_Disease,2026-08-03,2026-08-04,Vitamin and mineral supplement,Supportive,As prescribed by veterinarian,14,Dr. A. Kulkarni,Yes,Recovered,2026-08-24,3500
+TR0330,DS166,HR0219,Ringworm,2026-05-20,2026-05-21,Natamycin topical wash,Antifungal,As prescribed by veterinarian,14,Dr. P. Naik,No,Under treatment,2026-06-10,2150
+TR0331,DS166,HR0219,Ringworm,2026-05-20,2026-05-20,Isolation and bedding disinfection,Management,As prescribed by veterinarian,14,Dr. P. Naik,No,Under treatment,2026-06-06,1400
+TR0332,DS169,HR0222,Healthy,2026-06-15,2026-06-15,Mineral mixture supplement,Preventive,As prescribed by veterinarian,30,Dr. V. Thorat,No,Recovered,2026-07-22,2950
+TR0333,DS170,HR0223,Healthy,2026-07-24,2026-07-24,Mineral mixture supplement,Preventive,As prescribed by veterinarian,30,Dr. M. Sawant,No,Recovered,2026-08-27,600
+TR0334,DS171,HR0224,Mastitis,2026-06-12,2026-06-12,Cloxacillin intramammary infusion,Antibiotic,As prescribed by veterinarian,5,Dr. A. Kulkarni,No,Recovered,2026-06-20,1750
+TR0335,DS171,HR0224,Mastitis,2026-06-12,2026-06-13,Meloxicam,Anti-inflammatory,As prescribed by veterinarian,3,Dr. A. Kulkarni,No,Recovered,2026-06-22,1350
+TR0336,DS172,HR0226,Lumpy_Skin_Disease,2026-05-29,2026-05-29,Oxytetracycline (secondary infection),Antibiotic,As prescribed by veterinarian,5,Dr. P. Naik,Yes,Recovered,2026-06-05,650
+TR0337,DS172,HR0226,Lumpy_Skin_Disease,2026-05-29,2026-05-30,Meloxicam,Anti-inflammatory,As prescribed by veterinarian,3,Dr. P. Naik,Yes,Recovered,2026-06-07,300
+TR0338,DS172,HR0226,Lumpy_Skin_Disease,2026-05-29,2026-05-29,Antiseptic wound spray,Topical,As prescribed by veterinarian,10,Dr. P. Naik,Yes,Recovered,2026-06-11,2300
+TR0339,DS172,HR0226,Lumpy_Skin_Disease,2026-05-29,2026-05-29,Vitamin and mineral supplement,Supportive,As prescribed by veterinarian,14,Dr. P. Naik,Yes,Recovered,2026-06-14,1300
+TR0340,DS173,HR0228,Lumpy_Skin_Disease,2026-07-11,2026-07-11,Oxytetracycline (secondary infection),Antibiotic,As prescribed by veterinarian,5,Dr. S. Joshi,Yes,Under treatment,2026-07-23,900
+TR0341,DS173,HR0228,Lumpy_Skin_Disease,2026-07-11,2026-07-11,Meloxicam,Anti-inflammatory,As prescribed by veterinarian,3,Dr. S. Joshi,Yes,Under treatment,2026-07-18,2150
+TR0342,DS173,HR0228,Lumpy_Skin_Disease,2026-07-11,2026-07-11,Antiseptic wound spray,Topical,As prescribed by veterinarian,10,Dr. S. Joshi,Yes,Under treatment,2026-07-23,1350
+TR0343,DS175,HR0230,Lumpy_Skin_Disease,2026-06-22,2026-06-22,Oxytetracycline (secondary infection),Antibiotic,As prescribed by veterinarian,5,Dr. M. Sawant,Yes,Under treatment,2026-06-30,3500
+TR0344,DS175,HR0230,Lumpy_Skin_Disease,2026-06-22,2026-06-23,Meloxicam,Anti-inflammatory,As prescribed by veterinarian,3,Dr. M. Sawant,Yes,Under treatment,2026-07-01,3550
+TR0345,DS175,HR0230,Lumpy_Skin_Disease,2026-06-22,2026-06-22,Antiseptic wound spray,Topical,As prescribed by veterinarian,10,Dr. M. Sawant,Yes,Under treatment,2026-07-06,3450
+TR0346,DS176,HR0231,Foot_Mouth_Disease,2026-06-06,2026-06-07,Potassium permanganate mouth and foot wash,Antiseptic,As prescribed by veterinarian,7,Dr. R. Deshpande,Yes,Recovered,2026-06-18,3000
+TR0347,DS176,HR0231,Foot_Mouth_Disease,2026-06-06,2026-06-07,Oxytetracycline (secondary infection),Antibiotic,As prescribed by veterinarian,5,Dr. R. Deshpande,Yes,Recovered,2026-06-16,2700
+TR0348,DS176,HR0231,Foot_Mouth_Disease,2026-06-06,2026-06-07,Soft feed and oral fluids,Supportive,As prescribed by veterinarian,10,Dr. R. Deshpande,Yes,Recovered,2026-06-21,3150
+TR0349,DS178,HR0234,Lumpy_Skin_Disease,2026-09-04,2026-09-05,Oxytetracycline (secondary infection),Antibiotic,As prescribed by veterinarian,5,Dr. P. Naik,Yes,Recovered,2026-09-12,1650
+TR0350,DS178,HR0234,Lumpy_Skin_Disease,2026-09-04,2026-09-04,Meloxicam,Anti-inflammatory,As prescribed by veterinarian,3,Dr. P. Naik,Yes,Recovered,2026-09-11,1150
+TR0351,DS178,HR0234,Lumpy_Skin_Disease,2026-09-04,2026-09-04,Antiseptic wound spray,Topical,As prescribed by veterinarian,10,Dr. P. Naik,Yes,Recovered,2026-09-21,2650
+TR0352,DS178,HR0234,Lumpy_Skin_Disease,2026-09-04,2026-09-05,Vitamin and mineral supplement,Supportive,As prescribed by veterinarian,14,Dr. P. Naik,Yes,Recovered,2026-09-22,1550
+TR0353,DS179,HR0236,Healthy,2026-09-16,2026-09-17,Mineral mixture supplement,Preventive,As prescribed by veterinarian,30,Dr. A. Kulkarni,No,Recovered,2026-10-18,3550
+TR0354,DS180,HR0237,Ringworm,2026-08-29,2026-08-30,Natamycin topical wash,Antifungal,As prescribed by veterinarian,14,Dr. R. Deshpande,No,Recovered,2026-09-18,1850
+TR0355,DS180,HR0237,Ringworm,2026-08-29,2026-08-30,Isolation and bedding disinfection,Management,As prescribed by veterinarian,14,Dr. R. Deshpande,No,Recovered,2026-09-18,3500
+TR0356,DS181,HR0239,Foot_Mouth_Disease,2026-08-30,2026-08-30,Potassium permanganate mouth and foot wash,Antiseptic,As prescribed by veterinarian,7,Dr. A. Kulkarni,Yes,Recovered,2026-09-09,3300
+TR0357,DS181,HR0239,Foot_Mouth_Disease,2026-08-30,2026-08-31,Oxytetracycline (secondary infection),Antibiotic,As prescribed by veterinarian,5,Dr. A. Kulkarni,Yes,Recovered,2026-09-09,450
+TR0358,DS181,HR0239,Foot_Mouth_Disease,2026-08-30,2026-08-30,Soft feed and oral fluids,Supportive,As prescribed by veterinarian,10,Dr. A. Kulkarni,Yes,Recovered,2026-09-14,1750
+TR0359,DS183,HR0242,Healthy,2026-08-26,2026-08-27,Deworming (routine),Preventive,As prescribed by veterinarian,1,Dr. R. Deshpande,No,Recovered,2026-08-30,1950
+TR0360,DS184,HR0243,Healthy,2026-05-20,2026-05-20,Mineral mixture supplement,Preventive,As prescribed by veterinarian,30,Dr. R. Deshpande,No,Recovered,2026-06-23,250
+TR0361,DS185,HR0244,Mastitis,2026-07-01,2026-07-01,Cloxacillin intramammary infusion,Antibiotic,As prescribed by veterinarian,5,Dr. M. Sawant,No,Recovered,2026-07-09,2800
+TR0362,DS185,HR0244,Mastitis,2026-07-01,2026-07-02,Meloxicam,Anti-inflammatory,As prescribed by veterinarian,3,Dr. M. Sawant,No,Recovered,2026-07-11,1100
+TR0363,DS185,HR0244,Mastitis,2026-07-01,2026-07-02,Teat dip and udder hygiene,Management,As prescribed by veterinarian,14,Dr. M. Sawant,No,Recovered,2026-07-22,2300
+TR0364,DS186,HR0246,Healthy,2026-06-13,2026-06-14,Mineral mixture supplement,Preventive,As prescribed by veterinarian,30,Dr. M. Sawant,No,Recovered,2026-07-17,3050
+TR0365,DS187,HR0247,Healthy,2026-06-30,2026-06-30,Deworming (routine),Preventive,As prescribed by veterinarian,1,Dr. R. Deshpande,No,Recovered,2026-07-06,2850
+TR0366,DS189,HR0249,Mastitis,2026-07-08,2026-07-09,Cloxacillin intramammary infusion,Antibiotic,As prescribed by veterinarian,5,Dr. S. Joshi,No,Recovered,2026-07-18,2850
+TR0367,DS189,HR0249,Mastitis,2026-07-08,2026-07-09,Meloxicam,Anti-inflammatory,As prescribed by veterinarian,3,Dr. S. Joshi,No,Recovered,2026-07-14,1650
+TR0368,DS189,HR0249,Mastitis,2026-07-08,2026-07-08,Teat dip and udder hygiene,Management,As prescribed by veterinarian,14,Dr. S. Joshi,No,Recovered,2026-07-24,2200
+TR0369,DS190,HR0251,Ringworm,2026-08-15,2026-08-16,Natamycin topical wash,Antifungal,As prescribed by veterinarian,14,Dr. S. Joshi,No,Recovered,2026-08-31,1150
+TR0370,DS191,HR0253,Lumpy_Skin_Disease,2026-08-31,2026-09-01,Oxytetracycline (secondary infection),Antibiotic,As prescribed by veterinarian,5,Dr. S. Joshi,Yes,Under treatment,2026-09-10,800
+TR0371,DS191,HR0253,Lumpy_Skin_Disease,2026-08-31,2026-09-01,Meloxicam,Anti-inflammatory,As prescribed by veterinarian,3,Dr. S. Joshi,Yes,Under treatment,2026-09-08,2050
+TR0372,DS191,HR0253,Lumpy_Skin_Disease,2026-08-31,2026-09-01,Antiseptic wound spray,Topical,As prescribed by veterinarian,10,Dr. S. Joshi,Yes,Under treatment,2026-09-13,1450
+TR0373,DS191,HR0253,Lumpy_Skin_Disease,2026-08-31,2026-08-31,Vitamin and mineral supplement,Supportive,As prescribed by veterinarian,14,Dr. S. Joshi,Yes,Under treatment,2026-09-21,600
+TR0374,DS192,HR0254,Lumpy_Skin_Disease,2026-05-29,2026-05-29,Oxytetracycline (secondary infection),Antibiotic,As prescribed by veterinarian,5,Dr. M. Sawant,Yes,Recovered,2026-06-10,2500
+TR0375,DS192,HR0254,Lumpy_Skin_Disease,2026-05-29,2026-05-30,Meloxicam,Anti-inflammatory,As prescribed by veterinarian,3,Dr. M. Sawant,Yes,Recovered,2026-06-03,2800
+TR0376,DS192,HR0254,Lumpy_Skin_Disease,2026-05-29,2026-05-29,Antiseptic wound spray,Topical,As prescribed by veterinarian,10,Dr. M. Sawant,Yes,Recovered,2026-06-11,3300
+TR0377,DS192,HR0254,Lumpy_Skin_Disease,2026-05-29,2026-05-30,Vitamin and mineral supplement,Supportive,As prescribed by veterinarian,14,Dr. M. Sawant,Yes,Recovered,2026-06-15,1850
+TR0378,DS193,HR0256,Healthy,2026-07-29,2026-07-30,Mineral mixture supplement,Preventive,As prescribed by veterinarian,30,Dr. V. Thorat,No,Recovered,2026-09-04,1600
+TR0379,DS194,HR0257,Mastitis,2026-05-12,2026-05-12,Cloxacillin intramammary infusion,Antibiotic,As prescribed by veterinarian,5,Dr. R. Deshpande,No,Recovered,2026-05-22,2000
+TR0380,DS194,HR0257,Mastitis,2026-05-12,2026-05-12,Meloxicam,Anti-inflammatory,As prescribed by veterinarian,3,Dr. R. Deshpande,No,Recovered,2026-05-19,2400
+TR0381,DS194,HR0257,Mastitis,2026-05-12,2026-05-12,Teat dip and udder hygiene,Management,As prescribed by veterinarian,14,Dr. R. Deshpande,No,Recovered,2026-05-29,1050
+TR0382,DS195,HR0259,Lumpy_Skin_Disease,2026-09-17,2026-09-17,Oxytetracycline (secondary infection),Antibiotic,As prescribed by veterinarian,5,Dr. R. Deshpande,Yes,Under treatment,2026-09-26,2600
+TR0383,DS195,HR0259,Lumpy_Skin_Disease,2026-09-17,2026-09-18,Meloxicam,Anti-inflammatory,As prescribed by veterinarian,3,Dr. R. Deshpande,Yes,Under treatment,2026-09-23,3050
+TR0384,DS195,HR0259,Lumpy_Skin_Disease,2026-09-17,2026-09-18,Antiseptic wound spray,Topical,As prescribed by veterinarian,10,Dr. R. Deshpande,Yes,Under treatment,2026-10-01,500
+TR0385,DS195,HR0259,Lumpy_Skin_Disease,2026-09-17,2026-09-17,Vitamin and mineral supplement,Supportive,As prescribed by veterinarian,14,Dr. R. Deshpande,Yes,Under treatment,2026-10-06,500
+TR0386,DS196,HR0260,Ringworm,2026-07-29,2026-07-29,Natamycin topical wash,Antifungal,As prescribed by veterinarian,14,Dr. A. Kulkarni,No,Under treatment,2026-08-16,1300
+TR0387,DS196,HR0260,Ringworm,2026-07-29,2026-07-29,Isolation and bedding disinfection,Management,As prescribed by veterinarian,14,Dr. A. Kulkarni,No,Under treatment,2026-08-14,2450
+TR0388,DS197,HR0261,Healthy,2026-06-15,2026-06-15,Mineral mixture supplement,Preventive,As prescribed by veterinarian,30,Dr. P. Naik,No,Recovered,2026-07-19,2550
+TR0389,DS198,HR0262,Healthy,2026-08-12,2026-08-12,Deworming (routine),Preventive,As prescribed by veterinarian,1,Dr. P. Naik,No,Recovered,2026-08-17,950
+TR0390,DS199,HR0263,Lumpy_Skin_Disease,2026-08-20,2026-08-20,Oxytetracycline (secondary infection),Antibiotic,As prescribed by veterinarian,5,Dr. V. Thorat,Yes,Recovered,2026-08-27,3200
+TR0391,DS199,HR0263,Lumpy_Skin_Disease,2026-08-20,2026-08-21,Meloxicam,Anti-inflammatory,As prescribed by veterinarian,3,Dr. V. Thorat,Yes,Recovered,2026-08-27,3350
+TR0392,DS199,HR0263,Lumpy_Skin_Disease,2026-08-20,2026-08-21,Antiseptic wound spray,Topical,As prescribed by veterinarian,10,Dr. V. Thorat,Yes,Recovered,2026-09-02,1250
+TR0393,DS199,HR0263,Lumpy_Skin_Disease,2026-08-20,2026-08-21,Vitamin and mineral supplement,Supportive,As prescribed by veterinarian,14,Dr. V. Thorat,Yes,Recovered,2026-09-06,650
+TR0394,DS200,HR0265,Ringworm,2026-08-28,2026-08-29,Natamycin topical wash,Antifungal,As prescribed by veterinarian,14,Dr. R. Deshpande,No,Recovered,2026-09-18,350
+TR0395,DS200,HR0265,Ringworm,2026-08-28,2026-08-28,Isolation and bedding disinfection,Management,As prescribed by veterinarian,14,Dr. R. Deshpande,No,Recovered,2026-09-13,1800
+TR0396,DS201,HR0267,Lumpy_Skin_Disease,2026-07-20,2026-07-20,Oxytetracycline (secondary infection),Antibiotic,As prescribed by veterinarian,5,Dr. V. Thorat,Yes,Recovered,2026-07-29,3350
+TR0397,DS201,HR0267,Lumpy_Skin_Disease,2026-07-20,2026-07-21,Meloxicam,Anti-inflammatory,As prescribed by veterinarian,3,Dr. V. Thorat,Yes,Recovered,2026-07-26,1200
+TR0398,DS201,HR0267,Lumpy_Skin_Disease,2026-07-20,2026-07-21,Antiseptic wound spray,Topical,As prescribed by veterinarian,10,Dr. V. Thorat,Yes,Recovered,2026-08-03,2250
+TR0399,DS201,HR0267,Lumpy_Skin_Disease,2026-07-20,2026-07-20,Vitamin and mineral supplement,Supportive,As prescribed by veterinarian,14,Dr. V. Thorat,Yes,Recovered,2026-08-08,950
+TR0400,DS202,HR0269,Lumpy_Skin_Disease,2026-07-10,2026-07-10,Oxytetracycline (secondary infection),Antibiotic,As prescribed by veterinarian,5,Dr. R. Deshpande,Yes,Recovered,2026-07-17,3350
+TR0401,DS202,HR0269,Lumpy_Skin_Disease,2026-07-10,2026-07-10,Meloxicam,Anti-inflammatory,As prescribed by veterinarian,3,Dr. R. Deshpande,Yes,Recovered,2026-07-20,2100
+TR0402,DS202,HR0269,Lumpy_Skin_Disease,2026-07-10,2026-07-10,Antiseptic wound spray,Topical,As prescribed by veterinarian,10,Dr. R. Deshpande,Yes,Recovered,2026-07-23,1850
+TR0403,DS202,HR0269,Lumpy_Skin_Disease,2026-07-10,2026-07-11,Vitamin and mineral supplement,Supportive,As prescribed by veterinarian,14,Dr. R. Deshpande,Yes,Recovered,2026-07-28,1450
+TR0404,DS203,HR0271,Healthy,2026-06-17,2026-06-17,Deworming (routine),Preventive,As prescribed by veterinarian,1,Dr. P. Naik,No,Recovered,2026-06-25,2550
+TR0405,DS204,HR0272,Lumpy_Skin_Disease,2026-08-02,2026-08-03,Oxytetracycline (secondary infection),Antibiotic,As prescribed by veterinarian,5,Dr. P. Naik,Yes,Under treatment,2026-08-10,1900
+TR0406,DS204,HR0272,Lumpy_Skin_Disease,2026-08-02,2026-08-03,Meloxicam,Anti-inflammatory,As prescribed by veterinarian,3,Dr. P. Naik,Yes,Under treatment,2026-08-07,1250
+TR0407,DS204,HR0272,Lumpy_Skin_Disease,2026-08-02,2026-08-03,Antiseptic wound spray,Topical,As prescribed by veterinarian,10,Dr. P. Naik,Yes,Under treatment,2026-08-15,3450
+TR0408,DS204,HR0272,Lumpy_Skin_Disease,2026-08-02,2026-08-03,Vitamin and mineral supplement,Supportive,As prescribed by veterinarian,14,Dr. P. Naik,Yes,Under treatment,2026-08-23,2250
+TR0409,DS205,HR0273,Foot_Mouth_Disease,2026-05-25,2026-05-25,Potassium permanganate mouth and foot wash,Antiseptic,As prescribed by veterinarian,7,Dr. A. Kulkarni,Yes,Referred to lab,2026-06-05,1600
+TR0410,DS205,HR0273,Foot_Mouth_Disease,2026-05-25,2026-05-26,Oxytetracycline (secondary infection),Antibiotic,As prescribed by veterinarian,5,Dr. A. Kulkarni,Yes,Referred to lab,2026-06-06,2150
+TR0411,DS205,HR0273,Foot_Mouth_Disease,2026-05-25,2026-05-26,Soft feed and oral fluids,Supportive,As prescribed by veterinarian,10,Dr. A. Kulkarni,Yes,Referred to lab,2026-06-09,3350
+TR0412,DS206,HR0274,Ringworm,2026-07-17,2026-07-18,Natamycin topical wash,Antifungal,As prescribed by veterinarian,14,Dr. R. Deshpande,No,Recovered,2026-08-04,950
+TR0413,DS206,HR0274,Ringworm,2026-07-17,2026-07-18,Isolation and bedding disinfection,Management,As prescribed by veterinarian,14,Dr. R. Deshpande,No,Recovered,2026-08-06,1700
+TR0414,DS207,HR0276,Lumpy_Skin_Disease,2026-06-02,2026-06-02,Oxytetracycline (secondary infection),Antibiotic,As prescribed by veterinarian,5,Dr. A. Kulkarni,Yes,Referred to lab,2026-06-09,3500
+TR0415,DS207,HR0276,Lumpy_Skin_Disease,2026-06-02,2026-06-02,Meloxicam,Anti-inflammatory,As prescribed by veterinarian,3,Dr. A. Kulkarni,Yes,Referred to lab,2026-06-11,1800
+TR0416,DS207,HR0276,Lumpy_Skin_Disease,2026-06-02,2026-06-02,Antiseptic wound spray,Topical,As prescribed by veterinarian,10,Dr. A. Kulkarni,Yes,Referred to lab,2026-06-16,2400
+TR0417,DS207,HR0276,Lumpy_Skin_Disease,2026-06-02,2026-06-02,Vitamin and mineral supplement,Supportive,As prescribed by veterinarian,14,Dr. A. Kulkarni,Yes,Referred to lab,2026-06-23,1800
+TR0418,DS208,HR0277,Ringworm,2026-05-03,2026-05-03,Natamycin topical wash,Antifungal,As prescribed by veterinarian,14,Dr. A. Kulkarni,No,Under treatment,2026-05-21,300
+TR0419,DS208,HR0277,Ringworm,2026-05-03,2026-05-04,Isolation and bedding disinfection,Management,As prescribed by veterinarian,14,Dr. A. Kulkarni,No,Under treatment,2026-05-19,2200
+TR0420,DS209,HR0278,Foot_Mouth_Disease,2026-07-27,2026-07-28,Potassium permanganate mouth and foot wash,Antiseptic,As prescribed by veterinarian,7,Dr. M. Sawant,Yes,Recovered,2026-08-10,3300
+TR0421,DS209,HR0278,Foot_Mouth_Disease,2026-07-27,2026-07-28,Oxytetracycline (secondary infection),Antibiotic,As prescribed by veterinarian,5,Dr. M. Sawant,Yes,Recovered,2026-08-08,3400
+TR0422,DS209,HR0278,Foot_Mouth_Disease,2026-07-27,2026-07-27,Soft feed and oral fluids,Supportive,As prescribed by veterinarian,10,Dr. M. Sawant,Yes,Recovered,2026-08-13,1550
+TR0423,DS210,HR0280,Ringworm,2026-08-04,2026-08-05,Natamycin topical wash,Antifungal,As prescribed by veterinarian,14,Dr. P. Naik,No,Recovered,2026-08-23,450
+TR0424,DS210,HR0280,Ringworm,2026-08-04,2026-08-04,Isolation and bedding disinfection,Management,As prescribed by veterinarian,14,Dr. P. Naik,No,Recovered,2026-08-24,1050
+TR0425,DS211,HR0282,Mastitis,2026-06-16,2026-06-17,Cloxacillin intramammary infusion,Antibiotic,As prescribed by veterinarian,5,Dr. S. Joshi,No,Recovered,2026-06-25,650
+TR0426,DS211,HR0282,Mastitis,2026-06-16,2026-06-17,Meloxicam,Anti-inflammatory,As prescribed by veterinarian,3,Dr. S. Joshi,No,Recovered,2026-06-22,3500
+TR0427,DS211,HR0282,Mastitis,2026-06-16,2026-06-17,Teat dip and udder hygiene,Management,As prescribed by veterinarian,14,Dr. S. Joshi,No,Recovered,2026-07-03,750
+TR0428,DS212,HR0284,Foot_Mouth_Disease,2026-07-31,2026-07-31,Potassium permanganate mouth and foot wash,Antiseptic,As prescribed by veterinarian,7,Dr. P. Naik,Yes,Under treatment,2026-08-14,3450
+TR0429,DS212,HR0284,Foot_Mouth_Disease,2026-07-31,2026-08-01,Oxytetracycline (secondary infection),Antibiotic,As prescribed by veterinarian,5,Dr. P. Naik,Yes,Under treatment,2026-08-08,2500
+TR0430,DS212,HR0284,Foot_Mouth_Disease,2026-07-31,2026-07-31,Soft feed and oral fluids,Supportive,As prescribed by veterinarian,10,Dr. P. Naik,Yes,Under treatment,2026-08-17,2250
+TR0431,DS213,HR0285,Healthy,2026-06-05,2026-06-06,Deworming (routine),Preventive,As prescribed by veterinarian,1,Dr. V. Thorat,No,Recovered,2026-06-10,2100
+TR0432,DS215,HR0287,Mastitis,2026-07-16,2026-07-16,Cloxacillin intramammary infusion,Antibiotic,As prescribed by veterinarian,5,Dr. A. Kulkarni,No,Recovered,2026-07-28,2350
+TR0433,DS215,HR0287,Mastitis,2026-07-16,2026-07-17,Meloxicam,Anti-inflammatory,As prescribed by veterinarian,3,Dr. A. Kulkarni,No,Recovered,2026-07-22,2600
+TR0434,DS215,HR0287,Mastitis,2026-07-16,2026-07-17,Teat dip and udder hygiene,Management,As prescribed by veterinarian,14,Dr. A. Kulkarni,No,Recovered,2026-08-02,1550
+TR0435,DS216,HR0289,Foot_Mouth_Disease,2026-09-01,2026-09-01,Potassium permanganate mouth and foot wash,Antiseptic,As prescribed by veterinarian,7,Dr. M. Sawant,Yes,Recovered,2026-09-11,3400
+TR0436,DS216,HR0289,Foot_Mouth_Disease,2026-09-01,2026-09-02,Oxytetracycline (secondary infection),Antibiotic,As prescribed by veterinarian,5,Dr. M. Sawant,Yes,Recovered,2026-09-09,2150
+TR0437,DS216,HR0289,Foot_Mouth_Disease,2026-09-01,2026-09-01,Soft feed and oral fluids,Supportive,As prescribed by veterinarian,10,Dr. M. Sawant,Yes,Recovered,2026-09-13,2050
+TR0438,DS218,HR0292,Mastitis,2026-06-22,2026-06-22,Cloxacillin intramammary infusion,Antibiotic,As prescribed by veterinarian,5,Dr. R. Deshpande,No,Recovered,2026-07-04,2800
+TR0439,DS218,HR0292,Mastitis,2026-06-22,2026-06-23,Meloxicam,Anti-inflammatory,As prescribed by veterinarian,3,Dr. R. Deshpande,No,Recovered,2026-06-29,1650
+TR0440,DS218,HR0292,Mastitis,2026-06-22,2026-06-23,Teat dip and udder hygiene,Management,As prescribed by veterinarian,14,Dr. R. Deshpande,No,Recovered,2026-07-10,1650
+TR0441,DS219,HR0294,Foot_Mouth_Disease,2026-08-09,2026-08-09,Potassium permanganate mouth and foot wash,Antiseptic,As prescribed by veterinarian,7,Dr. A. Kulkarni,Yes,Recovered,2026-08-23,300
+TR0442,DS219,HR0294,Foot_Mouth_Disease,2026-08-09,2026-08-10,Oxytetracycline (secondary infection),Antibiotic,As prescribed by veterinarian,5,Dr. A. Kulkarni,Yes,Recovered,2026-08-20,1100
+TR0443,DS219,HR0294,Foot_Mouth_Disease,2026-08-09,2026-08-09,Soft feed and oral fluids,Supportive,As prescribed by veterinarian,10,Dr. A. Kulkarni,Yes,Recovered,2026-08-23,1900
+TR0444,DS220,HR0296,Foot_Mouth_Disease,2026-09-12,2026-09-12,Potassium permanganate mouth and foot wash,Antiseptic,As prescribed by veterinarian,7,Dr. R. Deshpande,Yes,Recovered,2026-09-25,1800
+TR0445,DS220,HR0296,Foot_Mouth_Disease,2026-09-12,2026-09-13,Oxytetracycline (secondary infection),Antibiotic,As prescribed by veterinarian,5,Dr. R. Deshpande,Yes,Recovered,2026-09-21,2900
+TR0446,DS220,HR0296,Foot_Mouth_Disease,2026-09-12,2026-09-13,Soft feed and oral fluids,Supportive,As prescribed by veterinarian,10,Dr. R. Deshpande,Yes,Recovered,2026-09-27,750
+TR0447,DS223,HR0300,Healthy,2026-08-14,2026-08-15,Deworming (routine),Preventive,As prescribed by veterinarian,1,Dr. R. Deshpande,No,Recovered,2026-08-20,600
+TR0448,DS224,HR0301,Lumpy_Skin_Disease,2026-07-18,2026-07-18,Oxytetracycline (secondary infection),Antibiotic,As prescribed by veterinarian,5,Dr. P. Naik,Yes,Under treatment,2026-07-27,1550
+TR0449,DS224,HR0301,Lumpy_Skin_Disease,2026-07-18,2026-07-18,Meloxicam,Anti-inflammatory,As prescribed by veterinarian,3,Dr. P. Naik,Yes,Under treatment,2026-07-25,2050
+TR0450,DS224,HR0301,Lumpy_Skin_Disease,2026-07-18,2026-07-18,Antiseptic wound spray,Topical,As prescribed by veterinarian,10,Dr. P. Naik,Yes,Under treatment,2026-08-03,3450
+TR0451,DS224,HR0301,Lumpy_Skin_Disease,2026-07-18,2026-07-19,Vitamin and mineral supplement,Supportive,As prescribed by veterinarian,14,Dr. P. Naik,Yes,Under treatment,2026-08-05,1150
+TR0452,DS225,HR0302,Healthy,2026-08-28,2026-08-28,Mineral mixture supplement,Preventive,As prescribed by veterinarian,30,Dr. M. Sawant,No,Recovered,2026-10-03,2500
+TR0453,DS226,HR0303,Ringworm,2026-09-19,2026-09-19,Natamycin topical wash,Antifungal,As prescribed by veterinarian,14,Dr. V. Thorat,No,Under treatment,2026-10-07,2900
+TR0454,DS226,HR0303,Ringworm,2026-09-19,2026-09-20,Isolation and bedding disinfection,Management,As prescribed by veterinarian,14,Dr. V. Thorat,No,Under treatment,2026-10-09,2350
+TR0455,DS227,HR0304,Lumpy_Skin_Disease,2026-09-06,2026-09-06,Oxytetracycline (secondary infection),Antibiotic,As prescribed by veterinarian,5,Dr. V. Thorat,Yes,Recovered,2026-09-17,950
+TR0456,DS227,HR0304,Lumpy_Skin_Disease,2026-09-06,2026-09-07,Meloxicam,Anti-inflammatory,As prescribed by veterinarian,3,Dr. V. Thorat,Yes,Recovered,2026-09-12,1200
+TR0457,DS227,HR0304,Lumpy_Skin_Disease,2026-09-06,2026-09-06,Antiseptic wound spray,Topical,As prescribed by veterinarian,10,Dr. V. Thorat,Yes,Recovered,2026-09-21,1550
+TR0458,DS227,HR0304,Lumpy_Skin_Disease,2026-09-06,2026-09-07,Vitamin and mineral supplement,Supportive,As prescribed by veterinarian,14,Dr. V. Thorat,Yes,Recovered,2026-09-25,250
+TR0459,DS228,HR0306,Lumpy_Skin_Disease,2026-09-04,2026-09-05,Oxytetracycline (secondary infection),Antibiotic,As prescribed by veterinarian,5,Dr. A. Kulkarni,Yes,Recovered,2026-09-16,2100
+TR0460,DS228,HR0306,Lumpy_Skin_Disease,2026-09-04,2026-09-04,Meloxicam,Anti-inflammatory,As prescribed by veterinarian,3,Dr. A. Kulkarni,Yes,Recovered,2026-09-09,1500
+TR0461,DS228,HR0306,Lumpy_Skin_Disease,2026-09-04,2026-09-05,Antiseptic wound spray,Topical,As prescribed by veterinarian,10,Dr. A. Kulkarni,Yes,Recovered,2026-09-16,3500
+TR0462,DS228,HR0306,Lumpy_Skin_Disease,2026-09-04,2026-09-05,Vitamin and mineral supplement,Supportive,As prescribed by veterinarian,14,Dr. A. Kulkarni,Yes,Recovered,2026-09-22,3500
+TR0463,DS229,HR0308,Ringworm,2026-08-14,2026-08-15,Natamycin topical wash,Antifungal,As prescribed by veterinarian,14,Dr. R. Deshpande,No,Recovered,2026-08-31,2100
+TR0464,DS230,HR0310,Ringworm,2026-07-16,2026-07-16,Natamycin topical wash,Antifungal,As prescribed by veterinarian,14,Dr. M. Sawant,No,Under treatment,2026-08-06,1850
+TR0465,DS230,HR0310,Ringworm,2026-07-16,2026-07-16,Isolation and bedding disinfection,Management,As prescribed by veterinarian,14,Dr. M. Sawant,No,Under treatment,2026-08-01,3250
+TR0466,DS233,HR0313,Foot_Mouth_Disease,2026-09-19,2026-09-20,Potassium permanganate mouth and foot wash,Antiseptic,As prescribed by veterinarian,7,Dr. M. Sawant,Yes,Recovered,2026-10-01,2000
+TR0467,DS233,HR0313,Foot_Mouth_Disease,2026-09-19,2026-09-20,Oxytetracycline (secondary infection),Antibiotic,As prescribed by veterinarian,5,Dr. M. Sawant,Yes,Recovered,2026-10-01,3150
+TR0468,DS233,HR0313,Foot_Mouth_Disease,2026-09-19,2026-09-19,Soft feed and oral fluids,Supportive,As prescribed by veterinarian,10,Dr. M. Sawant,Yes,Recovered,2026-10-01,1450
+TR0469,DS234,HR0314,Lumpy_Skin_Disease,2026-07-24,2026-07-24,Oxytetracycline (secondary infection),Antibiotic,As prescribed by veterinarian,5,Dr. V. Thorat,Yes,Under treatment,2026-08-05,1050
+TR0470,DS234,HR0314,Lumpy_Skin_Disease,2026-07-24,2026-07-24,Meloxicam,Anti-inflammatory,As prescribed by veterinarian,3,Dr. V. Thorat,Yes,Under treatment,2026-07-31,2650
+TR0471,DS234,HR0314,Lumpy_Skin_Disease,2026-07-24,2026-07-25,Antiseptic wound spray,Topical,As prescribed by veterinarian,10,Dr. V. Thorat,Yes,Under treatment,2026-08-09,1850
+TR0472,DS234,HR0314,Lumpy_Skin_Disease,2026-07-24,2026-07-24,Vitamin and mineral supplement,Supportive,As prescribed by veterinarian,14,Dr. V. Thorat,Yes,Under treatment,2026-08-10,900
+TR0473,DS236,HR0316,Ringworm,2026-09-20,2026-09-20,Natamycin topical wash,Antifungal,As prescribed by veterinarian,14,Dr. S. Joshi,No,Recovered,2026-10-11,950
+TR0474,DS236,HR0316,Ringworm,2026-09-20,2026-09-20,Isolation and bedding disinfection,Management,As prescribed by veterinarian,14,Dr. S. Joshi,No,Recovered,2026-10-10,3400
+TR0475,DS237,HR0317,Ringworm,2026-05-27,2026-05-28,Natamycin topical wash,Antifungal,As prescribed by veterinarian,14,Dr. S. Joshi,No,Under treatment,2026-06-15,3250
+TR0476,DS237,HR0317,Ringworm,2026-05-27,2026-05-27,Isolation and bedding disinfection,Management,As prescribed by veterinarian,14,Dr. S. Joshi,No,Under treatment,2026-06-13,3550
+TR0477,DS238,HR0318,Mastitis,2026-08-04,2026-08-05,Cloxacillin intramammary infusion,Antibiotic,As prescribed by veterinarian,5,Dr. P. Naik,No,Under treatment,2026-08-13,400
+TR0478,DS238,HR0318,Mastitis,2026-08-04,2026-08-04,Meloxicam,Anti-inflammatory,As prescribed by veterinarian,3,Dr. P. Naik,No,Under treatment,2026-08-12,1150
+TR0479,DS238,HR0318,Mastitis,2026-08-04,2026-08-04,Teat dip and udder hygiene,Management,As prescribed by veterinarian,14,Dr. P. Naik,No,Under treatment,2026-08-20,3250
+TR0480,DS239,HR0319,Lumpy_Skin_Disease,2026-09-10,2026-09-10,Oxytetracycline (secondary infection),Antibiotic,As prescribed by veterinarian,5,Dr. V. Thorat,Yes,Under treatment,2026-09-17,1550
+TR0481,DS239,HR0319,Lumpy_Skin_Disease,2026-09-10,2026-09-11,Meloxicam,Anti-inflammatory,As prescribed by veterinarian,3,Dr. V. Thorat,Yes,Under treatment,2026-09-15,2900
+TR0482,DS239,HR0319,Lumpy_Skin_Disease,2026-09-10,2026-09-10,Antiseptic wound spray,Topical,As prescribed by veterinarian,10,Dr. V. Thorat,Yes,Under treatment,2026-09-25,1200
+TR0483,DS239,HR0319,Lumpy_Skin_Disease,2026-09-10,2026-09-10,Vitamin and mineral supplement,Supportive,As prescribed by veterinarian,14,Dr. V. Thorat,Yes,Under treatment,2026-09-29,2250
+TR0484,DS240,HR0320,Ringworm,2026-09-01,2026-09-02,Natamycin topical wash,Antifungal,As prescribed by veterinarian,14,Dr. P. Naik,No,Recovered,2026-09-17,750
+TR0485,DS240,HR0320,Ringworm,2026-09-01,2026-09-02,Isolation and bedding disinfection,Management,As prescribed by veterinarian,14,Dr. P. Naik,No,Recovered,2026-09-17,1850

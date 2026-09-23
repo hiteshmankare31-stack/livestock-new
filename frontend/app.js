@@ -29,30 +29,71 @@ function write(key, value) {
    DEPLOYMENT API CONFIGURATION
    ========================================================= */
 
-const DEPLOYED_API_BASE = "https://livestock-new-v7ca.onrender.com";
+/* =========================================================
+   API CONFIGURATION
+   ========================================================= */
 
-const API_BASE = (() => {
-  const saved = localStorage.getItem("smartLivestockApiBase");
-
-  if (saved && /^https?:\/\//i.test(saved)) {
-    return saved.replace(/\/+$/, "");
-  }
-
-  const host = window.location.hostname;
-
-  const isLocal =
-    host === "localhost" ||
-    host === "127.0.0.1" ||
-    host === "::1";
-
-  return (
-    isLocal
-      ? "http://localhost:5000"
-      : DEPLOYED_API_BASE
-  ).replace(/\/+$/, "");
-})();
+const API_BASE = "https://livestock-new-v7ca.onrender.com";
 
 window.SMART_LIVESTOCK_API_BASE = API_BASE;
+
+/* =========================================================
+   API HELPER
+   ========================================================= */
+
+async function api(path, options = {}) {
+  const url = `${API_BASE}${path}`;
+
+  const config = {
+    method: options.method || "GET",
+    headers: {
+      ...(options.body instanceof FormData
+        ? {}
+        : { "Content-Type": "application/json" }),
+      ...(options.headers || {})
+    }
+  };
+
+  if (options.body !== undefined) {
+    config.body =
+      options.body instanceof FormData
+        ? options.body
+        : typeof options.body === "string"
+          ? options.body
+          : JSON.stringify(options.body);
+  }
+
+  const token = localStorage.getItem("smartLivestockToken");
+
+  if (token) {
+    config.headers.Authorization = `Bearer ${token}`;
+  }
+
+  const response = await fetch(url, config);
+
+  const contentType = response.headers.get("content-type") || "";
+
+  let data;
+
+  if (contentType.includes("application/json")) {
+    data = await response.json();
+  } else {
+    data = await response.text();
+  }
+
+  if (!response.ok) {
+    const message =
+      typeof data === "object" && data !== null
+        ? data.message ||
+          data.error ||
+          `Request failed: ${response.status}`
+        : data || `Request failed: ${response.status}`;
+
+    throw new Error(message);
+  }
+
+  return data;
+}
 
 /* =========================================================
    API HELPER
